@@ -1,73 +1,79 @@
 {{ define "main" }}
-<section class="vendor-hero">
-  <div class="container">
-    <h1 class="vendor-hero-title">{{ .Title }}</h1>
-    <p class="vendor-hero-desc">{{ .Description }}</p>
+
+<!-- ══════════════ COVER ══════════════ -->
+<section class="ed-vlist-cover">
+  <div class="ed-vlist-cover-inner reveal">
+    <span class="ed-eyebrow">Posy &middot; Vendors</span>
+    <h1 class="ed-vlist-cover-headline">{{ .Title }}</h1>
+    <p class="ed-vlist-cover-sub">{{ .Description }}</p>
   </div>
 </section>
 
-<section class="vendor-listing">
-  <div class="container">
-    <div class="vendor-filters">
-      <!-- Location mega-dropdown -->
-      <div class="vendor-filter-group vloc-wrap">
-        <button class="vloc-toggle" id="vlocToggle" aria-expanded="false">
-          <span class="vloc-toggle-label">{{ i18n "vendor_location" | default "Location" }}</span>
-          <span class="vloc-toggle-value" id="vlocValue">{{ i18n "vendor_all_locations" | default "All Locations" }}</span>
-          <svg class="vloc-chevron" width="12" height="7" viewBox="0 0 12 7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 1l5 5 5-5"/></svg>
-        </button>
-        <div class="vloc-panel" id="vlocPanel">
-          <div class="vloc-tabs" id="vlocTabs">
-            <!-- Populated by JS -->
-          </div>
-          <div class="vloc-cities" id="vlocCities">
-            <!-- Populated by JS -->
-          </div>
-        </div>
-      </div>
+<!-- ══════════════ BROWSE BY COUNTRY ══════════════ -->
+<section class="ed-section ed-bg-cream ed-section--top-tight ed-section--bottom-tight">
+  <div class="ed-container">
+    <header class="ed-section-head reveal">
+      <span class="ed-eyebrow">By country</span>
+      <h2 class="ed-section-title ed-section-title--sm">Where's your wedding?</h2>
+    </header>
 
-      <!-- Vendor type -->
-      <div class="vendor-filter-group">
-        <label class="vendor-filter-label" for="vendorType">{{ i18n "vendor_type" | default "Vendor Type" }}</label>
-        <div class="vendor-filter-select-wrap">
-          <select id="vendorType" class="vendor-filter-select">
-            <option value="">{{ i18n "vendor_all_types" | default "All Types" }}</option>
-            <option value="photographers" {{ if eq (.Params.vendor_type) "photographers" }}selected{{ end }}>{{ i18n "vendor_photographers" | default "Photographers" }}</option>
-            <option value="videographers" {{ if eq (.Params.vendor_type) "videographers" }}selected{{ end }}>{{ i18n "vendor_videographers" | default "Videographers" }}</option>
-            <option value="venues" {{ if eq (.Params.vendor_type) "venues" }}selected{{ end }}>{{ i18n "vendor_venues" | default "Venues" }}</option>
-            <option value="wedding-planners" {{ if eq (.Params.vendor_type) "wedding-planners" }}selected{{ end }}>{{ i18n "vendor_wedding_planners" | default "Wedding Planners" }}</option>
-            <option value="djs" {{ if eq (.Params.vendor_type) "djs" }}selected{{ end }}>{{ i18n "vendor_djs" | default "DJs & Music" }}</option>
-            <option value="florists" {{ if eq (.Params.vendor_type) "florists" }}selected{{ end }}>{{ i18n "vendor_florists" | default "Florists" }}</option>
-            <option value="caterers" {{ if eq (.Params.vendor_type) "caterers" }}selected{{ end }}>{{ i18n "vendor_caterers" | default "Caterers" }}</option>
-            <option value="hair-makeup" {{ if eq (.Params.vendor_type) "hair-makeup" }}selected{{ end }}>{{ i18n "vendor_hair_makeup" | default "Hair & Makeup" }}</option>
-            <option value="photo-booths" {{ if eq (.Params.vendor_type) "photo-booths" }}selected{{ end }}>{{ i18n "vendor_photo_booths" | default "Photo Booths" }}</option>
-          </select>
-        </div>
-      </div>
-
-      <!-- Search -->
-      <div class="vendor-filter-group vendor-filter-search">
-        <label class="vendor-filter-label" for="vendorSearch">{{ i18n "vendor_search" | default "Search" }}</label>
-        <input type="text" id="vendorSearch" class="vendor-filter-input" placeholder="{{ i18n "vendor_search_placeholder" | default "Search vendors..." }}">
-      </div>
+    <div class="ed-region-grid" id="vlistRegions">
+      <!-- Built by JS — region tiles -->
     </div>
 
-    <p class="vendor-results-count"><span id="vendorCount">0</span> {{ i18n "vendor_results" | default "vendors found" }}</p>
-
-    <div class="vendor-grid" id="vendorGrid"></div>
-
-    <div class="vendor-empty" id="vendorEmpty" style="display:none;">
-      <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-gray)" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-      <p>{{ i18n "vendor_no_results" | default "No vendors found matching your filters." }}</p>
+    <div class="ed-subregion-row" id="vlistSubregions" hidden>
+      <!-- Built by JS — country chips when a region is selected -->
     </div>
   </div>
 </section>
 
-<section class="vendor-cta section bg-pink">
+<!-- ══════════════ LISTING ══════════════ -->
+<section class="ed-section ed-bg-cream ed-section--top-tight">
+  <div class="ed-container">
+    <div class="ed-vlist-toolbar reveal">
+      <div class="ed-vlist-search-wrap">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" id="vendorSearch" class="ed-vlist-search" placeholder="{{ i18n "vendor_search_placeholder" | default "Search by name, city, or country…" }}">
+      </div>
+      <p class="ed-vlist-count">
+        <strong id="vendorCount">0</strong>
+        <span>{{ i18n "vendor_results" | default "vendors found" }}</span>
+      </p>
+    </div>
+
+    <!-- Hidden type select kept for type-jump compatibility -->
+    <select id="vendorType" class="ed-visually-hidden" aria-hidden="true" tabindex="-1">
+      <option value="">All Types</option>
+      <option value="photographers" {{ if eq (.Params.vendor_type) "photographers" }}selected{{ end }}>Photographers</option>
+      <option value="videographers" {{ if eq (.Params.vendor_type) "videographers" }}selected{{ end }}>Videographers</option>
+      <option value="venues" {{ if eq (.Params.vendor_type) "venues" }}selected{{ end }}>Venues</option>
+      <option value="wedding-planners" {{ if eq (.Params.vendor_type) "wedding-planners" }}selected{{ end }}>Wedding Planners</option>
+      <option value="djs" {{ if eq (.Params.vendor_type) "djs" }}selected{{ end }}>DJs &amp; Music</option>
+      <option value="florists" {{ if eq (.Params.vendor_type) "florists" }}selected{{ end }}>Florists</option>
+      <option value="caterers" {{ if eq (.Params.vendor_type) "caterers" }}selected{{ end }}>Caterers</option>
+      <option value="hair-makeup" {{ if eq (.Params.vendor_type) "hair-makeup" }}selected{{ end }}>Hair &amp; Makeup</option>
+      <option value="photo-booths" {{ if eq (.Params.vendor_type) "photo-booths" }}selected{{ end }}>Photo Booths</option>
+    </select>
+
+    <div class="ed-vendor-grid" id="vendorGrid"></div>
+
+    <div class="ed-vendor-empty" id="vendorEmpty" style="display:none;">
+      <p>{{ i18n "vendor_no_results" | default "No vendors match yet. Try widening the country or clearing the search." }}</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FOR-VENDORS PRIORITY BANNER ══════════════ -->
+<section class="section cta-section">
   <div class="container text-center">
-    <h2>{{ i18n "vendor_cta_title" | default "Are you a wedding vendor?" }}</h2>
-    <p class="vendor-cta-text">{{ i18n "vendor_cta_text" | default "Join EventSnap and connect with couples planning their perfect day." }}</p>
-    <a href="{{ "contact/" | relLangURL }}" class="btn btn-primary">{{ i18n "vendor_cta_button" | default "Get Listed" }}</a>
+    <span class="cta-eyebrow reveal">{{ i18n "vendor_cta_eyebrow" | default "For wedding vendors" }}</span>
+    <h2 class="section-title reveal">{{ i18n "vendor_cta_title" | default "Get your work in front of couples planning right now." }}</h2>
+    <p class="cta-statement reveal">{{ i18n "vendor_cta_statement" | default "One application. Reviewed quickly. Couples find you." }}</p>
+    <div class="cta-text reveal">
+      <p>{{ i18n "vendor_cta_text1" | default "Joining is free while we're new." }}</p>
+      <p>{{ i18n "vendor_cta_text2" | default "We bring the couples. You bring the craft." }}</p>
+    </div>
+    <a href="{{ "contact/" | relLangURL }}" class="btn btn-filled reveal">{{ i18n "vendor_cta_button" | default "Apply to be listed" }}</a>
   </div>
 </section>
 
@@ -202,16 +208,6 @@
         'Dobrogea': ['Constan\u021ba', 'Mamaia', 'Tulcea'],
         'Cri\u0219ana': ['Oradea', 'Satu Mare', 'Baia Mare']
       }
-    },
-    'Hungary': {
-      flag: '\ud83c\udded\ud83c\uddfa',
-      countries: {
-        'Most Popular': ['Budapest', 'Debrecen', 'Szeged', 'P\u00e9cs', 'Eger'],
-        'Central Hungary': ['Budapest', 'Szentendre', 'G\u00f6d\u00f6ll\u0151'],
-        'Western Hungary': ['Gy\u0151r', 'Sopron', 'Szombathely', 'Pannonhalma'],
-        'Eastern Hungary': ['Debrecen', 'Ny\u00edregyh\u00e1za', 'Eger', 'Tokaj'],
-        'Southern Hungary': ['Szeged', 'P\u00e9cs', 'Kecskem\u00e9t']
-      }
     }
   };
 
@@ -296,11 +292,6 @@
     { name: "Palatul Mogosoaia", slug: "palatul-mogosoaia", type: "venues", region: "Romania", country: "Muntenia", city: "Bucharest", rating: 4.8, reviews: 187, image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop", price: "$$" },
     { name: "Bra\u0219ov Events Hall", slug: "brasov-events-hall", type: "venues", region: "Romania", country: "Transilvania", city: "Bra\u0219ov", rating: 4.7, reviews: 112, image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&h=500&fit=crop", price: "$$" },
     { name: "Sibiu Wedding Planner", slug: "sibiu-wedding-planner", type: "wedding-planners", region: "Romania", country: "Transilvania", city: "Sibiu", rating: 4.9, reviews: 56, image: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=400&h=500&fit=crop", price: "$" },
-    // Hungary
-    { name: "Eskuvo Video", slug: "eskuvo-video", type: "videographers", region: "Hungary", country: "Central Hungary", city: "Budapest", rating: 4.7, reviews: 71, image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=500&fit=crop", price: "$" },
-    { name: "Gundel Catering", slug: "gundel-catering", type: "caterers", region: "Hungary", country: "Central Hungary", city: "Budapest", rating: 4.9, reviews: 198, image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=500&fit=crop", price: "$$$" },
-    { name: "Debrecen Wedding Venue", slug: "debrecen-wedding-venue", type: "venues", region: "Hungary", country: "Eastern Hungary", city: "Debrecen", rating: 4.6, reviews: 87, image: "https://images.unsplash.com/photo-1522413452208-996ff3f3e740?w=400&h=500&fit=crop", price: "$" },
-    { name: "Eger Virag Florist", slug: "eger-virag-florist", type: "florists", region: "Hungary", country: "Eastern Hungary", city: "Eger", rating: 4.8, reviews: 45, image: "https://images.unsplash.com/photo-1508610048659-a06b669e3321?w=400&h=500&fit=crop", price: "$" },
     // Spain – Photographers
     { name: "Justina Kris Photography", slug: "justina-kris-photography", type: "photographers", region: "Europe", country: "Spain", city: "Malaga", rating: 4.9, reviews: 142, image: "https://justinakris.com/wp-content/uploads/2026/01/destination_wedding_spain33.webp", price: "$$$" },
     { name: "Martina Zancan", slug: "martina-zancan", type: "photographers", region: "Europe", country: "Spain", city: "Barcelona", rating: 4.9, reviews: 178, image: "https://photos.smugmug.com/Destination-wedding/Alba-and-Claire/Full/i-SXSmN2Z/1/NSPL26LNmBZxtZC8PkpBdMg9kbpmHwvdzXr2NFdk9/L/destinationweddingbarcelona-ac-393-L.jpg", price: "$$$" },
@@ -840,161 +831,100 @@
   var typeSelect = document.getElementById('vendorType');
   var searchInput = document.getElementById('vendorSearch');
 
-  // Location panel state
-  var vlocToggle = document.getElementById('vlocToggle');
-  var vlocPanel = document.getElementById('vlocPanel');
-  var vlocTabs = document.getElementById('vlocTabs');
-  var vlocCities = document.getElementById('vlocCities');
-  var vlocValue = document.getElementById('vlocValue');
+  // Region/country selection state
+  var regionsEl = document.getElementById('vlistRegions');
+  var subregionsEl = document.getElementById('vlistSubregions');
   var selectedRegion = '';
   var selectedCountry = '';
   var selectedCity = '';
 
-  // Build region tabs
-  function buildTabs() {
-    var allTab = document.createElement('button');
-    allTab.className = 'vloc-tab active';
-    allTab.dataset.region = '';
-    allTab.textContent = '{{ i18n "vendor_all_countries" | default "All" }}';
-    allTab.addEventListener('click', function() { selectTab(''); });
-    vlocTabs.appendChild(allTab);
+  // Count vendors per region (for tile labels) — respects current type
+  function countByRegion(region) {
+    return vendors.filter(function(v) {
+      if (currentType && v.type !== currentType) return false;
+      return v.region === region;
+    }).length;
+  }
+
+  // Build the editorial region tile grid
+  function buildRegions() {
+    regionsEl.innerHTML = '';
+
+    var allTile = document.createElement('button');
+    allTile.className = 'ed-region-tile ed-region-tile--all active';
+    allTile.dataset.region = '';
+    allTile.innerHTML = '<span class="ed-region-tile-name">All countries</span>';
+    allTile.addEventListener('click', function() { selectRegion(''); });
+    regionsEl.appendChild(allTile);
 
     Object.keys(locationData).forEach(function(region) {
-      var tab = document.createElement('button');
-      tab.className = 'vloc-tab';
-      tab.dataset.region = region;
-      tab.innerHTML = '<span class="vloc-tab-flag">' + locationData[region].flag + '</span> ' + region;
-      tab.addEventListener('click', function() { selectTab(region); });
-      vlocTabs.appendChild(tab);
+      var count = countByRegion(region);
+      var tile = document.createElement('button');
+      tile.className = 'ed-region-tile';
+      tile.dataset.region = region;
+      tile.innerHTML =
+        '<span class="ed-region-tile-flag">' + locationData[region].flag + '</span>' +
+        '<span class="ed-region-tile-name">' + region + '</span>' +
+        '<span class="ed-region-tile-count">' + count + '</span>';
+      tile.addEventListener('click', function() { selectRegion(region); });
+      regionsEl.appendChild(tile);
     });
   }
 
-  function selectTab(region) {
+  function selectRegion(region) {
     selectedRegion = region;
     selectedCountry = '';
     selectedCity = '';
 
-    vlocTabs.querySelectorAll('.vloc-tab').forEach(function(t) {
+    regionsEl.querySelectorAll('.ed-region-tile').forEach(function(t) {
       t.classList.toggle('active', t.dataset.region === region);
     });
 
-    buildCities(region);
-    updateLocationLabel();
+    buildSubregions(region);
     renderVendors();
   }
 
-  function buildCities(region) {
-    vlocCities.innerHTML = '';
+  // Build the country chip row that appears under the active region
+  function buildSubregions(region) {
+    subregionsEl.innerHTML = '';
 
-    if (!region) {
-      // Show all regions as headings with a few top cities
-      Object.keys(locationData).forEach(function(r) {
-        var col = document.createElement('div');
-        col.className = 'vloc-city-col';
-        var heading = document.createElement('h4');
-        heading.className = 'vloc-city-heading';
-        heading.textContent = r;
-        heading.style.cursor = 'pointer';
-        heading.addEventListener('click', function() { selectTab(r); });
-        col.appendChild(heading);
+    if (!region || !locationData[region]) {
+      subregionsEl.hidden = true;
+      return;
+    }
 
-        var allBtn = document.createElement('button');
-        allBtn.className = 'vloc-city-btn vloc-city-btn--all';
-        allBtn.textContent = '{{ i18n "vendor_all_cities" | default "All cities" }}';
-        allBtn.addEventListener('click', function() {
-          selectedRegion = r; selectedCountry = ''; selectedCity = '';
-          updateLocationLabel(); renderVendors(); closePanel();
-        });
-        col.appendChild(allBtn);
+    var countries = locationData[region].countries;
 
-        // Show first country's cities as preview
-        var countries = locationData[r].countries;
-        var firstKey = Object.keys(countries)[0];
-        var preview = countries[firstKey].slice(0, 4);
-        preview.forEach(function(city) {
-          var btn = document.createElement('button');
-          btn.className = 'vloc-city-btn';
-          btn.textContent = city;
-          btn.addEventListener('click', function() {
-            selectedRegion = r; selectedCity = city; selectedCountry = '';
-            updateLocationLabel(); renderVendors(); closePanel();
-          });
-          col.appendChild(btn);
-        });
+    // "All" chip resets to whole region
+    var allChip = document.createElement('button');
+    allChip.className = 'ed-subregion-chip active';
+    allChip.textContent = 'All of ' + region;
+    allChip.addEventListener('click', function() {
+      selectedCountry = '';
+      selectedCity = '';
+      subregionsEl.querySelectorAll('.ed-subregion-chip').forEach(function(c) { c.classList.remove('active'); });
+      allChip.classList.add('active');
+      renderVendors();
+    });
+    subregionsEl.appendChild(allChip);
 
-        vlocCities.appendChild(col);
+    Object.keys(countries).forEach(function(country) {
+      if (country === 'Most Popular') return; // skip the meta-grouping
+      var chip = document.createElement('button');
+      chip.className = 'ed-subregion-chip';
+      chip.textContent = country;
+      chip.addEventListener('click', function() {
+        selectedCountry = country;
+        selectedCity = '';
+        subregionsEl.querySelectorAll('.ed-subregion-chip').forEach(function(c) { c.classList.remove('active'); });
+        chip.classList.add('active');
+        renderVendors();
       });
-    } else {
-      // Show countries within this region, each with their cities
-      var countries = locationData[region].countries;
-      Object.keys(countries).forEach(function(country) {
-        var col = document.createElement('div');
-        col.className = 'vloc-city-col';
+      subregionsEl.appendChild(chip);
+    });
 
-        var heading = document.createElement('h4');
-        heading.className = 'vloc-city-heading';
-        heading.textContent = country;
-        col.appendChild(heading);
-
-        // "All cities" for this country
-        if (country !== 'Most Popular') {
-          var allBtn = document.createElement('button');
-          allBtn.className = 'vloc-city-btn vloc-city-btn--all';
-          allBtn.textContent = '{{ i18n "vendor_all_cities" | default "All cities" }}';
-          allBtn.addEventListener('click', function() {
-            selectedCountry = country; selectedCity = '';
-            updateLocationLabel(); renderVendors(); closePanel();
-          });
-          col.appendChild(allBtn);
-        }
-
-        countries[country].forEach(function(city) {
-          var btn = document.createElement('button');
-          btn.className = 'vloc-city-btn';
-          btn.textContent = city;
-          btn.addEventListener('click', function() {
-            selectedCountry = country; selectedCity = city;
-            updateLocationLabel(); renderVendors(); closePanel();
-          });
-          col.appendChild(btn);
-        });
-
-        vlocCities.appendChild(col);
-      });
-    }
+    subregionsEl.hidden = false;
   }
-
-  function updateLocationLabel() {
-    if (selectedCity && selectedCountry) {
-      vlocValue.textContent = selectedCity + ', ' + selectedCountry;
-    } else if (selectedCity && selectedRegion) {
-      vlocValue.textContent = selectedCity + ', ' + selectedRegion;
-    } else if (selectedCountry) {
-      vlocValue.textContent = selectedCountry + ', ' + selectedRegion;
-    } else if (selectedRegion) {
-      vlocValue.textContent = selectedRegion;
-    } else {
-      vlocValue.textContent = '{{ i18n "vendor_all_locations" | default "All Locations" }}';
-    }
-  }
-
-  function closePanel() {
-    vlocPanel.classList.remove('open');
-    vlocToggle.setAttribute('aria-expanded', 'false');
-  }
-
-  vlocToggle.addEventListener('click', function(e) {
-    e.stopPropagation();
-    var isOpen = vlocPanel.classList.contains('open');
-    vlocPanel.classList.toggle('open');
-    this.setAttribute('aria-expanded', !isOpen);
-  });
-
-  document.addEventListener('click', function(e) {
-    if (!vlocPanel.contains(e.target) && !vlocToggle.contains(e.target)) {
-      closePanel();
-    }
-  });
 
   function renderVendors() {
     var type = typeSelect.value;
@@ -1005,7 +935,10 @@
       if (selectedCountry && v.country !== selectedCountry) return false;
       if (selectedCity && v.city !== selectedCity) return false;
       if (type && v.type !== type) return false;
-      if (search && v.name.toLowerCase().indexOf(search) === -1) return false;
+      if (search) {
+        var haystack = (v.name + ' ' + v.city + ' ' + v.country + ' ' + v.region).toLowerCase();
+        if (haystack.indexOf(search) === -1) return false;
+      }
       return true;
     });
 
@@ -1016,37 +949,29 @@
     filtered.forEach(function(v) {
       var card = document.createElement('a');
       card.href = '/vendors/' + v.type + '/' + v.slug + '/';
-      card.className = 'vendor-card';
+      card.className = 'ed-vendor-card';
       card.innerHTML =
-        '<div class="vendor-card-img">' +
+        '<div class="ed-vendor-card-img">' +
           '<img src="' + v.image + '" alt="' + v.name + '" loading="lazy">' +
         '</div>' +
-        '<div class="vendor-card-body">' +
-          '<h3 class="vendor-card-name">' + v.name + '</h3>' +
-          '<p class="vendor-card-location"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> ' + v.city + ', ' + v.region + '</p>' +
-          '<div class="vendor-card-meta">' +
-            '<span class="vendor-card-rating"><svg width="14" height="14" viewBox="0 0 24 24" fill="var(--color-accent)" stroke="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> ' + v.rating + ' <span class="vendor-card-reviews">(' + v.reviews + ')</span></span>' +
-            '<span class="vendor-card-price">' + v.price + '</span>' +
+        '<div class="ed-vendor-card-body">' +
+          '<h3 class="ed-vendor-card-name">' + v.name + '</h3>' +
+          '<p class="ed-vendor-card-location">' + v.city + ', ' + v.region + '</p>' +
+          '<div class="ed-vendor-card-meta">' +
+            '<span class="ed-vendor-card-rating">' +
+              '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>' +
+              v.rating + ' <span class="ed-vendor-card-reviews">(' + v.reviews + ')</span>' +
+            '</span>' +
+            '<span class="ed-vendor-card-price">' + v.price + '</span>' +
           '</div>' +
         '</div>';
       grid.appendChild(card);
     });
   }
 
-  typeSelect.addEventListener('change', renderVendors);
   searchInput.addEventListener('input', renderVendors);
 
-  typeSelect.addEventListener('change', function() {
-    var val = this.value;
-    if (val) {
-      var lang = '{{ .Site.Language.Lang }}';
-      var prefix = lang === 'en' ? '' : '/' + lang;
-      window.location.href = prefix + '/vendors/' + val + '/';
-    }
-  });
-
-  buildTabs();
-  buildCities('');
+  buildRegions();
   renderVendors();
 })();
 </script>

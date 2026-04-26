@@ -46,7 +46,7 @@ other = "Every angle of your day, from the people who lived it."
 [hero_subtitle]
 other = "Posy collects every guest photo from your wedding into one private gallery. No app to install. No accounts to make."
 [hero_cta]
-other = "Start for free"
+other = "Get started"
 [steps_title]
 other = "Three steps. Then your guests do the rest."
 [step1_title]
@@ -62,7 +62,7 @@ other = "Watch the day arrive"
 [step3_desc]
 other = "Photos and videos appear in real time as your guests share them. Download the full gallery in high resolution, anytime."
 [steps_cta]
-other = "Start for free"
+other = "Get started"
 [features_title]
 other = "Every photo. One place. Except the nerves."
 [features_subtitle]
@@ -106,21 +106,21 @@ other = "Full-resolution downloads"
 [feature3_li3]
 other = "All photos and videos, one click"
 [feature3_li4]
-other = "Yours for twelve months"
+other = "Yours for 12 months"
 [feature3_tagline]
 other = "Every photo from every guest, in one place."
 [testimonials_label]
 other = "From real couples"
 [testimonial1_text]
-other = "We were dreading the chasing — group chats, asking everyone for their photos. Posy quietly held all of them. By the morning after, we already had everything."
+other = "Posy is perfect for non-techie people! We were able to gather all the photos from our wedding with zero stress, and everyone loved how simple it was to upload their memories."
 [testimonial1_author]
 other = "Mia & Alex"
 [testimonial2_text]
-other = "The QR code went on every table. Guests scanned and started uploading without us having to explain a thing. We got photos we'd never have seen otherwise."
+other = "So happy that I came across this app! I got so many cool photos from my wedding!"
 [testimonial2_author]
 other = "Florina & Oliver"
 [testimonial3_text]
-other = "We just wanted somewhere everyone's photos could live, not lost in 200 group chats. Posy was that, exactly. Our guests loved it."
+other = "We wanted an easy way to collect photos from our wedding, and Posy delivered! No complicated steps—our guests loved it and the final gallery was amazing!"
 [testimonial3_author]
 other = "Arianna & Ben"
 [capture_title]
@@ -130,21 +130,23 @@ other = "The dance floor, the quiet aside, the look on your mum's face. The mome
 [capture_text2]
 other = "Hold everything close."
 [capture_tagline]
-other = "Because the best moments aren't always planned."
+other = "The wedding you didn't see."
 [faq_title]
 other = "Frequently Asked Questions"
 [cta_eyebrow]
-other = "Hold Everything Close"
+other = "Ready when you are"
 [cta_title]
-other = "Free to start. Calm from day one."
+other = "One QR code."
+[cta_title_accent]
+other = "Every guest photo."
 [cta_text1]
-other = "Every angle of your day, from the people who lived it."
+other = "Set it up in five minutes — then forget about it until the morning after."
 [cta_text2]
-other = "You only get one wedding day."
+other = "No app to install. No accounts to make."
 [cta_text3]
-other = "We're here so the photos don't get lost in group chats."
+other = "Just the people you invited, and the photos they took."
 [cta_button]
-other = "Start for free"
+other = "Get started"
 
 # ─── FAQ ─────────────────────────────────────────────────
 [faq1_q]
@@ -182,39 +184,61 @@ other = "Yes! You can easily share the link or QR code with anyone, so even thos
 
 # ─── Pricing ─────────────────────────────────────────────
 [pricing_title]
-other = "Simple, Transparent Pricing"
+other = "Pick your day."
 [pricing_subtitle]
-other = "Choose the perfect plan for your celebration."
+other = "Pay once. Yours for 12 months. No subscriptions."
 [pricing_badge]
-other = "Most Popular"
+other = "Most chosen"
 [plan1_name]
 other = "Tiny Toasts"
 [plan1_desc]
-other = "Perfect for small and intimate weddings"
+other = "For intimate weddings — close family, dearest friends."
 [plan1_guests]
-other = "Up to <strong>50 guests</strong> can contribute and view content"
+other = "Up to <strong>50 guests</strong>"
 [plan2_name]
 other = "Champagne Towers"
 [plan2_desc]
-other = "Perfect for mid-sized celebrations"
+other = "For mid-sized weddings — most couples land here."
 [plan2_guests]
-other = "Up to <strong>150 guests</strong> can contribute and view content"
+other = "Up to <strong>150 guests</strong>"
 [plan3_name]
 other = "Happily Ever After"
 [plan3_desc]
-other = "Perfect for the ultimate, all-in wedding experience"
+other = "For larger weddings — every cousin, every plus-one."
 [plan3_guests]
-other = "For <strong>200+ guests</strong> can contribute and view content"
+other = "<strong>200+ guests</strong>"
 [pricing_f1]
-other = "Store unlimited photos and videos"
+other = "Unlimited photos and videos"
 [pricing_f2]
-other = "Live-streamed photo & video gallery"
+other = "Real-time social feed with comments"
 [pricing_f3]
-other = "Secure, personalized QR code & link"
+other = "Best moments and most talked about, surfaced automatically"
 [pricing_f4]
-other = "High resolution downloads for up to 12 months"
+other = "No app to install. No guest registration."
+[pricing_f5]
+other = "Your own private QR code and link"
+[pricing_f6]
+other = "Full-resolution downloads, 12 months"
+[pricing_included_eyebrow]
+other = "In every plan"
+[pricing_included_title]
+other = 'What changes is the <span class="ed-highlight">guest count</span>. Everything else is the same.'
+[pricing_included_intro]
+other = "Pick the tier that fits your day. The rest of Posy is identical across all three."
+[pricing_trust1_label]
+other = "Pay once"
+[pricing_trust1_text]
+other = "No subscriptions, no rolling charges. One price, the whole year."
+[pricing_trust2_label]
+other = "Yours for 12 months"
+[pricing_trust2_text]
+other = "Full access from the day you sign up. Download everything in full resolution, anytime."
+[pricing_trust3_label]
+other = "Private, always"
+[pricing_trust3_text]
+other = "Your gallery is private to your QR code. No public feed, no algorithms — just the people you invited."
 [pricing_question]
-other = "Still have Questions?"
+other = "Still have questions?"
 
 # ─── Affiliate ───────────────────────────────────────────
 [aff_hero_title]

@@ -1,30 +1,46 @@
 {{ define "main" }}
-<section class="vendor-hero">
-  <div class="container">
-    <h1 class="vendor-hero-title">{{ .Title }}</h1>
-    <p class="vendor-hero-desc">{{ .Description }}</p>
+
+<!-- ══════════════ COVER ══════════════ -->
+<section class="ed-vendors-cover">
+  <div class="ed-vendors-cover-inner reveal">
+    <span class="ed-eyebrow">Posy &middot; Vendors</span>
+    <h1 class="ed-vendors-cover-headline">{{ i18n "vendors_cover_title" | default "The people who make your day." }}</h1>
+    <p class="ed-vendors-cover-sub">{{ i18n "vendors_cover_sub" | default "Photographers, venues, planners, and the rest of the team. Browse who's who, then book the ones who get you." }}</p>
   </div>
 </section>
 
-<section class="vendor-categories section">
-  <div class="container">
-    <div class="vendor-cat-grid">
-      {{ range .Sections }}
-      <a href="{{ .Permalink }}" class="vendor-cat-card">
-        <h3 class="vendor-cat-name">{{ .Title }}</h3>
-        <p class="vendor-cat-desc">{{ .Description }}</p>
-        <span class="vendor-cat-arrow">&rarr;</span>
+<!-- ══════════════ EDITORIAL INDEX ══════════════ -->
+<section class="ed-section ed-bg-cream ed-section--top-tight" id="vendor-index">
+  <div class="ed-container">
+    <header class="ed-section-head reveal">
+      <span class="ed-eyebrow">The directory</span>
+      <h2 class="ed-section-title ed-section-title--sm">Browse by what you're booking.</h2>
+    </header>
+
+    <div class="ed-vendors-list">
+      {{ range $i, $section := .Sections }}
+      <a href="{{ $section.Permalink }}" class="ed-vendor-row reveal">
+        <span class="ed-vendor-num">{{ printf "%02d" (add $i 1) }}</span>
+        <span class="ed-vendor-name">{{ $section.Title }}</span>
+        <span class="ed-vendor-arrow" aria-hidden="true">&rarr;</span>
       </a>
       {{ end }}
     </div>
   </div>
 </section>
 
-<section class="vendor-cta section bg-pink">
+<!-- ══════════════ VENDOR CTA — PRIORITY BANNER ══════════════ -->
+<section class="section cta-section">
   <div class="container text-center">
-    <h2>{{ i18n "vendor_cta_title" | default "Are you a wedding vendor?" }}</h2>
-    <p class="vendor-cta-text">{{ i18n "vendor_cta_text" | default "Join EventSnap and connect with couples planning their perfect day." }}</p>
-    <a href="{{ "contact/" | relLangURL }}" class="btn btn-primary">{{ i18n "vendor_cta_button" | default "Get Listed" }}</a>
+    <span class="cta-eyebrow reveal">{{ i18n "vendor_cta_eyebrow" | default "For wedding vendors" }}</span>
+    <h2 class="section-title reveal">{{ i18n "vendor_cta_title" | default "Get your work in front of couples planning right now." }}</h2>
+    <p class="cta-statement reveal">{{ i18n "vendor_cta_statement" | default "One application. Reviewed quickly. Couples find you." }}</p>
+    <div class="cta-text reveal">
+      <p>{{ i18n "vendor_cta_text1" | default "Joining is free while we're new." }}</p>
+      <p>{{ i18n "vendor_cta_text2" | default "We bring the couples. You bring the craft." }}</p>
+    </div>
+    <a href="{{ "contact/" | relLangURL }}" class="btn btn-filled reveal">{{ i18n "vendor_cta_button" | default "Apply to be listed" }}</a>
   </div>
 </section>
+
 {{ end }}

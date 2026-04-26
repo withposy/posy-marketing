@@ -1,67 +1,103 @@
-<!-- Pricing Hero -->
-<section class="section bg-white pricing-hero">
-  <div class="container text-center">
-    <h1 class="section-title reveal">{{ i18n "pricing_title" }}</h1>
-    <p class="section-subtitle reveal">{{ i18n "pricing_subtitle" }}</p>
+<!-- ══════════════ COVER ══════════════ -->
+<section class="ed-price-cover">
+  <div class="ed-price-cover-inner reveal">
+    <span class="ed-eyebrow">Posy &middot; Pricing</span>
+    <h1 class="ed-price-cover-headline">{{ i18n "pricing_title" }}</h1>
+    <p class="ed-price-cover-sub">{{ i18n "pricing_subtitle" }}</p>
   </div>
 </section>
 
-<!-- Pricing Cards -->
-<section class="section bg-pink">
-  <div class="container">
-    <div class="pricing-grid">
-      <div class="pricing-card reveal">
-        <div class="pricing-tier">{{ i18n "plan1_name" }}</div>
-        <div class="pricing-price"><span class="currency">$</span>29</div>
-        <p class="pricing-desc">{{ i18n "plan1_desc" }}</p>
-        <p class="pricing-guests">{{ i18n "plan1_guests" | safeHTML }}</p>
-        <ul class="pricing-features">
-          <li>{{ i18n "pricing_f1" }}</li>
-          <li>{{ i18n "pricing_f2" | safeHTML }}</li>
-          <li>{{ i18n "pricing_f3" | safeHTML }}</li>
-          <li>{{ i18n "pricing_f4" }}</li>
-        </ul>
-        <a href="https://app.eventsnap.it/checkout?plan=tiny_toasts" class="btn btn-outline btn-full">{{ i18n "get_started" }}</a>
-      </div>
+<!-- ══════════════ PRICING TILES ══════════════ -->
+<section class="ed-section ed-bg-cream ed-section--top-tight">
+  <div class="ed-price-grid">
 
-      <div class="pricing-card pricing-card--featured reveal">
-        <div class="pricing-badge">{{ i18n "pricing_badge" }}</div>
-        <div class="pricing-tier">{{ i18n "plan2_name" }}</div>
-        <div class="pricing-price"><span class="currency">$</span>59</div>
-        <p class="pricing-desc">{{ i18n "plan2_desc" }}</p>
-        <p class="pricing-guests">{{ i18n "plan2_guests" | safeHTML }}</p>
-        <ul class="pricing-features">
-          <li>{{ i18n "pricing_f1" }}</li>
-          <li>{{ i18n "pricing_f2" | safeHTML }}</li>
-          <li>{{ i18n "pricing_f3" | safeHTML }}</li>
-          <li>{{ i18n "pricing_f4" }}</li>
-        </ul>
-        <a href="https://app.eventsnap.it/checkout?plan=champagne_towers" class="btn btn-outline btn-full">{{ i18n "get_started" }}</a>
-      </div>
+    <article class="ed-price-card reveal">
+      <span class="ed-price-tier">Tier 01</span>
+      <h2 class="ed-price-name">{{ i18n "plan1_name" }}</h2>
+      <div class="ed-price-amount"><span class="ed-price-currency">$</span>29</div>
+      <p class="ed-price-guests">{{ i18n "plan1_guests" | safeHTML }}</p>
+      <p class="ed-price-desc">{{ i18n "plan1_desc" }}</p>
+      <a href="https://app.eventsnap.it/checkout?plan=tiny_toasts" class="btn btn-outline ed-price-cta">{{ i18n "get_started" }}</a>
+    </article>
 
-      <div class="pricing-card reveal">
-        <div class="pricing-tier">{{ i18n "plan3_name" }}</div>
-        <div class="pricing-price"><span class="currency">$</span>99</div>
-        <p class="pricing-desc">{{ i18n "plan3_desc" }}</p>
-        <p class="pricing-guests">{{ i18n "plan3_guests" | safeHTML }}</p>
-        <ul class="pricing-features">
-          <li>{{ i18n "pricing_f1" }}</li>
-          <li>{{ i18n "pricing_f2" | safeHTML }}</li>
-          <li>{{ i18n "pricing_f3" | safeHTML }}</li>
-          <li>{{ i18n "pricing_f4" }}</li>
-        </ul>
-        <a href="https://app.eventsnap.it/checkout?plan=happily_ever_after" class="btn btn-outline btn-full">{{ i18n "get_started" }}</a>
+    <article class="ed-price-card ed-price-card--featured reveal">
+      <span class="ed-price-flag">{{ i18n "pricing_badge" }}</span>
+      <span class="ed-price-tier">Tier 02</span>
+      <h2 class="ed-price-name">{{ i18n "plan2_name" }}</h2>
+      <div class="ed-price-amount"><span class="ed-price-currency">$</span>59</div>
+      <p class="ed-price-guests">{{ i18n "plan2_guests" | safeHTML }}</p>
+      <p class="ed-price-desc">{{ i18n "plan2_desc" }}</p>
+      <a href="https://app.eventsnap.it/checkout?plan=champagne_towers" class="btn btn-outline ed-price-cta">{{ i18n "get_started" }}</a>
+    </article>
+
+    <article class="ed-price-card reveal">
+      <span class="ed-price-tier">Tier 03</span>
+      <h2 class="ed-price-name">{{ i18n "plan3_name" }}</h2>
+      <div class="ed-price-amount"><span class="ed-price-currency">$</span>99</div>
+      <p class="ed-price-guests">{{ i18n "plan3_guests" | safeHTML }}</p>
+      <p class="ed-price-desc">{{ i18n "plan3_desc" }}</p>
+      <a href="https://app.eventsnap.it/checkout?plan=happily_ever_after" class="btn btn-outline ed-price-cta">{{ i18n "get_started" }}</a>
+    </article>
+
+  </div>
+</section>
+
+<!-- ══════════════ INCLUDED IN EVERY PLAN ══════════════ -->
+<section class="ed-section ed-bg-blush">
+  <div class="ed-container ed-narrow text-center">
+    <span class="ed-eyebrow reveal">{{ i18n "pricing_included_eyebrow" }}</span>
+    <h2 class="ed-section-title ed-section-title--sm reveal">{{ i18n "pricing_included_title" | safeHTML }}</h2>
+    <p class="ed-lead reveal">{{ i18n "pricing_included_intro" }}</p>
+
+    <ul class="ed-price-included reveal">
+      <li>{{ i18n "pricing_f1" }}</li>
+      <li>{{ i18n "pricing_f2" | safeHTML }}</li>
+      <li>{{ i18n "pricing_f3" | safeHTML }}</li>
+      <li>{{ i18n "pricing_f4" }}</li>
+      <li>{{ i18n "pricing_f5" }}</li>
+      <li>{{ i18n "pricing_f6" }}</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══════════════ TRUST STRIP ══════════════ -->
+<section class="ed-section ed-bg-cream ed-section--top-tight">
+  <div class="ed-container">
+    <div class="ed-trust-strip">
+      <div class="ed-trust-item reveal">
+        <span class="ed-trust-num">{{ i18n "pricing_trust1_label" }}</span>
+        <p>{{ i18n "pricing_trust1_text" }}</p>
+      </div>
+      <div class="ed-trust-item reveal">
+        <span class="ed-trust-num">{{ i18n "pricing_trust2_label" }}</span>
+        <p>{{ i18n "pricing_trust2_text" }}</p>
+      </div>
+      <div class="ed-trust-item reveal">
+        <span class="ed-trust-num">{{ i18n "pricing_trust3_label" }}</span>
+        <p>{{ i18n "pricing_trust3_text" }}</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- FAQ -->
-<section class="section bg-white" id="faq">
-  <div class="container">
+<!-- ══════════════ EDITORIAL TESTIMONIAL ══════════════ -->
+<section class="ed-section ed-bg-cream ed-section--tight">
+  <div class="ed-container">
+    <figure class="ed-price-quote reveal">
+      <blockquote class="ed-price-quote-text">&ldquo;{{ i18n "testimonial1_text" }}&rdquo;</blockquote>
+      <figcaption class="ed-price-quote-author">&mdash; {{ i18n "testimonial1_author" }}</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ══════════════ FAQ ══════════════ -->
+<section class="ed-section ed-bg-cream" id="faq">
+  <div class="ed-container">
     <div class="faq-layout">
       <div class="faq-header reveal">
-        <h2 class="section-title">{{ i18n "faq_title" }}</h2>
+        <span class="ed-eyebrow">Questions</span>
+        <h2 class="ed-section-title">{{ i18n "faq_title" }}</h2>
+        <div class="faq-decoration"></div>
       </div>
       <div class="faq-content reveal">
         {{ partial "faq.html" . }}
@@ -90,7 +126,7 @@
   var allItems = Object.keys(plans).map(function(id) {
     return { item_id: id, item_name: plans[id].name, price: plans[id].price, quantity: 1 };
   });
-  var pricingSection = document.querySelector('.pricing-grid');
+  var pricingSection = document.querySelector('.ed-price-grid');
   if (pricingSection && typeof IntersectionObserver !== 'undefined') {
     new IntersectionObserver(function(entries, obs) {
       if (entries[0].isIntersecting && typeof gtag === 'function') {
@@ -127,10 +163,19 @@
 })();
 </script>
 
-<!-- Contact CTA -->
-<section class="section pricing-cta">
+<!-- ══════════════ FINAL CTA — PRIORITY BANNER ══════════════ -->
+<section class="section cta-section">
   <div class="container text-center">
-    <h2 class="section-title reveal">{{ i18n "pricing_question" }}</h2>
-    <a href="{{ "contact/" | relLangURL }}" class="btn btn-outline reveal">{{ i18n "contact_us" }}</a>
+    <span class="cta-eyebrow reveal">{{ i18n "cta_eyebrow" }}</span>
+    <h2 class="section-title reveal">
+      <span class="cta-title-line">{{ i18n "cta_title" }}</span>
+      <span class="cta-title-accent">{{ i18n "cta_title_accent" }}</span>
+    </h2>
+    <p class="cta-statement reveal">{{ i18n "cta_text1" }}</p>
+    <div class="cta-text reveal">
+      <p>{{ i18n "cta_text2" }}</p>
+      <p>{{ i18n "cta_text3" }}</p>
+    </div>
+    <a href="https://app.eventsnap.it/checkout?plan=champagne_towers" class="btn btn-filled reveal">{{ i18n "cta_button" }}</a>
   </div>
 </section>

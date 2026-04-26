@@ -56,7 +56,7 @@
 <section class="ed-section ed-bg-cream">
   <div class="ed-container">
     <header class="ed-section-head reveal">
-      <span class="ed-eyebrow">01 &mdash; How it works</span>
+      <span class="ed-eyebrow">How it works</span>
       <h2 class="ed-section-title">{{ i18n "steps_title" }}</h2>
     </header>
 
@@ -107,7 +107,7 @@
 <section class="ed-section ed-bg-cream ed-section--top-tight">
   <div class="ed-container">
     <header class="ed-section-head reveal">
-      <span class="ed-eyebrow">02 &mdash; Why Posy</span>
+      <span class="ed-eyebrow">Why Posy</span>
       <h2 class="ed-section-title">{{ i18n "features_title" }}</h2>
       <p class="ed-section-lead">{{ i18n "features_subtitle" }}</p>
     </header>
@@ -115,7 +115,6 @@
 
   <div class="ed-tile-grid">
     <article class="ed-tile ed-tile--blush reveal">
-      <span class="ed-tile-tag">F.01</span>
       <h3 class="ed-tile-title">{{ i18n "feature1_title" }}</h3>
       <p class="ed-tile-desc">{{ i18n "feature1_desc" }}</p>
       <ul class="ed-tile-list">
@@ -128,7 +127,6 @@
     </article>
 
     <article class="ed-tile ed-tile--petal reveal">
-      <span class="ed-tile-tag">F.02</span>
       <h3 class="ed-tile-title">{{ i18n "feature2_title" }}</h3>
       <p class="ed-tile-desc">{{ i18n "feature2_desc" }}</p>
       <ul class="ed-tile-list">
@@ -141,7 +139,6 @@
     </article>
 
     <article class="ed-tile ed-tile--garden reveal">
-      <span class="ed-tile-tag">F.03</span>
       <h3 class="ed-tile-title">{{ i18n "feature3_title" }}</h3>
       <p class="ed-tile-desc">{{ i18n "feature3_desc" }}</p>
       <ul class="ed-tile-list">
@@ -155,41 +152,36 @@
   </div>
 </section>
 
-<!-- ══════════════ EDITORIAL TESTIMONIAL — single rotating quote ══════════════ -->
-<section class="ed-section ed-bg-blush">
+<!-- ══════════════ EDITORIAL TESTIMONIALS — 3-up grid ══════════════ -->
+<section class="ed-section ed-bg-blush ed-section--tight">
   <div class="ed-container">
     <header class="ed-section-head reveal">
-      <span class="ed-eyebrow">03 &mdash; In their words</span>
+      <span class="ed-eyebrow">In their words</span>
     </header>
 
-    <figure class="ed-quote reveal">
-      <blockquote class="ed-quote-text">&ldquo;{{ i18n "testimonial1_text" }}&rdquo;</blockquote>
-      <figcaption class="ed-quote-author">&mdash; {{ i18n "testimonial1_author" }}</figcaption>
-    </figure>
-
-    <hr class="ed-divider ed-divider--soft">
-
-    <figure class="ed-quote reveal">
-      <blockquote class="ed-quote-text">&ldquo;{{ i18n "testimonial2_text" }}&rdquo;</blockquote>
-      <figcaption class="ed-quote-author">&mdash; {{ i18n "testimonial2_author" }}</figcaption>
-    </figure>
-
-    <hr class="ed-divider ed-divider--soft">
-
-    <figure class="ed-quote reveal">
-      <blockquote class="ed-quote-text">&ldquo;{{ i18n "testimonial3_text" }}&rdquo;</blockquote>
-      <figcaption class="ed-quote-author">&mdash; {{ i18n "testimonial3_author" }}</figcaption>
-    </figure>
+    <div class="ed-quote-grid">
+      <figure class="ed-quote reveal">
+        <blockquote class="ed-quote-text">&ldquo;{{ i18n "testimonial1_text" }}&rdquo;</blockquote>
+        <figcaption class="ed-quote-author">&mdash; {{ i18n "testimonial1_author" }}</figcaption>
+      </figure>
+      <figure class="ed-quote reveal">
+        <blockquote class="ed-quote-text">&ldquo;{{ i18n "testimonial2_text" }}&rdquo;</blockquote>
+        <figcaption class="ed-quote-author">&mdash; {{ i18n "testimonial2_author" }}</figcaption>
+      </figure>
+      <figure class="ed-quote reveal">
+        <blockquote class="ed-quote-text">&ldquo;{{ i18n "testimonial3_text" }}&rdquo;</blockquote>
+        <figcaption class="ed-quote-author">&mdash; {{ i18n "testimonial3_author" }}</figcaption>
+      </figure>
+    </div>
   </div>
 </section>
 
 <!-- ══════════════ EDITORIAL CAPTURE STATEMENT ══════════════ -->
 <section class="ed-section ed-bg-cream">
   <div class="ed-container ed-narrow text-center">
-    <span class="ed-eyebrow reveal">04 &mdash; Every angle</span>
+    <span class="ed-eyebrow reveal">Every angle</span>
     <h2 class="ed-section-title reveal">{{ i18n "capture_title" }}</h2>
     <p class="ed-lead reveal">{{ i18n "capture_text1" }}</p>
-    <p class="ed-statement reveal">&ldquo;{{ i18n "capture_text2" }}&rdquo;</p>
     <p class="ed-aside reveal">{{ i18n "capture_tagline" }}</p>
   </div>
 </section>
@@ -225,7 +217,7 @@
   <div class="ed-container">
     <div class="faq-layout">
       <div class="faq-header reveal">
-        <span class="ed-eyebrow">05 &mdash; Questions</span>
+        <span class="ed-eyebrow">Questions</span>
         <h2 class="ed-section-title">{{ i18n "faq_title" }}</h2>
         <div class="faq-decoration"></div>
       </div>
@@ -240,7 +232,10 @@
 <section class="section cta-section">
   <div class="container text-center">
     <span class="cta-eyebrow reveal">{{ i18n "cta_eyebrow" }}</span>
-    <h2 class="section-title reveal">{{ i18n "cta_title" }}</h2>
+    <h2 class="section-title reveal">
+      <span class="cta-title-line">{{ i18n "cta_title" }}</span>
+      <span class="cta-title-accent">{{ i18n "cta_title_accent" }}</span>
+    </h2>
     <p class="cta-statement reveal">{{ i18n "cta_text1" }}</p>
     <div class="cta-text reveal">
       <p>{{ i18n "cta_text2" }}</p>
