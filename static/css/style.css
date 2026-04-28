@@ -57,6 +57,14 @@ body {
   overflow-x: hidden;
 }
 
+/* Force form elements to inherit the body font (browsers don't by default) */
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -293,8 +301,8 @@ ul { list-style: none; }
 
 .nav-link {
   font-family: var(--font-body);
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 0.95rem;
+  font-weight: 400;
   color: var(--color-dark);
   text-decoration: none;
   transition: color var(--transition);
@@ -1515,10 +1523,20 @@ ul { list-style: none; }
   margin-bottom: 0.75rem;
 }
 
+.prose {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--color-dark);
+}
+
 .prose p {
+  font-family: var(--font-body);
+  font-weight: 400;
   margin-bottom: 1.15rem;
-  line-height: 1.8;
-  color: #444;
+  line-height: 1.7;
+  color: var(--color-dark);
 }
 
 .prose img {
@@ -1541,6 +1559,8 @@ ul { list-style: none; }
 
 .prose ul,
 .prose ol {
+  font-family: var(--font-body);
+  font-weight: 400;
   margin: 1.25rem 0 1.5rem;
   padding-left: 0;
   line-height: 1.65;
@@ -1551,7 +1571,7 @@ ul { list-style: none; }
   position: relative;
   padding-left: 1.5rem;
   margin-bottom: 0.5rem;
-  color: var(--color-charcoal, #3D3D5C);
+  color: var(--color-dark);
 }
 
 .prose ul li::before {
@@ -1818,7 +1838,9 @@ ul { list-style: none; }
 }
 
 .prose strong {
-  font-weight: 600;
+  font-family: var(--font-body);
+  font-weight: 500;
+  color: var(--color-dark);
 }
 
 /* ── Footer ────────────────────────────────────────── */
@@ -1864,8 +1886,9 @@ ul { list-style: none; }
 }
 
 .footer-links a {
+  font-family: var(--font-body);
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 300;
   color: var(--color-dark);
   text-decoration: none;
   transition: color var(--transition);
@@ -7023,4 +7046,189 @@ ul { list-style: none; }
   .ed-price-card--featured { order: -1; }
   .ed-price-included { grid-template-columns: 1fr; gap: 0.75rem; }
   .ed-trust-strip { grid-template-columns: 1fr; gap: 2rem; }
+}
+
+/* ===================================================
+   MOBILE POLISH PASS — defensive rules for small screens
+   =================================================== */
+
+/* Prevent horizontal overflow at any size */
+html, body { overflow-x: hidden; }
+
+/* Tablet & below */
+@media (max-width: 768px) {
+  /* All editorial covers — tighter top padding so headlines land in viewport */
+  .ed-cover,
+  .ed-vlist-cover,
+  .ed-vendors-cover,
+  .ed-price-cover,
+  .ed-htg-cover,
+  .ed-aff-cover {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+  }
+
+  /* Section vertical padding — was 8rem default, way too much on mobile */
+  .ed-section { padding: 4rem 0; }
+  .ed-section--top-tight { padding-top: 1.5rem; }
+  .ed-section--bottom-tight { padding-bottom: 2rem; }
+  .ed-section--tight { padding: 4rem 0; }
+
+  /* Section heads — less margin */
+  .ed-section-head { margin-bottom: 2.5rem; }
+
+  /* Tighter gaps on the cover-grid (homepage hero) */
+  .ed-cover-grid { gap: 2.5rem; padding-top: 0; }
+  .ed-cover-stage { max-width: 280px; }
+
+  /* Tile asides go full-width on small */
+  .ed-tile {
+    padding: 2.25rem 1.75rem !important;
+  }
+
+  /* Brand-promise / value strip — smaller padding */
+  .ed-promise { padding: 4rem 1.5rem; }
+  .ed-value { padding: 4rem 1.5rem; }
+
+  /* Steps — gather vertical structure */
+  .ed-step,
+  .ed-aff-step {
+    gap: 1rem !important;
+  }
+  .ed-step-image { margin-top: 1rem; }
+
+  /* Vendor profile cover — short cinematic on phones */
+  .ed-vp-cover { aspect-ratio: 4 / 3; max-height: none; }
+  .ed-vp-cover-inner { padding: 1.5rem 1.25rem; }
+  .ed-vp-cover-name { margin-bottom: 1.25rem; }
+  .ed-vp-cover-actions { gap: 0.5rem; }
+  .ed-vp-cover-cta,
+  .ed-vp-secondary,
+  .ed-vp-like {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Vendor profile meta strip — sticky off, vertical stack */
+  .ed-vp-meta { padding: 1rem 0; }
+  .ed-vp-meta-list { gap: 0.85rem !important; }
+
+  /* Sticky disabled — done in earlier 900px rule for vp-meta */
+
+  /* Pricing — featured card pulled up first on mobile */
+  .ed-price-card { padding: 2rem 1.5rem; }
+  .ed-price-card--featured { padding-top: 3.25rem; }
+  .ed-price-amount { font-size: 3rem; }
+
+  /* Hashtag form */
+  .ed-htg-form { padding: 1.5rem; }
+  .ed-htg-input { font-size: 16px; }
+
+  /* Vendors index tiles — tighter */
+  .ed-vendor-row { min-height: 180px; padding: 1.25rem; }
+
+  /* Region tiles 2-up on mobile (was 1fr on auto-fill) */
+  .ed-region-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .ed-region-tile { padding: 1rem; min-height: 96px; }
+  .ed-region-tile-name { font-size: 0.95rem; }
+
+  /* Vendor listing toolbar — stack */
+  .ed-vlist-toolbar { padding-bottom: 1rem; gap: 0.75rem; }
+  .ed-vlist-search-wrap { padding: 0.6rem 0.85rem; }
+
+  /* Subregion chips wrap nicely */
+  .ed-subregion-row { gap: 6px; }
+  .ed-subregion-chip { padding: 0.4rem 0.85rem; font-size: 0.78rem; }
+
+  /* Final CTA priority banner — tighter */
+  .cta-section { padding: 4rem 0; }
+  .cta-statement { font-size: 1.15rem; margin: 1.5rem auto; }
+
+  /* Buttons — ensure 44px min tap target */
+  .btn { min-height: 44px; padding: 12px 22px; }
+
+  /* Float cards over phone — pull in tighter so they don't drift off-canvas */
+  .ed-float-card--top { right: -4%; }
+  .ed-float-card--bottom { left: -4%; }
+
+  /* Footer */
+  .site-footer { padding: 3rem 0 2rem; }
+
+  /* Blog prose — tighten image rules so they read inline */
+  .prose img { max-height: 320px; margin: 1.5rem auto 0.25rem; }
+  .prose h2 { margin-top: 2.5rem; }
+  .prose h3 { margin-top: 1.75rem; }
+
+  /* Testimonials grid stacks (already done on most pages) */
+  .ed-quote-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+  }
+
+  /* Hashtag tip numbers — smaller on mobile */
+  .ed-htg-tip-num { font-size: 2rem; }
+  .ed-htg-tips { gap: 1.5rem; }
+  .ed-htg-tips li { padding-top: 1.5rem; }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  /* Smaller cover headlines on small phones */
+  .ed-cover-headline,
+  .ed-vlist-cover-headline,
+  .ed-vendors-cover-headline,
+  .ed-price-cover-headline,
+  .ed-htg-cover-headline,
+  .ed-aff-cover-headline,
+  .ed-vp-cover-name {
+    font-size: clamp(2rem, 9vw, 2.6rem) !important;
+  }
+
+  /* Single column grids that were 2-col on 768px */
+  .ed-region-grid,
+  .ed-vendor-grid,
+  .ed-htg-grid,
+  .ed-tile-grid,
+  .ed-vendors-list {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Section padding — dial down further */
+  .ed-section { padding: 3rem 0; }
+  .ed-section-head { margin-bottom: 2rem; }
+
+  /* Hero cover stage — smaller phone visual */
+  .ed-cover-stage { max-width: 220px; }
+  .ed-float-card { width: 44%; }
+
+  /* Pricing big number */
+  .ed-price-amount { font-size: 2.4rem; }
+  .ed-price-card { padding: 1.75rem 1.5rem; }
+
+  /* Vendor row min-height shorter */
+  .ed-vendor-row { min-height: 140px; }
+
+  /* Hashtag form fields stack */
+  .ed-htg-row,
+  .ed-htg-group-fields { gap: 1rem; }
+
+  /* Action steps + What we love most callout — tighter */
+  .action-steps-box,
+  .prose table { padding: 1.25rem 1.25rem; }
+}
+
+/* iOS form-zoom prevention — inputs must be 16px+ to avoid auto-zoom on focus */
+@media (max-width: 768px) {
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="number"],
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
 }
