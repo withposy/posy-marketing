@@ -56,11 +56,11 @@ There has to be a better way.
 <img src="/images/blog-collect-photos-table-card.jpg" alt="A 'Share your memories with us' table card with a QR code, beside pastel florals and a vintage green goblet on a wedding reception table" />
 <img src="/images/blog-collect-photos-thank-you-card.jpg" alt="A black wedding thank-you card with a couple's first-dance photo on the front and a gold QR code on the back inviting guests to upload their photos" />
 </div>
-<small>Photos by <a href="https://eventsnap.it" target="_blank" rel="noopener">Posy App</a></small>
+<small>Photos by <a href="https://withposy.com" target="_blank" rel="noopener">Posy App</a></small>
 
 The answer isn't a bigger group chat or more follow-up messages. It's changing the entire process — making it so easy to share photos that your guests do it in the moment, without being asked.
 
-That's exactly what QR-code-based wedding photo sharing does, and it's why couples are increasingly making tools like [Posy](https://eventsnap.it) a core part of their wedding planning. Here's how it actually works.
+That's exactly what QR-code-based wedding photo sharing does, and it's why couples are increasingly making tools like [Posy](https://withposy.com) a core part of their wedding planning. Here's how it actually works.
 
 ## How QR Code Photo Collection Works
 
@@ -157,7 +157,7 @@ Not every solution is created equal. Here's what actually matters when you're ch
 
 </div>
 
-[Posy](https://eventsnap.it) covers all of this. Guests scan, upload instantly with no account, and everything lands in your private gallery. When you're ready, you download the lot in full resolution with a single click — and the gallery stays accessible for 12 months, so there's no rush.
+[Posy](https://withposy.com) covers all of this. Guests scan, upload instantly with no account, and everything lands in your private gallery. When you're ready, you download the lot in full resolution with a single click — and the gallery stays accessible for 12 months, so there's no rush.
 
 ## A Note on Your Professional Photographer
 
@@ -175,5 +175,5 @@ Set up a QR code gallery before the wedding. Display it prominently at the venue
 <span class="post-cta-eyebrow">Ready when you are</span>
 <p class="post-cta-title">Create your free wedding gallery on Posy</p>
 <p>No app for your guests. No chasing. No missing memories. Just every moment from every person who was there to celebrate with you.</p>
-<a class="post-cta-button" href="https://eventsnap.it/pricing/">Get started →</a>
+<a class="post-cta-button" href="https://withposy.com/pricing/">Get started →</a>
 </div>
