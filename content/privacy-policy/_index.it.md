@@ -5,7 +5,7 @@ description: "Leggi l'informativa sulla privacy di Posy per capire come raccogli
 
 ## 1. Introduzione
 
-Benvenuti su Posy! Ci impegniamo a proteggere e rispettare la vostra privacy. Questa Informativa sulla Privacy spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo le vostre informazioni personali quando visitate il nostro sito web [www.eventsnap.it] o utilizzate i nostri servizi. La ragione sociale dell'azienda è SC Eurocont SRL, con sede in Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, Romania.
+Benvenuti su Posy! Ci impegniamo a proteggere e rispettare la vostra privacy. Questa Informativa sulla Privacy spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo le vostre informazioni personali quando visitate il nostro sito web [www.withposy.com](https://www.withposy.com) o utilizzate i nostri servizi. La ragione sociale dell'azienda è SC Eurocont SRL, con sede in Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, Romania.
 
 ## 2. Informazioni che Raccogliamo
 
@@ -41,7 +41,7 @@ Avete il diritto di:
 - Richiedere la cancellazione dei vostri dati, nel rispetto dei requisiti legali e dei periodi di conservazione.
 - Opporvi o limitare il trattamento dei vostri dati, ove applicabile.
 
-Per esercitare uno qualsiasi di questi diritti, contattateci all'indirizzo info@eventsnap.it.
+Per esercitare uno qualsiasi di questi diritti, contattateci all'indirizzo contact@withposy.com.
 
 ## 7. Fornitori di Servizi Terzi
 
@@ -67,4 +67,4 @@ Per qualsiasi domanda o dubbio riguardante questa Informativa sulla Privacy o il
 
 **Posy SC Eurocont SRL**
 Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, Romania
-Email: info@eventsnap.it
+Email: contact@withposy.com

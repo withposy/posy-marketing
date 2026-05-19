@@ -5,11 +5,11 @@ description: "Learn how to request deletion of your Posy account and personal da
 
 ## How to Delete Your Account and Data
 
-If you would like to delete your Posy account and all associated personal data, please send an email to **contact@eventsnap.it** with the following details:
+If you would like to delete your Posy account and all associated personal data, please send an email to **contact@withposy.com** with the following details:
 
 - **Subject line:** Account Deletion Request
 - **Include:** The email address you used to register your Posy account
 
 We will process your request and delete your account and all associated data. You will receive a confirmation email once the deletion is complete.
 
-If you have any questions about this process, feel free to reach out to us at **contact@eventsnap.it**.
+If you have any questions about this process, feel free to reach out to us at **contact@withposy.com**.

@@ -5,7 +5,7 @@ description: "Olvasd el az Posy adatvédelmi irányelveit, hogy megértsd, hogya
 
 ## 1. Bevezetés
 
-Üdvözöljük az Posy-nél! Elkötelezettek vagyunk az Ön magánéletének védelme és tiszteletben tartása mellett. Ez az Adatvédelmi Irányelv ismerteti, hogyan gyűjtjük, használjuk, adjuk ki és védjük személyes adatait, amikor meglátogatja weboldalunkat [www.eventsnap.it], vagy igénybe veszi szolgáltatásainkat. A jogi társaság neve SC Eurocont SRL, székhelye: Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, Románia.
+Üdvözöljük az Posy-nél! Elkötelezettek vagyunk az Ön magánéletének védelme és tiszteletben tartása mellett. Ez az Adatvédelmi Irányelv ismerteti, hogyan gyűjtjük, használjuk, adjuk ki és védjük személyes adatait, amikor meglátogatja weboldalunkat [www.withposy.com](https://www.withposy.com), vagy igénybe veszi szolgáltatásainkat. A jogi társaság neve SC Eurocont SRL, székhelye: Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, Románia.
 
 ## 2. Az általunk gyűjtött adatok
 
@@ -41,7 +41,7 @@ A személyes adatokat csak addig őrizzük meg, ameddig az azok gyűjtésének c
 - Kérni adatai törlését, a jogszabályi követelmények és megőrzési időszakok figyelembevételével.
 - Tiltakozni adatai feldolgozása ellen, vagy korlátozni azt, ahol alkalmazható.
 
-Ezen jogok gyakorlásához kérjük, lépjen kapcsolatba velünk az info@eventsnap.it címen.
+Ezen jogok gyakorlásához kérjük, lépjen kapcsolatba velünk az contact@withposy.com címen.
 
 ## 7. Harmadik fél szolgáltatók
 
@@ -67,4 +67,4 @@ Ha bármilyen kérdése vagy aggálya van ezzel az Adatvédelmi Irányelvel vagy
 
 **Posy SC Eurocont SRL**
 Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, Romania
-Email: info@eventsnap.it
+Email: contact@withposy.com

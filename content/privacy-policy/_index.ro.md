@@ -5,7 +5,7 @@ description: "Citește politica de confidențialitate Posy pentru a înțelege c
 
 ## 1. Introducere
 
-Bine ați venit la Posy! Ne angajăm să protejăm și să respectăm confidențialitatea dumneavoastră. Această Politică de Confidențialitate explică modul în care colectăm, utilizăm, divulgăm și protejăm informațiile dumneavoastră personale atunci când vizitați site-ul nostru [www.eventsnap.it] sau utilizați serviciile noastre. Denumirea legală a companiei este SC Eurocont SRL, cu sediul în Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, România.
+Bine ați venit la Posy! Ne angajăm să protejăm și să respectăm confidențialitatea dumneavoastră. Această Politică de Confidențialitate explică modul în care colectăm, utilizăm, divulgăm și protejăm informațiile dumneavoastră personale atunci când vizitați site-ul nostru [www.withposy.com](https://www.withposy.com) sau utilizați serviciile noastre. Denumirea legală a companiei este SC Eurocont SRL, cu sediul în Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, România.
 
 ## 2. Informațiile pe care le colectăm
 
@@ -41,7 +41,7 @@ Aveți dreptul de a:
 - Solicita ștergerea datelor dumneavoastră, sub rezerva cerințelor legale și a perioadelor de retenție.
 - Vă opune sau restricționa prelucrarea datelor dumneavoastră, acolo unde este aplicabil.
 
-Pentru a exercita oricare dintre aceste drepturi, vă rugăm să ne contactați la info@eventsnap.it.
+Pentru a exercita oricare dintre aceste drepturi, vă rugăm să ne contactați la contact@withposy.com.
 
 ## 7. Furnizori terți de servicii
 
@@ -67,4 +67,4 @@ Dacă aveți întrebări sau nelămuriri cu privire la această Politică de Con
 
 **Posy SC Eurocont SRL**
 Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, România
-Email: info@eventsnap.it
+Email: contact@withposy.com
