@@ -41,7 +41,7 @@ Aveți dreptul de a:
 - Solicita ștergerea datelor dumneavoastră, sub rezerva cerințelor legale și a perioadelor de retenție.
 - Vă opune sau restricționa prelucrarea datelor dumneavoastră, acolo unde este aplicabil.
 
-Pentru a exercita oricare dintre aceste drepturi, vă rugăm să ne contactați la contact@withposy.com.
+Pentru a exercita oricare dintre aceste drepturi, vă rugăm să ne contactați la hello@withposy.com.
 
 ## 7. Furnizori terți de servicii
 
@@ -67,4 +67,4 @@ Dacă aveți întrebări sau nelămuriri cu privire la această Politică de Con
 
 **Posy SC Eurocont SRL**
 Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, România
-Email: contact@withposy.com
+Email: hello@withposy.com

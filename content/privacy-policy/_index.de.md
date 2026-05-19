@@ -41,7 +41,7 @@ Sie haben das Recht:
 - Die Löschung Ihrer Daten zu verlangen, vorbehaltlich gesetzlicher Anforderungen und Aufbewahrungsfristen.
 - Der Verarbeitung Ihrer Daten zu widersprechen oder diese einzuschränken, sofern zutreffend.
 
-Um eines dieser Rechte auszuüben, kontaktieren Sie uns bitte unter contact@withposy.com.
+Um eines dieser Rechte auszuüben, kontaktieren Sie uns bitte unter hello@withposy.com.
 
 ## 7. Drittanbieter
 
@@ -67,4 +67,4 @@ Wenn Sie Fragen oder Bedenken zu dieser Datenschutzerklärung oder zum Umgang mi
 
 **Posy SC Eurocont SRL**
 Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, Rumänien
-E-Mail: contact@withposy.com
+E-Mail: hello@withposy.com

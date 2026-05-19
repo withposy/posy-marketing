@@ -41,7 +41,7 @@ A személyes adatokat csak addig őrizzük meg, ameddig az azok gyűjtésének c
 - Kérni adatai törlését, a jogszabályi követelmények és megőrzési időszakok figyelembevételével.
 - Tiltakozni adatai feldolgozása ellen, vagy korlátozni azt, ahol alkalmazható.
 
-Ezen jogok gyakorlásához kérjük, lépjen kapcsolatba velünk az contact@withposy.com címen.
+Ezen jogok gyakorlásához kérjük, lépjen kapcsolatba velünk az hello@withposy.com címen.
 
 ## 7. Harmadik fél szolgáltatók
 
@@ -67,4 +67,4 @@ Ha bármilyen kérdése vagy aggálya van ezzel az Adatvédelmi Irányelvel vagy
 
 **Posy SC Eurocont SRL**
 Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, Romania
-Email: contact@withposy.com
+Email: hello@withposy.com

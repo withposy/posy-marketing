@@ -41,7 +41,7 @@ Tienes derecho a:
 - Solicitar la eliminación de tus datos, sujeto a los requisitos legales y los períodos de retención.
 - Oponerte o restringir el tratamiento de tus datos, cuando sea aplicable.
 
-Para ejercer cualquiera de estos derechos, ponte en contacto con nosotros en contact@withposy.com.
+Para ejercer cualquiera de estos derechos, ponte en contacto con nosotros en hello@withposy.com.
 
 ## 7. Proveedores de Servicios de Terceros
 
@@ -67,4 +67,4 @@ Si tienes alguna pregunta o inquietud sobre esta Política de Privacidad o sobre
 
 **Posy SC Eurocont SRL**
 Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, Rumanía
-Email: contact@withposy.com
+Email: hello@withposy.com

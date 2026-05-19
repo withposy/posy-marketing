@@ -23,7 +23,7 @@ To access certain features, you may need to create an account. You are responsib
 - Maintaining the confidentiality of your account credentials.
 - All activity that occurs under your account.
 
-You agree to notify us immediately at contact@withposy.com if you suspect any unauthorised use of your account.
+You agree to notify us immediately at hello@withposy.com if you suspect any unauthorised use of your account.
 
 ## 4. Description of Service
 
@@ -55,7 +55,7 @@ You agree not to:
 
 Certain features of the Service require payment. All prices are displayed on our [pricing page](/pricing/) and are subject to change. Payments are processed securely through Stripe. By making a purchase, you agree to Stripe's terms of service.
 
-All payments are final unless otherwise stated. If you believe you have been charged in error, please contact us at contact@withposy.com.
+All payments are final unless otherwise stated. If you believe you have been charged in error, please contact us at hello@withposy.com.
 
 ## 8. Intellectual Property
 
@@ -63,7 +63,7 @@ The Service, including its design, logos, text, graphics, and software, is owned
 
 ## 9. Termination
 
-We may suspend or terminate your access to the Service at any time, with or without cause, and with or without notice. You may also delete your account at any time by contacting us at contact@withposy.com (see our [Data Deletion](/data-deletion/) page for details).
+We may suspend or terminate your access to the Service at any time, with or without cause, and with or without notice. You may also delete your account at any time by contacting us at hello@withposy.com (see our [Data Deletion](/data-deletion/) page for details).
 
 Upon termination, your right to use the Service ceases immediately. We may delete your account data in accordance with our [Privacy Policy](/privacy-policy/).
 
@@ -95,4 +95,4 @@ If you have any questions about these Terms, please contact us at:
 
 **Posy SC Eurocont SRL**
 Str. Aleea Tarnavei nr.1 bl.22 ap.61, Satu Mare, 440207, Satu Mare, Romania
-Email: contact@withposy.com
+Email: hello@withposy.com
