@@ -139,6 +139,10 @@ defaultContentLanguageInSubdir = false
       url = '/contact/'
       weight = 5
     [[languages.en.menus.footer]]
+      name = 'About'
+      url = '/about/'
+      weight = 6
+    [[languages.en.menus.footer]]
       name = 'Privacy policy'
       url = '/privacy-policy/'
       weight = 7
@@ -285,6 +289,10 @@ defaultContentLanguageInSubdir = false
       name = 'Kontakt'
       url = '/contact/'
       weight = 5
+    [[languages.de.menus.footer]]
+      name = 'Über uns'
+      url = '/about/'
+      weight = 6
     [[languages.de.menus.footer]]
       name = 'Datenschutz'
       url = '/privacy-policy/'
@@ -433,6 +441,10 @@ defaultContentLanguageInSubdir = false
       url = '/contact/'
       weight = 5
     [[languages.es.menus.footer]]
+      name = 'Sobre nosotros'
+      url = '/about/'
+      weight = 6
+    [[languages.es.menus.footer]]
       name = 'Política de privacidad'
       url = '/privacy-policy/'
       weight = 7
@@ -579,6 +591,10 @@ defaultContentLanguageInSubdir = false
       name = 'Contact'
       url = '/contact/'
       weight = 5
+    [[languages.ro.menus.footer]]
+      name = 'Despre noi'
+      url = '/about/'
+      weight = 6
     [[languages.ro.menus.footer]]
       name = 'Politica de confidențialitate'
       url = '/privacy-policy/'
@@ -727,6 +743,10 @@ defaultContentLanguageInSubdir = false
       url = '/contact/'
       weight = 5
     [[languages.it.menus.footer]]
+      name = 'Chi siamo'
+      url = '/about/'
+      weight = 6
+    [[languages.it.menus.footer]]
       name = 'Privacy policy'
       url = '/privacy-policy/'
       weight = 7
@@ -873,6 +893,10 @@ defaultContentLanguageInSubdir = false
       name = 'Kapcsolat'
       url = '/contact/'
       weight = 5
+    [[languages.hu.menus.footer]]
+      name = 'Rólunk'
+      url = '/about/'
+      weight = 6
     [[languages.hu.menus.footer]]
       name = 'Adatvédelmi irányelvek'
       url = '/privacy-policy/'
