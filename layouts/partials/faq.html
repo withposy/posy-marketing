@@ -1,85 +1,31 @@
+{{- $faqs := slice -}}
+{{- range seq 1 8 -}}
+  {{- $faqs = $faqs | append (dict
+    "q" (i18n (printf "faq%d_q" .))
+    "a" (i18n (printf "faq%d_a" .))
+  ) -}}
+{{- end -}}
 <div class="faq-list">
+  {{- range $faqs }}
   <div class="faq-item">
     <button class="faq-question">
-      <span>{{ i18n "faq1_q" }}</span>
+      <span>{{ .q }}</span>
       <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="10" x2="15" y2="10"/><line class="faq-icon-v" x1="10" y1="5" x2="10" y2="15"/></svg>
     </button>
     <div class="faq-answer">
-      <p>{{ i18n "faq1_a" }}</p>
+      <p>{{ .a }}</p>
     </div>
   </div>
-  <div class="faq-item">
-    <button class="faq-question">
-      <span>{{ i18n "faq2_q" }}</span>
-      <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="10" x2="15" y2="10"/><line class="faq-icon-v" x1="10" y1="5" x2="10" y2="15"/></svg>
-    </button>
-    <div class="faq-answer">
-      <p>{{ i18n "faq2_a" }}</p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">
-      <span>{{ i18n "faq3_q" }}</span>
-      <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="10" x2="15" y2="10"/><line class="faq-icon-v" x1="10" y1="5" x2="10" y2="15"/></svg>
-    </button>
-    <div class="faq-answer">
-      <p>{{ i18n "faq3_a" }}</p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">
-      <span>{{ i18n "faq4_q" }}</span>
-      <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="10" x2="15" y2="10"/><line class="faq-icon-v" x1="10" y1="5" x2="10" y2="15"/></svg>
-    </button>
-    <div class="faq-answer">
-      <p>{{ i18n "faq4_a" }}</p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">
-      <span>{{ i18n "faq5_q" }}</span>
-      <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="10" x2="15" y2="10"/><line class="faq-icon-v" x1="10" y1="5" x2="10" y2="15"/></svg>
-    </button>
-    <div class="faq-answer">
-      <p>{{ i18n "faq5_a" }}</p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">
-      <span>{{ i18n "faq6_q" }}</span>
-      <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="10" x2="15" y2="10"/><line class="faq-icon-v" x1="10" y1="5" x2="10" y2="15"/></svg>
-    </button>
-    <div class="faq-answer">
-      <p>{{ i18n "faq6_a" }}</p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">
-      <span>{{ i18n "faq7_q" }}</span>
-      <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="10" x2="15" y2="10"/><line class="faq-icon-v" x1="10" y1="5" x2="10" y2="15"/></svg>
-    </button>
-    <div class="faq-answer">
-      <p>{{ i18n "faq7_a" }}</p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">
-      <span>{{ i18n "faq8_q" }}</span>
-      <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="10" x2="15" y2="10"/><line class="faq-icon-v" x1="10" y1="5" x2="10" y2="15"/></svg>
-    </button>
-    <div class="faq-answer">
-      <p>{{ i18n "faq8_a" }}</p>
-    </div>
-  </div>
+  {{- end }}
 </div>
-{{ $faqs := slice }}
-{{ range seq 1 8 }}
-  {{ $faqs = $faqs | append (dict
+{{- $items := slice -}}
+{{- range $faqs -}}
+  {{- $items = $items | append (dict
     "@type" "Question"
-    "name" (i18n (printf "faq%d_q" .))
-    "acceptedAnswer" (dict "@type" "Answer" "text" (i18n (printf "faq%d_a" .)))
-  ) }}
-{{ end }}
+    "name" .q
+    "acceptedAnswer" (dict "@type" "Answer" "text" .a)
+  ) -}}
+{{- end }}
 <script type="application/ld+json">
-{{- dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $faqs | jsonify (dict "indent" "  ") | safeJS -}}
+{{- dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $items | jsonify (dict "indent" "  ") | safeJS -}}
 </script>
