@@ -10,7 +10,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   description = 'Hold everything close.'
-  appURL = 'https://app.eventsnap.it'
+  appURL = 'https://app.withposy.com'
   instagramURL = 'https://www.instagram.com/posy_photos'
   tiktokURL = 'https://www.tiktok.com/@withposy'
 

@@ -16,7 +16,7 @@
       <div class="ed-price-amount"><span class="ed-price-currency">$</span>29</div>
       <p class="ed-price-guests">{{ i18n "plan1_guests" | safeHTML }}</p>
       <p class="ed-price-desc">{{ i18n "plan1_desc" }}</p>
-      <a href="https://app.eventsnap.it/checkout?plan=tiny_toasts" class="btn btn-outline ed-price-cta">{{ i18n "get_started" }}</a>
+      <a href="https://app.withposy.com/checkout?plan=tiny_toasts" class="btn btn-outline ed-price-cta">{{ i18n "get_started" }}</a>
     </article>
 
     <article class="ed-price-card ed-price-card--featured reveal">
@@ -25,7 +25,7 @@
       <div class="ed-price-amount"><span class="ed-price-currency">$</span>59</div>
       <p class="ed-price-guests">{{ i18n "plan2_guests" | safeHTML }}</p>
       <p class="ed-price-desc">{{ i18n "plan2_desc" }}</p>
-      <a href="https://app.eventsnap.it/checkout?plan=champagne_towers" class="btn btn-outline ed-price-cta">{{ i18n "get_started" }}</a>
+      <a href="https://app.withposy.com/checkout?plan=champagne_towers" class="btn btn-outline ed-price-cta">{{ i18n "get_started" }}</a>
     </article>
 
     <article class="ed-price-card reveal">
@@ -33,7 +33,7 @@
       <div class="ed-price-amount"><span class="ed-price-currency">$</span>99</div>
       <p class="ed-price-guests">{{ i18n "plan3_guests" | safeHTML }}</p>
       <p class="ed-price-desc">{{ i18n "plan3_desc" }}</p>
-      <a href="https://app.eventsnap.it/checkout?plan=happily_ever_after" class="btn btn-outline ed-price-cta">{{ i18n "get_started" }}</a>
+      <a href="https://app.withposy.com/checkout?plan=happily_ever_after" class="btn btn-outline ed-price-cta">{{ i18n "get_started" }}</a>
     </article>
 
   </div>
@@ -107,7 +107,7 @@
 (function() {
   var ref = window.endorsely_referral;
   if (ref) {
-    document.querySelectorAll('a[href*="app.eventsnap.it/checkout"]').forEach(function(a) {
+    document.querySelectorAll('a[href*="app.withposy.com/checkout"]').forEach(function(a) {
       a.href = a.href + '&endorsely_referral=' + encodeURIComponent(ref);
     });
   }
@@ -138,7 +138,7 @@
   }
 
   // Track begin_checkout when user clicks a pricing plan
-  document.querySelectorAll('a[href*="app.eventsnap.it/checkout"]').forEach(function(a) {
+  document.querySelectorAll('a[href*="app.withposy.com/checkout"]').forEach(function(a) {
     a.addEventListener('click', function() {
       var url = new URL(a.href);
       var planId = url.searchParams.get('plan');
@@ -173,6 +173,6 @@
       <p>{{ i18n "cta_text2" }}</p>
       <p>{{ i18n "cta_text3" }}</p>
     </div>
-    <a href="https://app.eventsnap.it/checkout?plan=champagne_towers" class="btn btn-filled reveal">{{ i18n "cta_button" }}</a>
+    <a href="https://app.withposy.com/checkout?plan=champagne_towers" class="btn btn-filled reveal">{{ i18n "cta_button" }}</a>
   </div>
 </section>
