@@ -1,6 +1,12 @@
 ---
 title: "About Posy"
 description: "Posy is a wedding photo sharing app. The name is a small bouquet, flowers gathered and tied as one. The story of why we built it, from a couple who wanted every photo from their own wedding in one place."
+aliases:
+  - /de/about/
+  - /es/about/
+  - /ro/about/
+  - /it/about/
+  - /hu/about/
 ---
 
 Posy is a wedding photo sharing app. One QR code, scanned by your guests, collects every photo and video from your wedding day into one private gallery. No app to install. No accounts to make.

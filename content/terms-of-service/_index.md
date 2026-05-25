@@ -1,6 +1,12 @@
 ---
 title: "Terms of Service"
 description: "Read Posy's Terms of Service to understand the rules and conditions for using our wedding photo sharing platform."
+aliases:
+  - /de/terms-of-service/
+  - /es/terms-of-service/
+  - /ro/terms-of-service/
+  - /it/terms-of-service/
+  - /hu/terms-of-service/
 ---
 
 **Effective Date:** 12 April 2026
