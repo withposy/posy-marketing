@@ -109,6 +109,11 @@ defaultContentLanguageInSubdir = false
       parent = 'resources'
       weight = 5
     [[languages.en.menus.main]]
+      name = 'Wedding Seating Planner'
+      url = '/resources/wedding-seating-planner/'
+      parent = 'resources'
+      weight = 6
+    [[languages.en.menus.main]]
       name = 'Affiliate program'
       url = '/affiliate-program/'
       parent = 'resources'
@@ -259,6 +264,11 @@ defaultContentLanguageInSubdir = false
       url = '/resources/wedding-hashtag-generator/'
       parent = 'resources'
       weight = 5
+    [[languages.de.menus.main]]
+      name = 'Hochzeits-Sitzplaner'
+      url = '/resources/wedding-seating-planner/'
+      parent = 'resources'
+      weight = 6
     [[languages.de.menus.main]]
       name = 'Partnerprogramm'
       url = '/affiliate-program/'
@@ -411,6 +421,11 @@ defaultContentLanguageInSubdir = false
       parent = 'resources'
       weight = 5
     [[languages.es.menus.main]]
+      name = 'Organizador de Mesas'
+      url = '/resources/wedding-seating-planner/'
+      parent = 'resources'
+      weight = 6
+    [[languages.es.menus.main]]
       name = 'Programa de afiliados'
       url = '/affiliate-program/'
       parent = 'resources'
@@ -561,6 +576,11 @@ defaultContentLanguageInSubdir = false
       url = '/resources/wedding-hashtag-generator/'
       parent = 'resources'
       weight = 5
+    [[languages.ro.menus.main]]
+      name = 'Planificator de Așezare'
+      url = '/resources/wedding-seating-planner/'
+      parent = 'resources'
+      weight = 6
     [[languages.ro.menus.main]]
       name = 'Program afiliat'
       url = '/affiliate-program/'
@@ -713,6 +733,11 @@ defaultContentLanguageInSubdir = false
       parent = 'resources'
       weight = 5
     [[languages.it.menus.main]]
+      name = 'Disposizione Tavoli'
+      url = '/resources/wedding-seating-planner/'
+      parent = 'resources'
+      weight = 6
+    [[languages.it.menus.main]]
       name = 'Programma affiliati'
       url = '/affiliate-program/'
       parent = 'resources'
@@ -863,6 +888,11 @@ defaultContentLanguageInSubdir = false
       url = '/resources/wedding-hashtag-generator/'
       parent = 'resources'
       weight = 5
+    [[languages.hu.menus.main]]
+      name = 'Ültetési Rend Tervező'
+      url = '/resources/wedding-seating-planner/'
+      parent = 'resources'
+      weight = 6
     [[languages.hu.menus.main]]
       name = 'Affiliate program'
       url = '/affiliate-program/'
