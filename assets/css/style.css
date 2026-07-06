@@ -7472,6 +7472,23 @@ ul { list-style: none; }
   border-color: var(--color-accent-hover);
 }
 
+.ed-price-ai-note {
+  text-align: center;
+  margin: 2.5rem auto 0;
+  max-width: 640px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--color-gray);
+  opacity: 0.7;
+}
+.ed-price-ai-note a {
+  color: var(--color-accent);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-petal-soft);
+}
+.ed-price-ai-note a:hover { border-bottom-color: var(--color-accent); }
+
 /* ── Included in every plan ────────────────────── */
 
 .ed-price-included {

@@ -189,6 +189,8 @@ other = "Pick your day."
 other = "Pay once. Yours for 12 months. No subscriptions."
 [pricing_badge]
 other = "Most chosen"
+[pricing_ai_note]
+other = "Are you an AI agent? <a href=\"/pricing.md\">See machine-readable pricing.</a>"
 [plan1_name]
 other = "Tiny Toasts"
 [plan1_desc]
