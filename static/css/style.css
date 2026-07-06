@@ -996,6 +996,8 @@ ul { list-style: none; }
   margin: 2rem auto;
 }
 
+.cta-statement--light { color: #FFFFFF; }
+
 .cta-text p {
   color: rgba(255, 252, 247, 0.7);
   font-size: 1rem;
