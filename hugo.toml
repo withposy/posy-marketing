@@ -105,7 +105,7 @@ defaultContentLanguageInSubdir = false
       weight = 4
     [[languages.en.menus.main]]
       name = 'Wedding Hashtag Generator'
-      url = '/resources/wedding-hashtag-generator/'
+      url = '/wedding-hashtag-generator/'
       parent = 'resources'
       weight = 5
     [[languages.en.menus.main]]
