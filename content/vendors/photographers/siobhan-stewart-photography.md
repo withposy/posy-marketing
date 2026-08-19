@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/5522aec1e4b0a4a632fa8faa/c1f14f13-d374-4a29-b189-220f0e610a57/20_carlowrie%2Bcastle%2Bedinburgh%2Bwedding%2Bphotographer%2Bbride%2Band%2Bgroom%2Bwalking%2Baway%2Bfrom%2Bcastle.jpg"
 website: "https://www.siobhanstewart.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://www.willpursell.com/wp-content/uploads/2020/03/001-vancouver-wedding-photographer.jpg"
 website: "https://www.willpursell.com"
 services:

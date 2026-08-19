@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 187
-price: "$$"
 image: "https://www.davidstubbsphotography.co.uk/wp-content/uploads/2024/12/Manchester-wedding-photographer-324.jpg"
 website: "https://www.davidstubbsphotography.co.uk"
 services:

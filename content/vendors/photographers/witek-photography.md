@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.8
-reviews: 95
-price: "$$"
 image: "https://witekphotography.com/wp-content/uploads/2025/01/Header.Wedding-Photographer-Barcelona-1-1.jpg"
 website: "https://witekphotography.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Cape Town"
-rating: 4.9
-reviews: 187
-price: "$$"
 image: "https://www.greglumley.com/site/assets/files/1/ivke_f_00189b_blog.jpg"
 website: "https://www.greglumley.com"
 services:

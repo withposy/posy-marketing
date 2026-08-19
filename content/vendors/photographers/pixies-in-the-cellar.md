@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 178
-price: "$$"
 image: "https://www.pixiesinthecellar.co.uk/wp-content/uploads/2020/05/wedding-first-dance.jpg"
 website: "https://www.pixiesinthecellar.co.uk"
 services:

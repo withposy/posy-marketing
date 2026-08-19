@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Johannesburg"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://www.lightburst.co.za/wp-content/uploads/2026/03/DM_Wed-922.jpg"
 website: "https://www.lightburst.co.za"
 services:

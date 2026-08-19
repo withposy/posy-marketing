@@ -5,9 +5,6 @@ vendor_type: "wedding-planners"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.8
-reviews: 134
-price: "$$$"
 image: "https://crystalevents.eu/wp-content/uploads/2018/10/crystal-events-op.png"
 website: "http://crystalevents.eu/"
 services: ["Destination Wedding Planning", "Full-Service Coordination", "Venue Selection", "Event Design"]

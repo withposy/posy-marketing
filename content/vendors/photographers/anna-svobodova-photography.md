@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 121
-price: "$$$"
 image: "https://www.photography-anna.com/wp-content/uploads/2025/06/Wedding-Photographer-Luxury-Editorial-Barcelona-29.jpg"
 website: "https://www.photography-anna.com"
 services:

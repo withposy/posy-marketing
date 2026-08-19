@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 213
-price: "$$$"
 image: "https://images.squarespace-cdn.com/content/v1/612496fbf0922c32e440d81e/e6b96011-dd4b-4542-b266-2d1274754eec/Shauntel+%2B+Anthony_Photoshoot1_0287_websize.jpg"
 website: "https://www.timelesstreeweddings.com"
 services:

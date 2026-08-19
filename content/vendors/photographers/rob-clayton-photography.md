@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 168
-price: "$$"
 image: "https://cdn.zenfolio.com/img/s/v-12/u1015605280-o3402355-111.png"
 website: "https://www.robclaytonphotography.co.uk"
 services:

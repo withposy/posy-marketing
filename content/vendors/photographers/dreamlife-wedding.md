@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 4.8
-reviews: 156
-price: "$$$"
 image: "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=400&h=500&fit=crop"
 website: "https://dreamlifewedding.com"
 services:

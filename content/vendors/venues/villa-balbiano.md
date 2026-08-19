@@ -5,9 +5,6 @@ vendor_type: "venues"
 region: "Italy"
 country: "Lombardy"
 city: "Lake Como"
-rating: 5.0
-reviews: 234
-price: "$$$"
 image: "https://theheritage-collection.com/wp-content/uploads/2019/02/Villa-Balbiano-Lake-Como-01.jpg"
 website: "http://www.theheritage-collection.com/"
 services: ["Wedding Venue", "Exclusive Hire", "Luxury Accommodation", "Event Planning"]

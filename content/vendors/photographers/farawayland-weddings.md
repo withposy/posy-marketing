@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.9
-reviews: 134
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/651215d8e9a23e2b5677efb0/30be38db-3a2d-446a-8e7f-4e9e299ee093/Wedding+photography.jpg"
 website: "https://www.farawaylandwedding.ca/"
 services: ["Wedding Photography", "Wedding Videography", "Elopement Photography", "Engagement Sessions"]

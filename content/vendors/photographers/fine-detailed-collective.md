@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.9
-reviews: 108
-price: "$$"
 image: "https://static.showit.co/400/o0GdDIzluHmtPZgOSkna6A/247574/p_and_w-424.jpg"
 website: "https://finedetailedcollective.com"
 services:

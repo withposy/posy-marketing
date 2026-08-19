@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Malaga"
-rating: 4.9
-reviews: 142
-price: "$$$"
 image: "https://justinakris.com/wp-content/uploads/2026/01/destination_wedding_spain33.webp"
 website: "https://justinakris.com"
 services:

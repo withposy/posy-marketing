@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Cape Town"
-rating: 4.9
-reviews: 198
-price: "$$$"
 image: "https://images.squarespace-cdn.com/content/v1/5cb7088201232c41032b4c7f/584925d5-d64f-42ad-956c-f2abf4363912/lmv-logo+horizontal-black.png"
 website: "https://www.lovemadevisible.co.za"
 services:

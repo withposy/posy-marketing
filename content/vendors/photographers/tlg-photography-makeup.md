@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.8
-reviews: 156
-price: "$$"
 image: "https://tlgphotographymakeup.co.uk/wp-content/uploads/2024/07/Asian-Wedding-Photography-Asian-Bridal-Makeup-and-Bridal-Mehndi-28.jpeg"
 website: "https://tlgphotographymakeup.co.uk"
 services:

@@ -5,9 +5,6 @@ vendor_type: "wedding-planners"
 region: "USA"
 country: "New York"
 city: "New York"
-rating: 4.8
-reviews: 112
-price: "$$"
 image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&h=500&fit=crop"
 website: "http://theweddingplannerofnyc.com/"
 services: ["Full Wedding Planning", "Day-Of Coordination", "Venue Selection", "Budget Management"]

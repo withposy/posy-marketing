@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 4.9
-reviews: 167
-price: "$$$"
 image: "https://alinadelfinowedding.com/wp-content/uploads/2026/02/met-engagement-photos-7-660x770.jpg"
 website: "https://alinadelfinowedding.com"
 services:

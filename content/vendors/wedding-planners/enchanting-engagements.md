@@ -5,9 +5,6 @@ vendor_type: "wedding-planners"
 region: "USA"
 country: "New York"
 city: "New York"
-rating: 4.9
-reviews: 156
-price: "$$$"
 image: "https://enchantingengagements.co/wp-content/uploads/2025/08/NYC-Classic-Cab-proposal.webp"
 website: "https://enchantingengagements.co/"
 services: ["Proposal Planning", "Event Planning", "Custom Experiences", "NYC Events"]

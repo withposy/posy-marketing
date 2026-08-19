@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/5fb5bbb465ac484014c01371/10e03f01-8a20-40ef-b57c-77a77de1c21a/Demin+-+Wedding+Photographer+Near+Me.jpg"
 website: "https://deminphotography.com"
 services:

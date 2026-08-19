@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Johannesburg"
-rating: 4.9
-reviews: 213
-price: "$$$"
 image: "https://danielwest.photo/wp-content/uploads/2024/09/daniel-west-wedding-photographer-0022.webp"
 website: "http://www.danielwest.photo"
 services:

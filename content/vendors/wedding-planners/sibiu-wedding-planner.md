@@ -5,9 +5,6 @@ vendor_type: "wedding-planners"
 region: "Romania"
 country: "Transilvania"
 city: "Sibiu"
-rating: 4.9
-reviews: 56
-price: "$"
 image: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=400&h=500&fit=crop"
 services:
   - "Full Wedding Planning"

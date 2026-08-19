@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "Brooklyn"
-rating: 4.8
-reviews: 94
-price: "$$"
 image: "https://www.caitlacoop.com/wp-content/uploads/2025/10/Caitlin-Cooper-Brooklyn-Wedding-Photographer_000035630002-scaled.jpg"
 website: "https://www.caitlacoop.com"
 services:

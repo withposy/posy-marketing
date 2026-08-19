@@ -5,9 +5,6 @@ vendor_type: "venues"
 region: "Europe"
 country: "Germany"
 city: "Berlin"
-rating: 4.9
-reviews: 312
-price: "$$$"
 image: "https://images.unsplash.com/photo-1522413452208-996ff3f3e740?w=400&h=500&fit=crop"
 services:
   - "Wedding Ceremonies"

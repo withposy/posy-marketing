@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 198
-price: "$$"
 image: "https://www.purpletree.ca/wp-content/uploads/2026/02/250905-0236.jpg"
 website: "https://www.purpletree.ca"
 services:

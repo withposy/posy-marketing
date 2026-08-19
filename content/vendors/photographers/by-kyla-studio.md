@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.8
-reviews: 94
-price: "$$"
 image: "https://e3qt6k7qk5m.exactdn.com/wp-content/uploads/2024/03/086A1293.jpg"
 website: "https://www.bykylastudio.com"
 services:

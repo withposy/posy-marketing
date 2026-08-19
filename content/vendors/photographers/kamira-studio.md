@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.8
-reviews: 103
-price: "$$"
 image: "https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=400&h=500&fit=crop"
 website: "https://www.kamirastudio.com"
 services:

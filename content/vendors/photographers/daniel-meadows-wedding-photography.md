@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://www.danielmeadowsweddings.com/wp-content/uploads/2025/10/daniel-meadows-photography-7113.jpg"
 website: "https://www.danielmeadowsweddings.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "caterers"
 region: "Italy"
 country: "Tuscany"
 city: "Florence"
-rating: 4.9
-reviews: 178
-price: "$$$"
 image: "https://images.unsplash.com/photo-1555244162-803834f70033?w=400&h=500&fit=crop"
 services:
   - "Full-Service Catering"

@@ -5,9 +5,6 @@ vendor_type: "venues"
 region: "Romania"
 country: "Transilvania"
 city: "Bra\u0219ov"
-rating: 4.7
-reviews: 112
-price: "$$"
 image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&h=500&fit=crop"
 services:
   - "Wedding Ceremonies"

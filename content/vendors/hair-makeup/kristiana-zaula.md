@@ -5,9 +5,6 @@ vendor_type: "hair-makeup"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 108
-price: "$$$"
 image: "https://images.squarespace-cdn.com/content/v1/53207f08e4b0fcd5fdc08358/1752770135287-8F0P6A0DVZ4SRUH6S8FX/IMG_3331.JPG"
 website: "https://www.kristianazaula.com/bridal"
 services:

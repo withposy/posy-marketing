@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Johannesburg"
-rating: 4.9
-reviews: 176
-price: "$$"
 image: "https://www.joyphotography.co.za/wp-content/uploads/2023/09/Joy-logo-black.jpg"
 website: "https://www.joyphotography.co.za"
 services:

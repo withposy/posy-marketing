@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Bath"
-rating: 4.9
-reviews: 213
-price: "$$$"
 image: "https://www.jaketimms.com/wp-content/uploads/2025/01/Wedding-Cornwall-Trevenna-Farm-82.jpg"
 website: "https://www.jaketimms.com"
 services:

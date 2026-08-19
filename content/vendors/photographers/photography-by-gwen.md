@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/54bfdb30e4b00cf9dcf65bce/498f065e-f8f4-4a8c-bc2d-7e03c51c1dc2/MicaelaLewisWedding_079.jpg"
 website: "https://www.photographybygwen.co.uk"
 services:

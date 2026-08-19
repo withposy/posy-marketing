@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://nickrayphotography.co.uk/wp-content/uploads/2019/04/oratory-6421_slider-2048.jpg"
 website: "https://www.nickrayphotography.co.uk"
 services:

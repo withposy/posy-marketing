@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Bath"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://www.danpixphotography.co.uk/wp-content/uploads/2018/08/summer-2011-wedding-1.jpg"
 website: "https://www.danpixphotography.co.uk"
 services:

@@ -5,9 +5,6 @@ vendor_type: "wedding-planners"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 156
-price: "$$$"
 image: "https://www.barcelonabrides.com/wp-content/uploads/2016/03/Pepe-SMarcal-mini-35.jpg"
 website: "http://www.barcelonabrides.com/"
 services: ["Destination Wedding Planning", "Venue Selection", "Styling", "Entertainment"]

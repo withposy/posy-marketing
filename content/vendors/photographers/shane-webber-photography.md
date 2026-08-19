@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 213
-price: "$$"
 image: "https://shanewebber.com/wp-content/uploads/2016/02/manchester-cheshire-wedding-photography-best-HR-10002.jpg"
 website: "https://shanewebber.com"
 services:

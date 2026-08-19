@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Cape Town"
-rating: 4.9
-reviews: 234
-price: "$$$"
 image: "https://cdn.zara-zoo.com/wp-content/uploads/2025/09/zarazoo-wedding-photography-logo.jpg"
 website: "https://www.zara-zoo.com"
 services:

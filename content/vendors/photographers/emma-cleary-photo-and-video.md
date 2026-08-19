@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 4.9
-reviews: 198
-price: "$$$"
 image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=400&h=500&fit=crop"
 website: "https://emmacleary.com"
 services:

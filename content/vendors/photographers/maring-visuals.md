@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 4.9
-reviews: 213
-price: "$$$"
 image: "https://images.squarespace-cdn.com/content/v1/546f4433e4b0719612ddfeb1/09de2671-e7ad-4210-83ce-656f1ce625af/new-york-wedding-photographer-public-library.jpg"
 website: "https://www.maringvisuals.com"
 services:

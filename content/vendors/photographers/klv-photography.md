@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "California"
 city: "Los Angeles"
-rating: 4.8
-reviews: 97
-price: "$$"
 image: "https://klvphotography.com/wp-content/uploads/sites/61226/2026/03/Hannah-and-Calvin-Pasadena-Private-Estate-Wedding-KLV-Photography-35-scaled.jpg"
 website: "https://klvphotography.com"
 services:

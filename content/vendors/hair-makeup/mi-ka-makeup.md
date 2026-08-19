@@ -5,9 +5,6 @@ vendor_type: "hair-makeup"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.8
-reviews: 98
-price: "$$"
 image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=500&fit=crop"
 website: "https://www.mi-ka.me/"
 services:

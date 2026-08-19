@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "Brooklyn"
-rating: 4.9
-reviews: 143
-price: "$$$"
 image: "https://images.squarespace-cdn.com/content/v1/51a9230fe4b0953aee4beec2/67660cb3-62a9-4fa9-90f5-56923fafa9ab/DSC_5185.jpg"
 website: "https://www.robertcarlo.com"
 services:

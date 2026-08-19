@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Johannesburg"
-rating: 4.7
-reviews: 87
-price: "$"
 image: "https://sunnystudioza.co.za/wp-content/uploads/2024/05/2024.png"
 website: "https://sunnystudioza.co.za"
 services:

@@ -5,9 +5,6 @@ vendor_type: "caterers"
 region: "Hungary"
 country: "Central Hungary"
 city: "Budapest"
-rating: 4.9
-reviews: 198
-price: "$$$"
 image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=500&fit=crop"
 services:
   - "Full-Service Catering"

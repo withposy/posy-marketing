@@ -5,9 +5,6 @@ vendor_type: "wedding-planners"
 region: "USA"
 country: "New York"
 city: "New York"
-rating: 4.8
-reviews: 134
-price: "$$"
 image: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=400&h=500&fit=crop"
 website: "http://perfectweddingnyc.com/"
 services: ["Elopement Packages", "Intimate Weddings", "Wedding Planning", "NYC Ceremonies"]

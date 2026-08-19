@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 178
-price: "$$"
 image: "https://julietinton.com/wp-content/uploads/2022/10/Dundas_Castle_Wedding-121a-scaled.jpg"
 website: "https://julietinton.com"
 services:

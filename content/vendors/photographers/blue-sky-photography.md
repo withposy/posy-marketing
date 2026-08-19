@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://blueskyphotography.s3.eu-west-2.amazonaws.com/wp-content/uploads/2017/02/2017-10-31_0003.jpg"
 website: "https://blueskyphotography.co.uk"
 services:

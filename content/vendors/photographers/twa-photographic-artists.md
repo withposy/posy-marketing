@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.9
-reviews: 234
-price: "$$$"
 image: "https://twaphoto.com/wp-content/uploads/Mistwood-Golf-Club-crop2-300x185.jpg"
 website: "https://twaphoto.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.8
-reviews: 87
-price: "$$"
 image: "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=400&h=500&fit=crop"
 website: "https://www.scottleesonphotography.co.uk"
 services:

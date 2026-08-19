@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 5.0
-reviews: 234
-price: "$$$"
 image: "https://victorlax.net/wp-content/uploads/2023/01/20-1.jpg"
 website: "https://victorlax.net"
 services:

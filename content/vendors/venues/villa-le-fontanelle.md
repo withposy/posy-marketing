@@ -5,9 +5,6 @@ vendor_type: "venues"
 region: "Europe"
 country: "Italy"
 city: "Florence"
-rating: 5.0
-reviews: 158
-price: "$$$"
 image: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400&h=500&fit=crop"
 services:
   - "Wedding Ceremonies"

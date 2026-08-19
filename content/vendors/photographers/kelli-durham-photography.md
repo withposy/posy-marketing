@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.9
-reviews: 121
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/656e504598ae117ca4647ca6/4d3f9958-1da5-479d-9a44-79a8dc3890f7/%C2%A9kellidurham_Weddings_Nicole%2BBradford_13.jpg"
 website: "https://kellidurham.com"
 services:

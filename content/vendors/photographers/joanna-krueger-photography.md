@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.9
-reviews: 128
-price: "$$"
 image: "https://static.showit.co/file/WoocPom4TF2qYkkFPM8WUQ/127288/eh2a9818.jpg"
 website: "https://joannakrueger.com"
 services:

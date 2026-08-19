@@ -5,9 +5,6 @@ vendor_type: "venues"
 region: "Italy"
 country: "Lombardy"
 city: "Lake Como"
-rating: 4.9
-reviews: 167
-price: "$$$"
 image: "https://villeparravicini.com/revel/wp-content/uploads/sites/2/2026/03/003-1-scaled.jpg"
 website: "https://villeparravicini.com/revel/"
 services: ["Wedding Venue", "Gala Dinners", "Corporate Events", "Private Celebrations"]

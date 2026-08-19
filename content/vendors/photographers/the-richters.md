@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 5.0
-reviews: 78
-price: "$$$"
 image: "https://onlytherichters.com/wp-content/uploads/2024/04/fotografia_boda_alternativa_Chile_01.jpg"
 website: "https://onlytherichters.com"
 services:

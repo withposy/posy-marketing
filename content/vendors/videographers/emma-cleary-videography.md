@@ -5,9 +5,6 @@ vendor_type: "videographers"
 region: "USA"
 country: "New York"
 city: "New York"
-rating: 4.9
-reviews: 198
-price: "$$$"
 image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=400&h=500&fit=crop"
 website: "https://emmacleary.com/video/"
 services: ["Wedding Videography", "Wedding Photography", "Cinematic Films", "Highlight Reels"]

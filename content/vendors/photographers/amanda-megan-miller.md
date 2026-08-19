@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.9
-reviews: 128
-price: "$$$"
 image: "https://static.showit.co/800/FKKWRK9zR6K4GumDsteZ_Q/30149/sagallery032.jpg"
 website: "https://www.amandameganmiller.com"
 services:

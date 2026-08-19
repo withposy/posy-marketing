@@ -5,9 +5,6 @@ vendor_type: "venues"
 region: "Italy"
 country: "Lombardy"
 city: "Lake Como"
-rating: 4.9
-reviews: 156
-price: "$$$"
 image: "https://villacarminatiresta.com/wp-content/uploads/2021/11/IMG_3179.jpg"
 website: "https://villacarminatiresta.com/"
 services: ["Wedding Venue", "Lakeside Garden", "Private Events", "Exclusive Hire"]

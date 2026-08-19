@@ -5,9 +5,6 @@ vendor_type: "hair-makeup"
 region: "Europe"
 country: "Spain"
 city: "Madrid"
-rating: 4.9
-reviews: 145
-price: "$$$"
 image: "https://davidfrances.es/wp-content/uploads/2024/03/portada-bodas-david-frances-maquillador.jpg"
 website: "http://davidfrances.es/"
 services:

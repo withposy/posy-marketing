@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.8
-reviews: 87
-price: "$$"
 image: "https://blancorazonwedding.com/wp-content/uploads/2020/03/ristorante-vicania-ricevimento-matrimonio-lugano-fotografo-12-1-200x300.jpg"
 website: "https://blancorazonwedding.com"
 services:

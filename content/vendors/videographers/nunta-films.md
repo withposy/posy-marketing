@@ -5,9 +5,6 @@ vendor_type: "videographers"
 region: "Romania"
 country: "Muntenia"
 city: "Bucharest"
-rating: 4.6
-reviews: 64
-price: "$"
 image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=400&h=500&fit=crop"
 services:
   - "Wedding Videography"

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 198
-price: "$$"
 image: "https://saralazaro.com/wp-content/uploads/2024/12/Barcelona-film-wedding-photographer-spain_sara-lazaro-242.jpg"
 services:
   - "Wedding Photography"

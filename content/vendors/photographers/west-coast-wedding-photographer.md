@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.8
-reviews: 134
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/689233e91450f7719ee74c45/b9f576ac-4faf-432c-9ddc-ed2aa90693bb/Vancouver+bc+wedding+photographers+west+coast+weddings"
 website: "https://www.westcoastweddingphotographer.com"
 services:

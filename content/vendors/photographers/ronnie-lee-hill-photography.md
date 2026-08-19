@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://static.showit.co/file/UXz-7lNHTvOA-46IqhbAJg/256183/ubc_boathouse_wedding-1007.jpg"
 website: "https://www.ronnieleehill.com/"
 services: ["Wedding Photography", "Elopement Photography", "Engagement Sessions", "Family Photography"]

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.8
-reviews: 112
-price: "$$"
 image: "https://i0.wp.com/drewfindlayphotography.com/wp-content/uploads/2023/07/Owen-House-Drew-Findlay-31-1.jpg?resize=1024%2C683&ssl=1"
 website: "https://drewfindlayphotography.com"
 services:

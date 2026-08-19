@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://bennicarolweddingphotography.com/wp-content/uploads/2025/01/italy-elopement-packages-benni-carol.png"
 website: "https://www.bennicarolphotography.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 178
-price: "$$"
 image: "https://www.ryanwhitephotography.co.uk/wp-content/uploads/2024/12/Edinburgh-Wedding-Photographer-Ryan-White-Photography-Archerfield-House-Waterfront-scaled.jpg"
 website: "http://www.ryanwhitephotography.co.uk"
 services:

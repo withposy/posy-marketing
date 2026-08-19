@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.9
-reviews: 167
-price: "$$$"
 image: "https://cristinagphoto.com/wp-content/uploads/2025/05/MO-153.webp"
 website: "https://www.cristinagphoto.com"
 services:

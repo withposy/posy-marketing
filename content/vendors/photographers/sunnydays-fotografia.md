@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.8
-reviews: 87
-price: "$$"
 image: "https://sunnydaysfotografia.com/wp-content/uploads/2024/04/Boda-en-La-Farinera-de-Sant-Lluis-00040.jpg"
 services:
   - "Wedding Photography"

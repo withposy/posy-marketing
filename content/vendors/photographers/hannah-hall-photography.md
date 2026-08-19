@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 162
-price: "$$"
 image: "https://hannahhallphotography.co.uk/wp-content/uploads/2025/09/lake-district-wedding-photographer-hause-hall-1.jpg"
 website: "https://www.hannahhallphotography.co.uk"
 services:

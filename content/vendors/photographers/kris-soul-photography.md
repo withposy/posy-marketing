@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 128
-price: "$$"
 image: "https://www.krissoulphotography.co.uk/images/page/wedding-photographer-Edinburgh3-2886.jpg"
 website: "http://www.krissoulphotography.co.uk"
 services:

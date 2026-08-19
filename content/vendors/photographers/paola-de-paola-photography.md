@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/5b4f388ca9e0280bd9dba89b/1531924758285-QJQKXY0H2T168WEMDQUJ/Paola+De+Paola+alternative+wedding+photographer+in+London"
 website: "https://paoladepaola.com"
 services:

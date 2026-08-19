@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 143
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/5fb6569808c78b1a0da3020c/c3fbd6c4-60d0-4460-9e1e-672c592e47ff/fotografo-boda-barcelona-wedding-photographer-catalunya-elegante-natural-espontanea-couple-spain-aesthetic-luxury-75.jpg.webp"
 website: "https://www.thevisualtales.com"
 services:

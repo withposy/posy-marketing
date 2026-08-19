@@ -5,9 +5,6 @@ vendor_type: "videographers"
 region: "USA"
 country: "New York"
 city: "New York"
-rating: 4.8
-reviews: 145
-price: "$$"
 image: "https://www.weddingfilmny.com/img/revolution/vimeobg.jpg"
 website: "https://www.weddingfilmny.com/"
 services: ["Wedding Videography", "Drone Videography", "Same-Day Edits", "360 VR Videography"]

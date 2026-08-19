@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Cape Town"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://www.emilboschphotography.com/wp-content/uploads/2024/03/cropped-cropped-BLACK-ORIGINAL.png"
 website: "https://www.emilboschphotography.com"
 services:

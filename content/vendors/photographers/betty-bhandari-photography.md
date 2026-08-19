@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Bath"
-rating: 4.9
-reviews: 178
-price: "$$"
 image: "https://bettybhandari.com/wp-content/uploads/betty-bhandari-wedding-photographer.jpg"
 website: "https://bettybhandari.com"
 services:

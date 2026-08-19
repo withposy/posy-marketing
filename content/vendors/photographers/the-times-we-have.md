@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "California"
 city: "Los Angeles"
-rating: 4.9
-reviews: 143
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/60210ccb6982202867d95c29/57db51a1-9c8e-474c-8c7c-b60ca9d0404f/Yessica+%26+Gerardo+Boda+Civil+Preview-94_websize.jpg"
 website: "https://thetimeswehave.com"
 services:

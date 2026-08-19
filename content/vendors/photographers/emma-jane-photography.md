@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://www.emma-janephotography.co.uk/wp-content/uploads/2024/04/Son-Marriog-wedding-photographer97.jpg"
 website: "http://www.emma-janephotography.co.uk"
 services:

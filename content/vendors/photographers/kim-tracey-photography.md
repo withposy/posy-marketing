@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Cape Town"
-rating: 4.9
-reviews: 178
-price: "$$"
 image: "https://www.kimtraceyphotography.com/wp-content/uploads/2022/07/cape-town-wedding-photographer-3-1.jpg"
 website: "https://www.kimtraceyphotography.com"
 services:

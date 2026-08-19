@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 4.9
-reviews: 121
-price: "$$$"
 image: "https://www.parkerspictures.com/wp-content/uploads/2025/10/89247_PSE_033_35-scaled.jpg"
 services:
   - "Wedding Photography"

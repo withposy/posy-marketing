@@ -5,9 +5,6 @@ vendor_type: "videographers"
 region: "Hungary"
 country: "Central Hungary"
 city: "Budapest"
-rating: 4.7
-reviews: 71
-price: "$"
 image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=500&fit=crop"
 services:
   - "Wedding Videography"

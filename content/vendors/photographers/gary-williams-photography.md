@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.8
-reviews: 142
-price: "$$"
 image: "https://cdn.zenfolio.com/img/s/v-12/u132852974-o588084398-111.jpg"
 website: "https://www.garywilliamsphotography.co.uk"
 services:

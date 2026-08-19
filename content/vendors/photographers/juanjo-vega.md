@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 158
-price: "$$"
 image: "https://juanjovega.com/wp-content/uploads/juanjovega-barcelona-wedding-photographer130.jpg"
 website: "https://juanjovega.com"
 services:

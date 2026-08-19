@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.9
-reviews: 156
-price: "$$$"
 image: "https://jasonkaczorowski.com/wp-content/uploads/2023/06/060323POWATHIL304.jpg"
 website: "https://www.jasonkaczorowski.com"
 services:

@@ -6523,20 +6523,6 @@ ul { list-style: none; }
   color: var(--color-accent);
 }
 
-.ed-vp-meta-sub {
-  font-family: var(--font-body);
-  font-weight: 400;
-  font-size: 0.85rem;
-  color: rgba(255, 252, 247, 0.6);
-  margin-left: 4px;
-}
-
-.ed-vp-price {
-  font-family: var(--font-body);
-  font-weight: 500;
-  letter-spacing: 0.06em;
-}
-
 .ed-vp-meta-link {
   font-family: var(--font-heading);
   font-weight: 500;
@@ -6658,59 +6644,6 @@ ul { list-style: none; }
   flex-shrink: 0;
 }
 
-/* ── Reviews ───────────────────────────────────── */
-
-.ed-vp-reviews-summary {
-  display: flex;
-  align-items: baseline;
-  gap: 0.75rem;
-  margin-top: 0.75rem;
-}
-
-.ed-vp-reviews-score {
-  font-family: var(--font-heading);
-  font-weight: 500;
-  font-size: 1.5rem;
-  color: var(--color-accent);
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.ed-vp-reviews-score svg { color: var(--color-accent); }
-
-.ed-vp-reviews-count {
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  color: var(--color-gray);
-}
-
-.ed-vp-reviews-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
-  max-width: 1200px;
-  margin: 3rem auto 0;
-}
-
-.ed-vp-reviews-grid .ed-quote {
-  text-align: left;
-  border-top: 1px solid var(--color-petal-soft);
-  padding-top: 1.5rem;
-  margin: 0;
-  max-width: none;
-}
-
-.ed-vp-reviews-grid .ed-quote-text {
-  font-size: 1.05rem;
-  line-height: 1.55;
-  margin-bottom: 1rem;
-}
-
-.ed-vp-reviews-grid .ed-quote-author {
-  font-size: 0.7rem;
-}
-
 /* ── Responsive ────────────────────────────────── */
 
 @media (max-width: 900px) {
@@ -6727,7 +6660,6 @@ ul { list-style: none; }
   .ed-vp-portfolio-item--3,
   .ed-vp-portfolio-item--4 { grid-column: span 2; aspect-ratio: 4 / 3; }
   .ed-vp-services { grid-template-columns: 1fr; gap: 0; }
-  .ed-vp-reviews-grid { grid-template-columns: 1fr; gap: 2rem; }
 }
 
 @media (max-width: 600px) {
@@ -7032,43 +6964,6 @@ ul { list-style: none; }
   color: var(--color-gray);
   margin: 0;
   letter-spacing: 0.02em;
-}
-
-.ed-vendor-card-meta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-top: 0.5rem;
-  padding-top: 0.85rem;
-  border-top: 1px solid var(--color-petal-soft);
-}
-
-.ed-vendor-card-rating {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--color-dark);
-}
-
-.ed-vendor-card-rating svg {
-  color: var(--color-accent);
-}
-
-.ed-vendor-card-reviews {
-  font-weight: 400;
-  color: var(--color-gray);
-}
-
-.ed-vendor-card-price {
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  color: var(--color-accent);
 }
 
 /* ── Empty state ───────────────────────────────── */

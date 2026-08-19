@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 187
-price: "$$"
 image: "https://www.douglasfry.com/images/Douglas-Fry-Wedding-Photographer-London.jpg"
 website: "https://www.douglasfry.com"
 services:

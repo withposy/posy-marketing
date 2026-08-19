@@ -5,9 +5,6 @@ vendor_type: "venues"
 region: "Europe"
 country: "Italy"
 city: "Rome"
-rating: 4.8
-reviews: 194
-price: "$$"
 image: "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=400&h=500&fit=crop"
 services:
   - "Wedding Ceremonies"

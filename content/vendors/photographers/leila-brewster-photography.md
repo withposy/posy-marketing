@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 4.9
-reviews: 176
-price: "$$$"
 image: "https://static.showit.co/file/Z_MMRZftRuCXVQMCzNZldQ/106328/bowery-hotel-wedding-leila-brewster-photography-037.jpg"
 website: "https://leilabrewsterphotography.com"
 services:

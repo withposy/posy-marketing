@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.8
-reviews: 87
-price: "$$"
 image: "https://andrewwoodphotography.co.uk/wp-content/uploads/HillBianca4210679-037-1-scaled-e1701275269775.webp"
 website: "http://www.andrewwoodphotography.co.uk"
 services:

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/5ed23093c635e5120d78bb81/6fcac4ac-1534-4b8d-aef1-abbeb913500e/Emily+and+Henry-146.jpg"
 website: "https://www.darronwatson.co.uk"
 services:

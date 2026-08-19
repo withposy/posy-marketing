@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/5422933de4b007401626e40b/1768823943054-6KAY60WCG9A1GI0A8212/hatfield+house+old+palace+wedding+hertfordshire+wedding+photographer+rafe+abrook+photography-1135.jpg"
 website: "https://www.rafeabrook.com"
 services:

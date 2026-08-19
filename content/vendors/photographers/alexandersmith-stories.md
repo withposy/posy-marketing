@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Johannesburg"
-rating: 4.9
-reviews: 198
-price: "$$$"
 image: "https://images.squarespace-cdn.com/content/v1/66753474f38ad757f3eb1e94/13441b54-919d-4916-8874-a7dcd632af15/alexandersmith79+long3+copy.jpg"
 website: "http://www.alexandersmithstories.com"
 services:

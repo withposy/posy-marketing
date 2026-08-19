@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 134
-price: "$$"
 image: "https://www.philipwhite.io/wp-content/uploads/2025/04/London-Wedding-Photographer-Philip-White.jpeg"
 website: "https://www.philipwhite.io"
 services:

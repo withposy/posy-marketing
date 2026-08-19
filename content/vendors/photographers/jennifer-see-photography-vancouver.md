@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.8
-reviews: 94
-price: "$$"
 image: "https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=400&h=500&fit=crop"
 website: "https://www.jennifersee.com"
 services:

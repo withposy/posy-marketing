@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.9
-reviews: 134
-price: "$$"
 image: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=400&h=500&fit=crop"
 website: "https://www.erikakristinphoto.com"
 services:

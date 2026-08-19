@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Cape Town"
-rating: 4.9
-reviews: 187
-price: "$$"
 image: "https://cobaphotography.co.za/wp-content/uploads/2020/07/Coba-Logo-L2020x2.png"
 website: "https://cobaphotography.co.za"
 services:

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 198
-price: "$$"
 image: "https://static.showit.co/file/ZLQjLx4ZQOicDmDFeSZUFA/73345/1luminous_weddings_toronto_wedding_photographers.jpg"
 website: "https://www.luminousweddings.ca"
 services:

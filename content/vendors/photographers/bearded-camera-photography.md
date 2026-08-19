@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.8
-reviews: 112
-price: "$$"
 image: "https://www.beardedcamera.com/wp-content/uploads/beardedcamera-wedding-photographer-001-26.jpg"
 website: "https://www.beardedcamera.com"
 services:

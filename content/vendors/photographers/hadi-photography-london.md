@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://static.showit.co/file/7oG5iuYBIDl0WCmExKwtmA/273347/cute-image-of-couple-posing-for-london-elopement-wedding-photographer-at-pergola-and-hill-garden-hampstead-2128-hadi_photography.jpg"
 website: "https://www.hadiphotographylondon.com"
 services:

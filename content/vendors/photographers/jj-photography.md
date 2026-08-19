@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Johannesburg"
-rating: 4.8
-reviews: 145
-price: "$$"
 image: "https://jj-photography.co.za/wp-content/uploads/2024/04/Untitled-design-2024-04-29T163420.429.png"
 website: "https://jj-photography.co.za"
 services:

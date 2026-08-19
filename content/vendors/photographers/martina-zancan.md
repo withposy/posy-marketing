@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 178
-price: "$$$"
 image: "https://photos.smugmug.com/Destination-wedding/Alba-and-Claire/Full/i-SXSmN2Z/1/NSPL26LNmBZxtZC8PkpBdMg9kbpmHwvdzXr2NFdk9/L/destinationweddingbarcelona-ac-393-L.jpg"
 website: "https://www.martinazancan.com"
 services:

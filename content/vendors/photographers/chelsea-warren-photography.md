@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://chelseawarrenphotography.com/wp-content/uploads/2023/06/Ryland-Anne-33-CW209034-scaled.jpg"
 website: "https://www.chelseawarrenphotography.com"
 services:

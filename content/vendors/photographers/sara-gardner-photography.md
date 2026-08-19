@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.8
-reviews: 123
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/57d70aedd1758e012d34c906/1741469657599-FK6255SH6N4TH68GDYB4/Columbus+Park+Refectory+Wedding+Chicago-159.jpg"
 website: "https://www.saragardnerphotography.com"
 services:

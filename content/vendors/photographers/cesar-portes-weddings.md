@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Caribbean"
 country: "Dominican Republic"
 city: "La Romana"
-rating: 4.9
-reviews: 187
-price: "$$$"
 image: "https://cesarportesweddings.com/wp-content/uploads/2026/01/HYA-W123-340-8712-scaled.jpg"
 services:
   - "Wedding Photography"

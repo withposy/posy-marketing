@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Cape Town"
-rating: 4.9
-reviews: 192
-price: "$$$"
 image: "https://www.lindavos.co.za/wp-content/uploads/2023/09/LOGO-DARK.png"
 website: "https://www.lindavos.co.za"
 services:

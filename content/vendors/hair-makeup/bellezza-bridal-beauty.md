@@ -5,9 +5,6 @@ vendor_type: "hair-makeup"
 region: "Italy"
 country: "Campania"
 city: "Naples"
-rating: 4.6
-reviews: 67
-price: "$$"
 image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=500&fit=crop"
 services:
   - "Bridal Makeup"

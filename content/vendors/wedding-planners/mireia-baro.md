@@ -5,9 +5,6 @@ vendor_type: "wedding-planners"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 145
-price: "$$$"
 image: "https://mireiabaro.com/wp-content/uploads/2023/04/01-1.png"
 website: "https://mireiabaro.com/wedding-planner-barcelona/"
 services: ["Full Wedding Planning", "Event Design", "Venue Selection", "Day-Of Coordination"]

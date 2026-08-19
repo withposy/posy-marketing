@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.8
-reviews: 123
-price: "$$"
 image: "https://www.uk-weddingphotography.com/assets_d/16485/page_media/smpl_baker-street_117.jpg"
 website: "http://www.uk-weddingphotography.com"
 services:

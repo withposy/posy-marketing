@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.8
-reviews: 113
-price: "$$"
 image: "https://static.showit.co/file/wGIER8trSx-XLcT_vOYtZw/218236/jaiden_and_landon-67.jpg"
 website: "https://www.katiagphotovideo.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "djs"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.8
-reviews: 89
-price: "$$"
 image: "https://www.djmissbeat.com/wp-content/uploads/2024/07/yo.webp"
 website: "https://www.djmissbeat.com/"
 services: ["Wedding DJ", "Event DJ", "Private Parties", "Outdoor Events"]

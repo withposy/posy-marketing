@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 134
-price: "$$"
 image: "https://www.micaelakarina.com/wp-content/uploads/2023/03/MicaelaKarina_CarolineTolga_Previews-52_websize.jpg"
 website: "https://www.micaelakarina.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.8
-reviews: 143
-price: "$$"
 image: "https://www.civicphotos.com/wp-content/uploads/2017/12/Chateau-Polonez-Wedding-07.jpg"
 website: "https://civicphotos.com"
 services:

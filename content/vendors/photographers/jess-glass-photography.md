@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 4.8
-reviews: 96
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/6980cc947a416c68faa008d8/b6394394-2143-43aa-b253-d108ee877b03/asbury-park-wedding-photogrpaher-5.jpg"
 website: "https://www.jessglass.com"
 services:

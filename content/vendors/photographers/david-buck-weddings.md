@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.8
-reviews: 112
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/671316606674f7444da999e7/b52a45a0-f286-4c0c-845e-785c09454849/Centered+Cover+Photo.jpg"
 website: "http://www.davidbuckweddings.com"
 services: ["Wedding Photography", "Wedding Videography", "Drone Photography", "Custom Albums"]

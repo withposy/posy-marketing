@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.8
-reviews: 98
-price: "$$"
 image: "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=400&h=500&fit=crop"
 website: "https://www.ksphotography.ca"
 services:

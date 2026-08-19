@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 143
-price: "$$"
 image: "https://static.showit.co/file/aPF5yaJ1xGbzMZyo7fN9IQ/118910/effortless-timeless-wedding-photography-74.jpg"
 website: "https://www.lauramayphotography.co.uk"
 services:

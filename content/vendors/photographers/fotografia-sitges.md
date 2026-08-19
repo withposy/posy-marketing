@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.8
-reviews: 91
-price: "$$"
 image: "https://www.fotografiasitges.com/wp-content/uploads/2018/05/wedding-casa-felix-barcelona.jpg"
 services:
   - "Wedding Photography"

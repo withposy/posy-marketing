@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://www.lyndseygoddard.com/wp-content/uploads/2021/03/london-documentary-wedding-photographer.jpg"
 website: "https://www.lyndseygoddard.com"
 services:

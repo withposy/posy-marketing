@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://static.showit.co/file/Dv5a8QreSD-eIeoNyBuNXQ/126018/sanaa_sutio_toronto_wedding_phootographer.jpg"
 website: "https://sanaastudio.ca"
 services:

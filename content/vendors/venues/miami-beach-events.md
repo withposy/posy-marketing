@@ -5,9 +5,6 @@ vendor_type: "venues"
 region: "USA"
 country: "Florida"
 city: "Miami"
-rating: 4.9
-reviews: 234
-price: "$$$"
 image: "https://images.unsplash.com/photo-1522413452208-996ff3f3e740?w=400&h=500&fit=crop"
 services:
   - "Wedding Ceremonies"

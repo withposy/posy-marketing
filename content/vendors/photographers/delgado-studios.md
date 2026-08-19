@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 4.9
-reviews: 187
-price: "$$$"
 image: "https://images.squarespace-cdn.com/content/v1/5daf5bfbfe7a1c6c9e9578e8/1773330874573-8QVXGJHC9FQS112RFA1T/AC+wedding+photographer+%281+of+1%29.jpg"
 website: "https://delgadostudios.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 187
-price: "$$"
 image: "https://www.ten2tenphotography.com/wp-content/uploads/2021/07/fieldsonwestlakeweddingphotos-641_websize.jpg"
 website: "https://www.ten2tenphotography.com"
 services:

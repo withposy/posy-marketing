@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.8
-reviews: 113
-price: "$$"
 image: "https://img1.wsimg.com/isteam/ip/dba58479-ad57-47f1-8ce2-b86a811a4a51/fb_460025949458625_1349x1350.jpg"
 website: "https://olpa-photography.co.uk"
 services:

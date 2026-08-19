@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://static.showit.co/1200/pBYpca5cTQeAq0tdd8bCpQ/70632/kelli_brucesdss-41.jpg"
 website: "https://www.hannahcharis.com"
 services:

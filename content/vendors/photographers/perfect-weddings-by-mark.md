@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://perfectweddingsbymark.uk/wp-content/uploads/2026/03/Grosvenor-Poulford-Hotel-Spa-Weddiong-Photographers-16-768x523.jpg"
 website: "https://perfectweddingsbymark.uk"
 services:

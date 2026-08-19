@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://www.whitewallweddings.com/wp-content/uploads/2024/08/Vancouver-wedding-photographer267-scaled.jpg"
 website: "https://www.whitewallweddings.com/"
 services: ["Wedding Photography", "Engagement Sessions", "Elopement Photography", "Event Photography"]

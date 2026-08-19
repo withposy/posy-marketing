@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.8
-reviews: 113
-price: "$$"
 image: "https://photos.smugmug.com/Weddings/i-cqLf3hq/1/LPx844zCPL6pWJ2jpbtf5nkcZdHSQXx2Jzm7dzHRz/X2/v%20and%20a%20-X2.jpg"
 website: "https://www.onwinphotography.co.uk"
 services:

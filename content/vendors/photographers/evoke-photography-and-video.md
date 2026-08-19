@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/62d1b9e004a199088f1ea812/1722402897155-9V3NK1KT214C94JSU3LI/Iron+Manor+-+082927133.jpg"
 website: "https://www.evokephotoandvideo.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "videographers"
 region: "Australia"
 country: "Victoria"
 city: "Melbourne"
-rating: 4.8
-reviews: 189
-price: "$$$"
 image: "https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?w=400&h=500&fit=crop"
 services:
   - "Wedding Videography"

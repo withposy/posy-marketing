@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 128
-price: "$$$"
 image: "https://static.showit.co/400/HkurNdA_rVGcrj5A1EuqrA/285980/sara_y_dani-779_websize.jpg"
 website: "https://frangribodo.com"
 services:

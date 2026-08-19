@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 198
-price: "$$"
 image: "https://jayrowden.com/wp-content/uploads/2026/03/fine-art-legacy-storytelling-film-commissions-london-.webp"
 website: "https://www.jayrowden.com"
 services:

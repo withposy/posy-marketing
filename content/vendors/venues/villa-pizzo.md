@@ -5,9 +5,6 @@ vendor_type: "venues"
 region: "Italy"
 country: "Lombardy"
 city: "Lake Como"
-rating: 5.0
-reviews: 198
-price: "$$$"
 image: "https://static.wixstatic.com/media/1a2e8c_267b400a7cb6463d87598ece21bb3fd2~mv2.jpg/v1/fill/w_1495,h_1067,al_c/1a2e8c_267b400a7cb6463d87598ece21bb3fd2~mv2.jpg"
 website: "http://www.villapizzo.com/"
 services: ["Wedding Venue", "Exclusive Hire", "Lakeside Ceremonies", "Private Events"]

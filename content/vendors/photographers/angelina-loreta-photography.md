@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://static.showit.co/file/uwwwx6fDct1Wv_UXubFICw/157781/29208_13.jpg"
 website: "https://angelinaloreta.com"
 services:

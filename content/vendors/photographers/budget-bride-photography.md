@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Johannesburg"
-rating: 4.7
-reviews: 132
-price: "$"
 image: "https://budgetbride.co.za/wp-content/uploads/2022/09/budget-bride-logo-1.png"
 website: "https://budgetbride.co.za"
 services:

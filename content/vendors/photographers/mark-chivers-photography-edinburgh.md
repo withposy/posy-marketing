@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 198
-price: "$$"
 image: "https://markchivers.co.uk/wp-content/uploads/Wedding_Photographer_London_HomePage-scaled.webp"
 website: "https://markchivers.co.uk"
 services:

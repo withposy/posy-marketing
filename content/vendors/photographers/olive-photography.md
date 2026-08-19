@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://olivephotography.ca/wp-content/uploads/2016/02/Engagement-Session-Tips-2.jpg"
 website: "https://www.olivephotography.ca"
 services:

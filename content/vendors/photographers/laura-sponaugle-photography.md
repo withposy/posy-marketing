@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.9
-reviews: 134
-price: "$$"
 image: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=400&h=500&fit=crop"
 website: "http://laurasponaugle.com"
 services:

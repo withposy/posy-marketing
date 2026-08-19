@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "California"
 city: "Los Angeles"
-rating: 5.0
-reviews: 312
-price: "$$$"
 image: "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=400&h=500&fit=crop"
 website: "https://www.linandjirsa.com"
 services:

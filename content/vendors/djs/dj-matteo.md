@@ -5,9 +5,6 @@ vendor_type: "djs"
 region: "Italy"
 country: "Lombardy"
 city: "Milan"
-rating: 4.7
-reviews: 94
-price: "$$"
 image: "https://images.unsplash.com/photo-1571266028243-3716f02d2d1e?w=400&h=500&fit=crop"
 services:
   - "Wedding Reception DJ"

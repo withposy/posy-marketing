@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.9
-reviews: 167
-price: "$$$"
 image: "https://www.robertsojka.com/chicago-wedding-photography-images/chicago-wedding-photographer.jpg"
 website: "https://www.robertsojka.com"
 services:
