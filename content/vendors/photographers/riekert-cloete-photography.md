@@ -6,7 +6,7 @@ region: "Africa"
 country: "South Africa"
 city: "Cape Town"
 image: "https://www.riekertcloete.co.za/wp-content/uploads/2023/01/20.jpg"
-website: "https://www.riekertcloete.co.za"
+website: "https://www.riekertcloete.co.za/wedding-photographer-cape-town/"
 services:
   - "Wedding Photography"
   - "Engagement Sessions"
