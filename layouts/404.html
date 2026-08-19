@@ -1,0 +1,37 @@
+{{ define "main" }}
+<section class="nf">
+
+  <!-- Decorative background, purely ornamental -->
+  <div class="nf-decor" aria-hidden="true">
+    <span class="nf-blob nf-blob--blush"></span>
+    <span class="nf-blob nf-blob--honey"></span>
+    <span class="nf-blob nf-blob--garden"></span>
+
+    <span class="nf-dot nf-dot--1"></span>
+    <span class="nf-dot nf-dot--2"></span>
+    <span class="nf-dot nf-dot--3"></span>
+    <span class="nf-dot nf-dot--4"></span>
+    <span class="nf-dot nf-dot--5"></span>
+  </div>
+
+  <div class="container nf-inner">
+
+    <p class="nf-error">Error</p>
+
+    <p class="nf-code">404</p>
+
+    <h1 class="nf-title">This page is not on the guest list</h1>
+
+    <p class="nf-text">
+      The link may be out of date, or the page has moved somewhere new.
+      Head back to the homepage, or have a look at our free wedding tools.
+    </p>
+
+    <div class="nf-actions">
+      <a class="btn btn-accent" href="{{ "" | relLangURL }}">Back to home</a>
+      <a class="btn nf-btn-ghost" href="{{ "resources/" | relLangURL }}">Browse free tools</a>
+    </div>
+
+  </div>
+</section>
+{{ end }}

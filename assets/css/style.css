@@ -4177,8 +4177,8 @@ ul { list-style: none; }
 }
 
 .vp-review-avatar {
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   background: var(--color-blush);
   color: var(--color-accent);
@@ -8866,4 +8866,125 @@ body.seat-fs-on .seat-fs-bar {
   .seat-summary-table th, .seat-summary-table td { border-bottom-color: #ccc; }
   .ed-section { background: #fff !important; padding: 0 !important; }
   body { background: #fff; }
+}
+
+/* ── 404 Not Found ─────────────────────────────────── */
+
+.nf {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  min-height: 68vh;
+  /* .site-header is fixed with no offset on main, so this section starts at
+     y=0 and runs under it. The first ~80px of top padding is hidden. */
+  padding: 210px 0 120px;
+  background:
+    radial-gradient(120% 90% at 50% 0%, var(--color-blush) 0%, var(--color-cream) 62%);
+}
+
+.nf-inner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 880px;
+}
+
+.nf-error {
+  font-size: clamp(1rem, 1.7vw, 1.35rem);
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  line-height: 1.1;
+  color: var(--color-accent);
+  /* Tracking adds trailing space on the last letter, nudge back to true centre */
+  text-indent: 0.3em;
+  margin-bottom: 0;
+}
+
+.nf-code {
+  font-family: var(--font-heading);
+  font-size: clamp(6.5rem, 20vw, 12.5rem);
+  font-weight: 600;
+  line-height: 1;
+  /* Playfair carries tall ascent space above the digits, pull the label close */
+  margin-top: -0.24em;
+  letter-spacing: 0.01em;
+  color: var(--color-dark);
+}
+
+.nf-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.85rem, 4.6vw, 3rem);
+  font-weight: 500;
+  line-height: 1.15;
+  color: var(--color-dark);
+  margin: 14px 0 0;
+}
+
+.nf-text {
+  max-width: 520px;
+  margin: 16px auto 0;
+  color: var(--color-gray);
+  font-size: 1.05rem;
+}
+
+.nf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 34px;
+}
+
+.nf-btn-ghost {
+  background: transparent;
+  color: var(--color-dark);
+  border-color: var(--color-petal-soft);
+}
+
+.nf-btn-ghost:hover {
+  background: var(--color-pure-white);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+/* Ornament */
+
+.nf-decor {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.nf-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.5;
+}
+
+.nf-blob--blush  { width: 380px; height: 380px; top: -120px; left: -110px; background: var(--color-petal-soft); }
+.nf-blob--honey  { width: 300px; height: 300px; bottom: -90px; right: -80px; background: var(--color-honey-soft); opacity: 0.85; }
+.nf-blob--garden { width: 240px; height: 240px; top: 45%; right: 8%; background: var(--color-garden-light); opacity: 0.22; }
+
+.nf-dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  opacity: 0.28;
+}
+
+.nf-dot--1 { top: 26%; left: 20%; }
+.nf-dot--2 { top: 72%; left: 28%; width: 5px; height: 5px; background: var(--color-garden); opacity: 0.3; }
+.nf-dot--3 { top: 20%; right: 24%; width: 6px; height: 6px; background: var(--color-honey); opacity: 0.55; }
+.nf-dot--4 { bottom: 26%; left: 9%; width: 6px; height: 6px; }
+.nf-dot--5 { bottom: 16%; right: 32%; width: 5px; height: 5px; background: var(--color-garden-light); opacity: 0.5; }
+
+@media (max-width: 560px) {
+  .nf { padding: 150px 0 76px; min-height: 0; }
+  .nf-actions .btn { width: 100%; }
+  .nf-blob--garden, .nf-dot--1, .nf-dot--5 { display: none; }
 }
