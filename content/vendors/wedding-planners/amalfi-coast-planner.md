@@ -5,9 +5,6 @@ vendor_type: "wedding-planners"
 region: "Italy"
 country: "Campania"
 city: "Amalfi Coast"
-rating: 4.9
-reviews: 198
-price: "$$$"
 image: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=400&h=500&fit=crop"
 services:
   - "Full Wedding Planning"

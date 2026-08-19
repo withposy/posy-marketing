@@ -5,9 +5,6 @@ vendor_type: "venues"
 region: "Hungary"
 country: "Eastern Hungary"
 city: "Debrecen"
-rating: 4.6
-reviews: 87
-price: "$"
 image: "https://images.unsplash.com/photo-1522413452208-996ff3f3e740?w=400&h=500&fit=crop"
 services:
   - "Wedding Ceremonies"

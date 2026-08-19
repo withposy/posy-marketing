@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 198
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/61225f51a7762c380898547b/4145805c-7c27-40b2-940f-d08af5310071/mick-cookson-best-of-2022-001.jpg"
 website: "https://www.mickcookson.com"
 services:

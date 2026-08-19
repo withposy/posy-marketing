@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.8
-reviews: 96
-price: "$$$"
 image: "https://www.stewalkerphotography.com/wp-content/uploads/2020/02/Liverpool-Wedding-Shankly-Melanie-Liam-250.jpg"
 website: "https://www.stewalkerphotography.com"
 services:

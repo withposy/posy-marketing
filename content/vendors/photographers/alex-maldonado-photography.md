@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.9
-reviews: 142
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/62f7d62618e9425d1f1ca2ba/c82494a8-192c-4cde-ac03-9f96f3c72a57/Alex+Maldonado+Photography+%7C+Chicago+Wedding+Photographer+%7C+Roberto+and+Rafael+Wedding+portraits+at+garfield+park+conservatory+fern+room+indoor+wedding+locations.jpeg"
 website: "https://alexmaldonadophotography.com"
 services:

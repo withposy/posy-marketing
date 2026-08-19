@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.8
-reviews: 108
-price: "$$"
 image: "https://pixelstudioweddings.com/wp-content/uploads/2025/04/pixelstudioproductions-03399_websize-683x1024.jpg"
 website: "https://pixelstudioweddings.com"
 services:

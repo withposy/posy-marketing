@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://loveweddingphotosandfilm.co.uk/wp-content/uploads/Fettes-College-Edinburgh-wedding-bride-Zoe.webp"
 website: "https://loveweddingphotosandfilm.co.uk"
 services:

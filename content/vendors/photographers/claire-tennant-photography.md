@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://www.clairetennant.com/wp-content/uploads/2023/01/City-chambers-wedding-photgraphy_0002.jpg"
 website: "https://www.clairetennant.com"
 services:

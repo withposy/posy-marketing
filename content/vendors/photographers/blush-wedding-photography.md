@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/5c4aeb22cef3724eb41dd375/30e03162-87c6-47ba-872b-2e8f917a59e6/BL1_5397_websize+%281%29.jpg"
 website: "https://blushweddingphotography.org"
 services:

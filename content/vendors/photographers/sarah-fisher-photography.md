@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.8
-reviews: 145
-price: "$$"
 image: "https://sarahfisherphotography.co.uk/wp-content/uploads/2023/07/232618-90-2-819x1024.jpg"
 website: "https://www.sarahfisherphotography.co.uk"
 services:

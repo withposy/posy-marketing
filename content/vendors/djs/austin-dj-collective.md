@@ -5,9 +5,6 @@ vendor_type: "djs"
 region: "USA"
 country: "Texas"
 city: "Austin"
-rating: 4.7
-reviews: 89
-price: "$$"
 image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=500&fit=crop"
 services:
   - "Wedding Reception DJ"

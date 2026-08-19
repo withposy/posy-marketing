@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://oliverviladoms.com/wp-content/uploads/2023/05/fotografo-bodas-barcelona-1001.jpg"
 website: "https://oliverviladoms.com"
 services:

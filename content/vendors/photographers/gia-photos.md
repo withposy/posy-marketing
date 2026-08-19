@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.9
-reviews: 143
-price: "$$"
 image: "https://www.giaphotos.com/wp-content/uploads/chicago-wedding-photographer-gia-photos_11.jpg"
 website: "https://www.giaphotos.com"
 services:

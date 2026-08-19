@@ -5,9 +5,6 @@ vendor_type: "djs"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 134
-price: "$$"
 image: "https://www.mariachibarcelona.es/wp-content/uploads/2024/01/amriachis-barcelona-cataluna.webp"
 website: "http://www.mariachibarcelona.es/"
 services: ["Live Music", "Wedding Entertainment", "Private Events", "Corporate Events"]

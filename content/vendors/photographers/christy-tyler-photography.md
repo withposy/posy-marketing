@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://static.showit.co/800/wegP0tTnK6f9dTJuuVT29A/41323/823143_0006.jpg"
 website: "https://www.christytylerphotography.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://static.showit.co/800/23nRaKBW9NeKPghZzSw14w/shared/modern-scottish-wedding-photography-free-company-edinburgh.jpg"
 website: "https://clairefleckphotography.com"
 services:

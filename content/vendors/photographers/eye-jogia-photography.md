@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 203
-price: "$$$"
 image: "https://images.squarespace-cdn.com/content/v1/588ce379f5e231b9aa4990c2/1486242580963-FMMG5K4KLM69FUZLN7E8/Wedding+Day+161.jpg"
 website: "http://www.eyejogia.com"
 services:

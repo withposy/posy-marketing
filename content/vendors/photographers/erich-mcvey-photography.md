@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 5.0
-reviews: 213
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/63483b121d8d564473bed2fb/0b8224a1-093f-4df3-a427-9437b79dcf58/Destination+Wedding+Photographer+Erich+McVey-1.jpg"
 website: "https://www.erichmcvey.com"
 services:

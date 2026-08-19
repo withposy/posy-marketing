@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://jessicagracephotography.co.uk/wp-content/uploads/2026/02/Sophie-Karly-Wedding-324-1-scaled.jpg"
 website: "https://www.jessicagracephotography.co.uk"
 services:

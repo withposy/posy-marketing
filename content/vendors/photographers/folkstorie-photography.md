@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.8
-reviews: 112
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/6643425a213a8d4ba3bb2904/8e3c4ac8-dbc4-4856-af99-fd43c7e3f79a/DSC09582.jpg"
 website: "https://www.folkstoriephotography.com"
 services:

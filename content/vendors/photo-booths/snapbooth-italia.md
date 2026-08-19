@@ -5,9 +5,6 @@ vendor_type: "photo-booths"
 region: "Italy"
 country: "Campania"
 city: "Naples"
-rating: 4.8
-reviews: 145
-price: "$"
 image: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=400&h=500&fit=crop"
 services:
   - "Photo Booth Rental"

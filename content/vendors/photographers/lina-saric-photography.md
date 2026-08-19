@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.8
-reviews: 112
-price: "$$"
 image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=400&h=500&fit=crop"
 website: "https://www.linasaricphotography.co.uk"
 services:

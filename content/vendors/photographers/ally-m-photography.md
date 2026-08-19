@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://allym.photography/wp-content/uploads/2024/08/Manchester-Wedding-Photographer-1.jpg"
 website: "https://allym.photography"
 services:

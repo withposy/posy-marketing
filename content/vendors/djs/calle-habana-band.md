@@ -5,9 +5,6 @@ vendor_type: "djs"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://callehabana.es/wp-content/uploads/2019/10/WebBack.jpg"
 website: "https://callehabana.es/"
 services: ["Live Band", "Wedding Entertainment", "Corporate Events", "Private Parties"]

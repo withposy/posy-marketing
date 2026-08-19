@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Cape Town"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://www.riekertcloete.co.za/wp-content/uploads/2023/01/20.jpg"
 website: "https://www.riekertcloete.co.za"
 services:

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.8
-reviews: 134
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/5b4a34d7297114eff486aad1/c264a710-254f-4c3a-9b04-c0f7a55a3bb3/Aberfeldy+wedding+photos"
 website: "https://www.scottarthurphoto.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://www.carnpatrick.com/wp-content/uploads/2020/06/Charlton-Hall-Wedding-Photographer-Carn-Patrick-Photography-4.jpg"
 website: "https://www.carnpatrick.com"
 services:

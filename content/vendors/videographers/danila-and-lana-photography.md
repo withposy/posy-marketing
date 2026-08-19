@@ -5,9 +5,6 @@ vendor_type: "videographers"
 region: "USA"
 country: "New York"
 city: "New York"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://static-cdn5-2.vigbo.tech/u7753/151507/blog/7859538/7795372/section/a7ebda6758f4e664549e24cc3f2bb7dd.jpg"
 website: "http://danilamednikov.com/"
 services: ["Wedding Videography", "Wedding Photography", "Destination Weddings", "Engagement Sessions"]

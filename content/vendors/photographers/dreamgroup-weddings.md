@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.9
-reviews: 178
-price: "$$"
 image: "https://dreamgroup.ca/wp-content/uploads/bfi_thumb/meghanhemstra-2025-scarabelli-wedding-890-repxhf110caa58nbg2oi3pkyvheeikbex6d82pggi0.jpg"
 website: "https://www.dreamgroup.ca"
 services:

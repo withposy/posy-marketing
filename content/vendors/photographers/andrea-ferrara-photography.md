@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 112
-price: "$$"
 image: "https://fotografobodabarcelona.es/wp-content/uploads/2024/04/F5_0577-800x533.jpg"
 website: "https://fotografobodabarcelona.es"
 services:

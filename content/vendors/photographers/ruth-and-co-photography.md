@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Cape Town"
-rating: 4.9
-reviews: 168
-price: "$$"
 image: "https://ruthandco.co.za/wp-content/uploads/2024/09/www.ruthandco.co_.za-38.jpg"
 website: "https://ruthandco.co.za"
 services:

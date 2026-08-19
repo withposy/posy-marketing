@@ -5,9 +5,6 @@ vendor_type: "florists"
 region: "Europe"
 country: "Austria"
 city: "Vienna"
-rating: 4.9
-reviews: 98
-price: "$$"
 image: "https://images.unsplash.com/photo-1508610048659-a06b669e3321?w=400&h=500&fit=crop"
 services:
   - "Bridal Bouquets"

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Johannesburg"
-rating: 4.9
-reviews: 178
-price: "$$"
 image: "https://moncheriphotography.co.za/wp-content/uploads/2021/02/DSC_1725.jpg"
 website: "https://moncheriphotography.co.za"
 services:

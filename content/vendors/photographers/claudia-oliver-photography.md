@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 4.9
-reviews: 156
-price: "$$$"
 image: "https://cdn.goodgallery.com/47a84de8-3109-4aaa-8e4b-00c308a6a191/r/1024/32mq2ch6/nyc-editorial-wedding-photography.jpg"
 website: "https://www.claudiaoliver.com"
 services:

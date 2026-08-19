@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.8
-reviews: 143
-price: "$$"
 image: "https://photos.smugmug.com/Galleries/Wedding/i-RfDVWLm/0/MfxBBSnR6LmbFMLn9sxfhDPxwgNzW773fZ3F5Z3BH/X3/SarahDavidMcCarthy-962-X3.jpg"
 website: "http://www.camerashy.photography"
 services:

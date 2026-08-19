@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 187
-price: "$$$"
 image: "https://craigwilliams.net/wp-content/uploads/2023/01/London-Wedding-Photographer294-scaled.jpg"
 website: "http://www.craigwilliams.net"
 services:

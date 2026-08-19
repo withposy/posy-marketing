@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Cape Town"
-rating: 4.9
-reviews: 176
-price: "$$$"
 image: "https://flyingswanmedia.com/wp-content/uploads/2025/12/Nia-Stefan-93-scaled.jpg"
 website: "https://flyingswanmedia.com"
 services:

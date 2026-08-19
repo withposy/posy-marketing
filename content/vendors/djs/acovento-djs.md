@@ -5,9 +5,6 @@ vendor_type: "djs"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 134
-price: "$$"
 image: "https://acovento.es/wp-content/uploads/Jesus-Zarko-DJ-en-Barcelona.webp"
 website: "https://acovento.es/"
 services: ["Wedding DJ", "Event DJ", "Private Parties", "Corporate Events"]

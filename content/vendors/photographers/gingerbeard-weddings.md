@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 108
-price: "$$$"
 image: "https://gingerbeardweddings.com/wp-content/uploads/2025/06/Barcelona-Wedding-Photographer55.jpg"
 website: "https://gingerbeardweddings.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/535a7acfe4b0250fbbc2dca4/1602792729644-QJ5JKZUK2ARULRDFWYQL/top-toronto-wedding-photographer.jpg"
 website: "https://www.corynnfowlerphotography.com"
 services:

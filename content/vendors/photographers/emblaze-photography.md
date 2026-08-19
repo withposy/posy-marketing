@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://e3qt6k7qk5m.exactdn.com/wp-content/uploads/2024/03/emblazephotography-bellamyloft-vintagebash-decor-601.jpg?strip=all&lossy=1&ssl=1"
 website: "https://www.emblazephotography.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "wedding-planners"
 region: "Italy"
 country: "Lombardy"
 city: "Milan"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&h=500&fit=crop"
 services:
   - "Full Wedding Planning"

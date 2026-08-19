@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://gnphoto.co.uk/wp-content/gallery/home-2025/Thornton-Manor-Wedding-Photography-355.jpg"
 website: "https://www.gnphoto.co.uk"
 services:

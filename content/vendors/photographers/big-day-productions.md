@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.8
-reviews: 231
-price: "$"
 image: "https://bigdayproductions.co.uk/wp-content/uploads/BigDayProductions375-3-scaled-uai-1978x1978.jpg"
 website: "https://www.bigdayproductions.co.uk"
 services:

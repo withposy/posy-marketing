@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://lukehayden.co.uk/wp-content/uploads/2023/01/best-uk-wedding-photographer-0074.jpg"
 website: "https://www.lukehayden.co.uk"
 services:

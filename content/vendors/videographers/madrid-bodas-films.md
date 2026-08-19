@@ -5,9 +5,6 @@ vendor_type: "videographers"
 region: "Europe"
 country: "Spain"
 city: "Madrid"
-rating: 4.7
-reviews: 83
-price: "$$"
 image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=500&fit=crop"
 services:
   - "Wedding Videography"

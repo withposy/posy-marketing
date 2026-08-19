@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.8
-reviews: 89
-price: "$$"
 image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=400&h=500&fit=crop"
 website: "https://www.alainabos.com"
 services:

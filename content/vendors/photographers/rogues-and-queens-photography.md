@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 148
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/59f26db3a803bb45e568e0b0/1726006379102-54NY7TGYBBLXJ90TBA8C/Jordana%26Chris-23.jpg"
 website: "https://www.roguesandqueens.com"
 services:

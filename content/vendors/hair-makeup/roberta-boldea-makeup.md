@@ -5,9 +5,6 @@ vendor_type: "hair-makeup"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 112
-price: "$$"
 image: "https://i0.wp.com/robertaboldeamakeup.wordpress.com/wp-content/uploads/2025/07/1_66.jpg?resize=4667%2C6997&ssl=1"
 website: "http://www.makeupartistbarcelona.com/"
 services:

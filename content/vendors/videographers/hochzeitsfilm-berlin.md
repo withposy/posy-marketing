@@ -5,9 +5,6 @@ vendor_type: "videographers"
 region: "Europe"
 country: "Germany"
 city: "Berlin"
-rating: 4.7
-reviews: 76
-price: "$$"
 image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=400&h=500&fit=crop"
 services:
   - "Wedding Videography"

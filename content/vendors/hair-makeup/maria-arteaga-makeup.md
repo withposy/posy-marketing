@@ -5,9 +5,6 @@ vendor_type: "hair-makeup"
 region: "Europe"
 country: "Spain"
 city: "Madrid"
-rating: 4.9
-reviews: 108
-price: "$$"
 image: "https://mariaarteaga.es/wp-content/uploads/2023/09/maria-arteaga-formacion-online-profesional-maquillaje-45-scaled.jpg"
 website: "https://mariaarteaga.es/"
 services:

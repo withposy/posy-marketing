@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 167
-price: "$$$"
 image: "https://raulgori.com/wp-content/uploads/2026/01/Matrimonio-in-Costiera-Amalfitana.jpg"
 website: "https://www.raulgori.com"
 services:

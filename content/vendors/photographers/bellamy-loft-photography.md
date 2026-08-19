@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.8
-reviews: 98
-price: "$$"
 image: "https://esdevr8wrea.exactdn.com/wp-content/uploads/2020/11/EmblazePhotographyBellamyLoft-60.jpg?strip=all"
 website: "https://www.bellamyloft.com"
 services:

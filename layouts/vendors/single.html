@@ -43,21 +43,6 @@
 <section class="ed-vp-meta">
   <div class="ed-container">
     <ul class="ed-vp-meta-list">
-      {{ if .Params.rating }}
-      <li>
-        <span class="ed-vp-meta-label">Rating</span>
-        <span class="ed-vp-meta-value">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          {{ .Params.rating }}<span class="ed-vp-meta-sub"> ({{ .Params.reviews }} reviews)</span>
-        </span>
-      </li>
-      {{ end }}
-      {{ with .Params.price }}
-      <li>
-        <span class="ed-vp-meta-label">Price range</span>
-        <span class="ed-vp-meta-value ed-vp-price">{{ . }}</span>
-      </li>
-      {{ end }}
       {{ with .Params.city }}
       <li>
         <span class="ed-vp-meta-label">Based in</span>
@@ -138,39 +123,6 @@
   </div>
 </section>
 {{ end }}
-
-<!-- ══════════════ REVIEWS — EDITORIAL PULL QUOTES ══════════════ -->
-<section class="ed-section ed-bg-cream ed-section--tight">
-  <div class="ed-container">
-    <header class="ed-section-head reveal">
-      <span class="ed-eyebrow">In their words</span>
-      <div class="ed-vp-reviews-summary">
-        {{ if .Params.rating }}
-        <span class="ed-vp-reviews-score">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          {{ .Params.rating }}
-        </span>
-        <span class="ed-vp-reviews-count">Based on {{ .Params.reviews }} reviews</span>
-        {{ end }}
-      </div>
-    </header>
-
-    <div class="ed-vp-reviews-grid">
-      <figure class="ed-quote reveal">
-        <blockquote class="ed-quote-text">&ldquo;Captured every quiet moment we&rsquo;d have missed otherwise. The photos arrived faster than we&rsquo;d hoped, and felt exactly like the day did.&rdquo;</blockquote>
-        <figcaption class="ed-quote-author">&mdash; Sarah M. &middot; via Google</figcaption>
-      </figure>
-      <figure class="ed-quote reveal">
-        <blockquote class="ed-quote-text">&ldquo;Calm, considered, and so easy to work with on the day. The first look between us was the photo we ended up framing.&rdquo;</blockquote>
-        <figcaption class="ed-quote-author">&mdash; James &amp; Emily R. &middot; via Google</figcaption>
-      </figure>
-      <figure class="ed-quote reveal">
-        <blockquote class="ed-quote-text">&ldquo;An eye for the details we&rsquo;d never have noticed. The dance floor sequence is the one our families keep going back to.&rdquo;</blockquote>
-        <figcaption class="ed-quote-author">&mdash; Laura K. &middot; via Google</figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
 
 <!-- ══════════════ FINAL CTA — PRIORITY BANNER ══════════════ -->
 <section class="section cta-section">

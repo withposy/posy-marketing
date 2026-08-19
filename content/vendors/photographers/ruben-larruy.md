@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 104
-price: "$$$"
 image: "https://images.squarespace-cdn.com/content/v1/65c8ca54102250268ea75a83/1755683024284-FMM5B5226CHMTPOQKXKX/image-asset.jpeg"
 services:
   - "Wedding Photography"

@@ -5,9 +5,6 @@ vendor_type: "venues"
 region: "Italy"
 country: "Lombardy"
 city: "Lake Como"
-rating: 4.9
-reviews: 187
-price: "$$$"
 image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&h=500&fit=crop"
 website: "http://www.villareginateodolinda.com/"
 services: ["Wedding Venue", "Private Events", "Exclusive Hire", "Lakeside Ceremonies"]

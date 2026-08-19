@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.9
-reviews: 134
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/5488b984e4b0cfbc1685ff07/1767755454386-O04QHPC4AP5C8A3RRU4I/Tanya%2Band%2BPerry%2BWedding%2BPhotos-431.jpg"
 website: "https://www.hayleyrae.com"
 services:

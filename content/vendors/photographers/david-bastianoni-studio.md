@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 167
-price: "$$"
 image: "https://cdn.prod.website-files.com/69398044afca866c717fc6fb/69398044afca866c717fc9a9_D%26T0001.JPG"
 website: "https://www.davidbastianoni.com"
 services:

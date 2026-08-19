@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 187
-price: "$$"
 image: "https://johnandjoseph.com/wp-content/uploads/johnandjoseph-photography-101.webp"
 website: "https://www.johnandjoseph.com"
 services:

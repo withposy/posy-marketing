@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 198
-price: "$$$"
 image: "https://www.lushweddingstudio.com/wp-content/uploads/2023/09/8S3A4168.jpg"
 website: "https://www.lushweddingstudio.com"
 services:

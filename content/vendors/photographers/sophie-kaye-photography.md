@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 5.0
-reviews: 189
-price: "$$$"
 image: "https://static.showit.co/file/xmwZvj2eRfiKc8u33fNILA/71409/sophiekayephotography_84of282.jpg"
 website: "https://sophiekaye.com"
 services:

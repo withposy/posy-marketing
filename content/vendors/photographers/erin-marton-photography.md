@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "California"
 city: "Los Angeles"
-rating: 4.9
-reviews: 134
-price: "$$$"
 image: "https://static.showit.co/1200/cmYBZ01v6T47of4Cnze4Mw/103554/rancho-las-lomas-wedding-orange-county-7.jpg"
 website: "https://erinmartonphoto.com"
 services:

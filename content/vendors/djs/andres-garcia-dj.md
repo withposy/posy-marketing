@@ -5,9 +5,6 @@ vendor_type: "djs"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 112
-price: "$$"
 image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=500&fit=crop"
 website: "https://www.instagram.com/andresgarciadj"
 services: ["Wedding DJ", "Event DJ", "Private Parties", "International Events"]

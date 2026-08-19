@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.8
-reviews: 134
-price: "$$"
 image: "https://lucasweddingphotography.co.uk/wp-content/uploads/2024/12/Lucas-Kuc-Wedding-Photographer2.webp"
 website: "https://lucasweddingphotography.co.uk"
 services:

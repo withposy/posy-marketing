@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://www.annaurban.com/wp-content/uploads/2026/02/FP508_websize-2.jpg"
 website: "https://www.annaurban.com"
 services:

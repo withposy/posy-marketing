@@ -5,9 +5,6 @@ vendor_type: "videographers"
 region: "UK"
 country: "England"
 city: "Manchester"
-rating: 4.7
-reviews: 98
-price: "$$"
 image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=500&fit=crop"
 services:
   - "Wedding Videography"

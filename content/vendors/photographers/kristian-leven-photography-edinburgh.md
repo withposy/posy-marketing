@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 178
-price: "$$"
 image: "https://kristianlevenphotography.co.uk/uploads/slir/w992-h707-q80-c992x707/Kristian-Leven-Photography-Chloe-Ollie-443.jpg"
 website: "https://kristianlevenphotography.co.uk"
 services:

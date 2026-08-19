@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.8
-reviews: 123
-price: "$$"
 image: "https://www.peterdyerphotos.co.uk/wp-content/uploads/2020/09/Contact-Peter-Dyer-Photographs-Studio-header.jpg"
 website: "https://www.peterdyerphotos.com"
 services:

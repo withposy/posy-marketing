@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.9
-reviews: 178
-price: "$$"
 image: "https://stevekoophotography.com/wp-content/uploads/2018/05/chicago-botanic-garden-wedding-1.jpg"
 website: "https://www.stevekoophotography.com"
 services:

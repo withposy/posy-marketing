@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 134
-price: "$$"
 image: "https://format.creatorcdn.com/99f54a2f-b6ca-4bb2-88f2-4979104c8c93/0/0/0/0,0,2828,1885,400,400/0-0-0/6e1e84e4-2b66-4ca2-aeb0-a49fc6f22ae6/1/4/808A5027.jpg"
 website: "https://www.elmirweddingphoto.com"
 services:

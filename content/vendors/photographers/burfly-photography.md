@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 176
-price: "$$"
 image: "https://burfly.co.uk/wp-content/uploads/2025/12/Rossie-On-The-Earn-Wedding-888-of-1024.jpg"
 website: "https://www.burfly.co.uk"
 services:

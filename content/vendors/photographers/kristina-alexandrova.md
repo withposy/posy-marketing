@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 156
-price: "$$$"
 image: "https://cdn-st2.vigbo.com/u62257/74467/blog/5034110/4231982/Kristina_Alexandrova-e8a2306b3b540998e8e0033fb24eebdb.jpg"
 website: "https://byalexandrova.com"
 services:

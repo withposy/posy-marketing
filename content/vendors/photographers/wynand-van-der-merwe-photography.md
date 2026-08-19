@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Johannesburg"
-rating: 4.9
-reviews: 187
-price: "$$"
 image: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600"
 website: "http://www.wynandvandermerwe.com"
 services:

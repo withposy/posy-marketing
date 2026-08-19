@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 178
-price: "$$"
 image: "https://www.orangelemur.com/wp-content/uploads/2018/05/Piperdam-wedding-photos.jpg"
 website: "https://www.orangelemur.com"
 services:

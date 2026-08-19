@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "California"
 city: "Los Angeles"
-rating: 4.9
-reviews: 118
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/60ce7a9f29fe0541ef5c8ad8/add3d643-b5e9-43bc-969e-a6c1e0ef2383/TheWeddingofAnnaandAdon_TheRomantics_PamelaTatzPhotography_0636.jpg"
 website: "https://pamelatatz.com"
 services:

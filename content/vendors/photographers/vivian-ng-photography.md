@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://vivianngphoto.com/wp-content/uploads/2024/08/Vancouver-Wedding-Photographer_Hycroft-Wedding-Photo_0004.jpg"
 website: "https://vivianngphoto.com/"
 services: ["Wedding Photography", "Engagement Sessions", "Elopement Photography", "Event Photography"]

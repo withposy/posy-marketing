@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 4.9
-reviews: 132
-price: "$$$"
 image: "https://static.showit.co/file/UL728eKdTXSqmn7C5fu86w/146601/nyc-wedding-photographer.jpg"
 website: "https://georgiasheridanphotography.com"
 services:

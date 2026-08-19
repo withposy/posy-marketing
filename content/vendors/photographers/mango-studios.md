@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 213
-price: "$$"
 image: "https://mangostudios.com/wp-content/uploads/2024/07/toronto-wedding-photographer-0002-e1722532754774.jpg"
 website: "https://www.mangostudios.com"
 services:

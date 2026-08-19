@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Bath"
-rating: 4.9
-reviews: 192
-price: "$$$"
 image: "https://images.squarespace-cdn.com/content/v1/56dec7d9b654f9dacda13531/25d47e7f-1660-4ed7-a611-d6a466ca79b1/AF%2Blogo%2BG%2Bv3.png"
 website: "https://www.allisterfreeman.co.uk"
 services:

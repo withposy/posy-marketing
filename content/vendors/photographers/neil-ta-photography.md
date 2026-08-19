@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 178
-price: "$$"
 image: "https://format.creatorcdn.com/b855c7b0-ddb1-47ec-bcd3-4778896ec5ef/0/0/0/0,0,3500,2333,2500,1666/0-0-0/c3cb17f8-accd-4831-8244-cdda438f3d7c/1/2/Teryl_and_Maggie_Teaser-1.jpg?fjkss=exp=2089056939~hmac=d5e9dee60da246a8d7e7cd17ae4bc14137596b09e95a9ab0f3da9f5ba05c3dfe"
 website: "http://www.neilta.ca"
 services:

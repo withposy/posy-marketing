@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.8
-reviews: 113
-price: "$$"
 image: "https://i.wfolio.com/x/zfNWg0RActCaYvCdP8NS6h3QcKqIOO7I/oVCmpsR2A0_zCBuWQbm7dJYwNQ6ysoqE/1S0pVKsSkYMviF7rbsQcdbtD9vPichQM/XwBnef2Q5ywd5fjJ26PTUSi9IW6sU3PU/0BOfyZRqqRWvcO4RuokRKQ.jpg"
 website: "https://paolamats.com"
 services:

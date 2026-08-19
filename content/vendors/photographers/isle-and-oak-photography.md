@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.9
-reviews: 178
-price: "$$"
 image: "https://static.showit.co/file/MmqoTSag7cfDtZEy1mJjpw/280148/vancouverweddingphotographer245.jpg"
 website: "https://isleandoakphotography.com"
 services:

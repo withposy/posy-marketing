@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 192
-price: "$$$"
 image: "https://andrewweild.com/wp-content/uploads/2018/05/Wedding-Photographer-Scotland-2.jpg"
 website: "https://www.andrewweild.com"
 services:

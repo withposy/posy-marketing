@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://nataliaswiader.com/wp-content/uploads/2026/02/glencoe-elopement-photographer-scotland.jpg"
 website: "https://nataliaswiader.com"
 services:

@@ -5,9 +5,6 @@ vendor_type: "videographers"
 region: "USA"
 country: "New York"
 city: "New York"
-rating: 4.8
-reviews: 98
-price: "$$"
 image: "https://www.photovideoking.com/wp-content/uploads/2011/07/wedding-cinematographers.jpg"
 website: "http://www.photovideoking.com"
 services: ["Wedding Videography", "Wedding Photography", "Cinematic Films", "Event Coverage"]

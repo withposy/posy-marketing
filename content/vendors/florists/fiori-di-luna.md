@@ -5,9 +5,6 @@ vendor_type: "florists"
 region: "Italy"
 country: "Tuscany"
 city: "Florence"
-rating: 4.8
-reviews: 112
-price: "$$"
 image: "https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=400&h=500&fit=crop"
 services:
   - "Bridal Bouquets"

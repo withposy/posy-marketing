@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.9
-reviews: 213
-price: "$$"
 image: "https://static.showit.co/file/z4mmE1lf1MxQgomJh6aDlg/15774/katelyn-james-photography-education-courses-creative-entrepreneurs-build-a-business-you-love_1595.jpg"
 website: "https://www.katelynjames.com"
 services:

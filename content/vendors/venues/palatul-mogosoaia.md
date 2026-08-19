@@ -5,9 +5,6 @@ vendor_type: "venues"
 region: "Romania"
 country: "Muntenia"
 city: "Bucharest"
-rating: 4.8
-reviews: 187
-price: "$$"
 image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop"
 services:
   - "Wedding Ceremonies"

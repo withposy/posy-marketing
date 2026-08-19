@@ -5,9 +5,6 @@ vendor_type: "djs"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.8
-reviews: 98
-price: "$$"
 image: "https://dunyamusic.com/wp-content/uploads/2024/07/IMG-4611-scaled.jpg"
 website: "http://www.dunyadisko.com/"
 services: ["Wedding DJ", "Event DJ", "World Music", "Electronic Music"]

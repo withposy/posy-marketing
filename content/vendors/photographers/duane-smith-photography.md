@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Africa"
 country: "South Africa"
 city: "Cape Town"
-rating: 4.9
-reviews: 213
-price: "$$"
 image: "https://dsmith.co.za/wp-content/uploads/2024/06/DUANE-SMITH-WEDDING-NOSTALGIA-CAPE-TOWN-WEDDING-PHOTOGRAPHER-INTERNATIONAL-SOUTH-AFRICAN-WEDDING-PHOTOGRAPHER.jpg"
 website: "https://www.dsmith.co.za"
 services:

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 4.9
-reviews: 145
-price: "$$$"
 image: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=400&h=500&fit=crop"
 website: "https://milanofilms.com"
 services:

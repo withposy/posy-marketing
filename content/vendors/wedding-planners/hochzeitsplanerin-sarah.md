@@ -5,9 +5,6 @@ vendor_type: "wedding-planners"
 region: "Europe"
 country: "Germany"
 city: "Munich"
-rating: 4.8
-reviews: 134
-price: "$$"
 image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&h=500&fit=crop"
 services:
   - "Full Wedding Planning"

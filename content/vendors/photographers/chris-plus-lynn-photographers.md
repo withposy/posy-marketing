@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.9
-reviews: 187
-price: "$$"
 image: "https://cdn.goodgallery.com/ecbaacc6-8157-4221-8ada-5e12e691a34a/t/0400/266ulsbt/best-destination-wedding-photographers-europe.jpg"
 website: "https://www.chrispluslynn.com"
 services:

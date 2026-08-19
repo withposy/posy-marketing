@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 187
-price: "$$$"
 image: "https://soulphotography.co.uk/wp-content/uploads/2022/12/Best-Wedding-Photography247-scaled.jpg"
 website: "https://www.soulphotography.co.uk"
 services:

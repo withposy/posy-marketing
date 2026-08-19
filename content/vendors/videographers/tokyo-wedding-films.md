@@ -5,9 +5,6 @@ vendor_type: "videographers"
 region: "Asia"
 country: "Japan"
 city: "Tokyo"
-rating: 4.8
-reviews: 167
-price: "$$$"
 image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=400&h=500&fit=crop"
 services:
   - "Wedding Videography"

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 4.8
-reviews: 112
-price: "$$"
 image: "https://fatchett.com/wp-content/uploads/2018/02/stress-free-manhattan-wedding-9.jpg"
 website: "https://www.fatchett.com"
 services:

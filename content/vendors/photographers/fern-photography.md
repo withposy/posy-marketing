@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 156
-price: "$$"
 image: "https://cdn.myportfolio.com/362777ea-b49b-4b47-b782-403b763b1e40/b466ff77-d6ed-47c6-93bc-1d1606a4561c_rw_1920.jpg?h=fbc70809cc3b5e853ce68674bdac7d92"
 website: "https://www.fernphotography.co.uk"
 services:

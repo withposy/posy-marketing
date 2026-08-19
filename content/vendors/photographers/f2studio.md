@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.8
-reviews: 167
-price: "$$"
 image: "https://www.f2studio.es/wp-content/uploads/2021/02/boda-en-barcelona-RyJ-27-960x640.jpg"
 website: "https://www.f2studio.es"
 services:

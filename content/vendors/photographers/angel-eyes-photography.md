@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.8
-reviews: 156
-price: "$$"
 image: "https://static.livebooks.com/da4e434fa58e4d568a35384dfd97f5b5/i/cc92de92dc094fba9a0f28dcbd68d232/1/5feFb8zhrk/Front.jpg"
 website: "https://www.angeleyesphotography.com"
 services:

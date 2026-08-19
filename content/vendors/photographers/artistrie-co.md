@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.9
-reviews: 134
-price: "$$"
 image: "https://static.showit.co/800/F_oZ13iPG1SHQ6VMxjt8rA/89411/weddingportfolio-0003.jpg"
 website: "https://www.artistrieco.com"
 services:

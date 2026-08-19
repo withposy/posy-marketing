@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.8
-reviews: 94
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/66f3db7448fd4a715dc3c786/f0ab3099-1541-47f0-b9da-68ccb644e1b3/Cara_WebsiteDesign-02.png"
 website: "https://www.caradavidsonphotography.com"
 services:

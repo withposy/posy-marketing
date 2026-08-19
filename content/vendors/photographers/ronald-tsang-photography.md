@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Toronto"
-rating: 4.8
-reviews: 134
-price: "$$"
 image: "https://7f3057e788d3101b0414-ed6b07be145fbb5db4ba00efa3c04ed5.ssl.cf1.rackcdn.com/112825-Creative6815copy.jpg"
 website: "https://www.ronaldtsang.com"
 services:

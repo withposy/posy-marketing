@@ -5,9 +5,6 @@ vendor_type: "florists"
 region: "USA"
 country: "New York"
 city: "New York"
-rating: 4.9
-reviews: 145
-price: "$$$"
 image: "https://npetal.com/cdn/shop/files/11852206-A584-424C-B869-069F6D3D21B2.jpg?v=1770057144&width=1200"
 website: "https://npetal.com/"
 services: ["Wedding Florals", "Seasonal Collections", "Same-Day Delivery", "Custom Arrangements"]

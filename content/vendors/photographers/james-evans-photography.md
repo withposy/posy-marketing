@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.8
-reviews: 134
-price: "$$"
 image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600"
 website: "https://www.jamesevansphotography.co.uk"
 services:

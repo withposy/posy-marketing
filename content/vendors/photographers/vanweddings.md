@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "North America"
 country: "Canada"
 city: "Vancouver"
-rating: 4.9
-reviews: 198
-price: "$$"
 image: "https://vanweddings.com/wp-content/uploads/2023/07/vancouver-luxury-indian-wedding-photography-000.jpg"
 website: "https://vanweddings.com"
 services:

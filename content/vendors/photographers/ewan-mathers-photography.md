@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Edinburgh"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://ewanmathers-photography.b-cdn.net/wp-content/uploads/2025/06/Edinburgh-Weddings-Ewan-Mathers-Header-Image-705.jpg"
 website: "https://ewanmathers-photography.com"
 services:

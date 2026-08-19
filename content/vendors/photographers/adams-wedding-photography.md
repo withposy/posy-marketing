@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 176
-price: "$$"
 image: "https://www.adamsweddingphotography.com/wp-content/uploads/2022/10/London-Wedding-Photographer.jpg"
 website: "https://www.adamsweddingphotography.com"
 services:

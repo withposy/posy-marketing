@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "Brooklyn"
-rating: 4.8
-reviews: 108
-price: "$$"
 image: "https://www.wendyg.com/wp-content/uploads/2023/03/wedding-the-hamptons-wendy-g_233-1-1024x678.jpg"
 website: "https://www.wendyg.com"
 services:

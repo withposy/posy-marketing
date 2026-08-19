@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.9
-reviews: 198
-price: "$$"
 image: "https://natemessarra.com/wp-content/uploads/2023/06/Jenn-Matts-Wedding_IMG_1301.jpg"
 website: "https://natemessarra.com"
 services:

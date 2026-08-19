@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://static.showit.co/file/jyWZgK3iQx-rNBpZ7Dqbuw/175773/lgbtq-wedding-redlands-homestead-tiny-house-photo.jpg"
 website: "https://www.tinyhousephoto.com"
 services:

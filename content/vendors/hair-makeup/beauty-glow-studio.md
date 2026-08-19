@@ -5,9 +5,6 @@ vendor_type: "hair-makeup"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 145
-price: "$$"
 image: "https://images.squarespace-cdn.com/content/v1/582f5505414fb57a451b0181/ff5a86e8-09fd-45af-8b0b-787accf0dd53/maquilladora-novias-barcelona-maquillaje-natural-elegante.jpg"
 website: "https://www.beautyglowstudio.com/en/brides"
 services:

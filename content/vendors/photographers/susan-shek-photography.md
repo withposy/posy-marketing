@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "New York"
 city: "New York City"
-rating: 5.0
-reviews: 234
-price: "$$$"
 image: "https://www.susanshek.com/wp-content/uploads/2023/09/nyc-wedding-photographer-susan-shek-photography-plaza-hotel-wedding-1-scaled.jpg"
 website: "https://www.susanshek.com"
 services:

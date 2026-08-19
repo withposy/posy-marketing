@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Illinois"
 city: "Chicago"
-rating: 4.8
-reviews: 167
-price: "$$"
 image: "https://wsphotography.us/wp-content/uploads/2024/12/chicago-wedding-photographer-13.webp"
 website: "https://wsphotography.us"
 services:

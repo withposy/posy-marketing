@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "Manchester"
-rating: 4.8
-reviews: 187
-price: "$$$"
 image: "https://www.jonparkerlee.com/wp-content/uploads/2021/03/JPL_5217-1.jpg"
 website: "https://www.jonparkerlee.com"
 services:

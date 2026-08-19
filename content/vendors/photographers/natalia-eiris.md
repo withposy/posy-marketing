@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.8
-reviews: 89
-price: "$$"
 image: "https://nataliaeiris.es/wp-content/uploads/2025/03/EB7A8096.jpg"
 website: "https://nataliaeiris.es"
 services:

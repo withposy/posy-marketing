@@ -5,9 +5,6 @@ vendor_type: "venues"
 region: "UK"
 country: "Scotland"
 city: "Edinburgh"
-rating: 4.9
-reviews: 287
-price: "$$$"
 image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&h=500&fit=crop"
 services:
   - "Wedding Ceremonies"

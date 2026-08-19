@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.9
-reviews: 213
-price: "$$$"
 image: "https://yorkplacestudios.co.uk/wp-content/uploads/wedding-photography-and-filming.avif"
 website: "https://www.yorkplacestudios.co.uk"
 services:

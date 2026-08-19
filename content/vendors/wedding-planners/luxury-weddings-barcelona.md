@@ -5,9 +5,6 @@ vendor_type: "wedding-planners"
 region: "Europe"
 country: "Spain"
 city: "Barcelona"
-rating: 4.9
-reviews: 178
-price: "$$$"
 image: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=400&h=500&fit=crop"
 website: "https://luxuryweddingsbarcelona.com/"
 services: ["Full Wedding Planning", "Luxury Destination Weddings", "Venue Selection", "Event Design"]

@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "USA"
 country: "Texas"
 city: "Houston"
-rating: 4.8
-reviews: 98
-price: "$$"
 image: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=400&h=500&fit=crop"
 website: "https://www.jcglennphotography.com"
 services:

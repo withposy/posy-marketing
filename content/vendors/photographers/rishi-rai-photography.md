@@ -5,9 +5,6 @@ vendor_type: "photographers"
 region: "Europe"
 country: "United Kingdom"
 city: "London"
-rating: 4.8
-reviews: 112
-price: "$$"
 image: "https://www.rishiraiphotography.com/wp-content/uploads/2020/01/Bridebook-Event-Low-Res-00017.jpg"
 website: "https://www.rishiraiphotography.com"
 services:
