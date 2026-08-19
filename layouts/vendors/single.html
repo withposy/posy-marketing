@@ -52,7 +52,7 @@
       {{ with .Params.website }}
       <li>
         <span class="ed-vp-meta-label">Website</span>
-        <a href="{{ . }}" class="ed-vp-meta-link" target="_blank" rel="noopener noreferrer">Visit &rarr;</a>
+        <a href="{{ . }}" class="ed-vp-meta-link" target="_blank" rel="noopener noreferrer">View portfolio &rarr;</a>
       </li>
       {{ end }}
     </ul>
@@ -78,34 +78,6 @@
     </div>
   </div>
 </section>
-
-<!-- ══════════════ PORTFOLIO ══════════════ -->
-{{ if or .Params.gallery .Params.image }}
-<section class="ed-section ed-bg-cream ed-section--top-tight">
-  <div class="ed-container">
-    <header class="ed-section-head reveal">
-      <span class="ed-eyebrow">Recent work</span>
-      <h2 class="ed-section-title ed-section-title--sm">Selected portfolio.</h2>
-    </header>
-  </div>
-
-  <div class="ed-vp-portfolio">
-    {{ with .Params.gallery }}
-      {{ range $i, $img := . }}
-      <figure class="ed-vp-portfolio-item ed-vp-portfolio-item--{{ mod $i 5 }}">
-        <img src="{{ . }}" alt="" loading="lazy" />
-      </figure>
-      {{ end }}
-    {{ else }}
-      {{ with .Params.image }}
-      <figure class="ed-vp-portfolio-item ed-vp-portfolio-item--hero">
-        <img src="{{ . }}" alt="{{ $.Title }} — featured work" loading="lazy" />
-      </figure>
-      {{ end }}
-    {{ end }}
-  </div>
-</section>
-{{ end }}
 
 <!-- ══════════════ SERVICES ══════════════ -->
 {{ with .Params.services }}
