@@ -1,0 +1,22 @@
+name: Posy
+model: Priced by guest count
+source: /pricing/
+plans:
+  - name: Tiny Toasts
+    price: "$29"
+    uploads: "Unlimited photos and videos"
+    guests: "Up to 50"
+    storage: "12 months"
+    window: "12 months from sign-up"
+  - name: Champagne Towers
+    price: "$59"
+    uploads: "Unlimited photos and videos"
+    guests: "Up to 150"
+    storage: "12 months"
+    window: "12 months from sign-up"
+  - name: Happily Ever After
+    price: "$99"
+    uploads: "Unlimited photos and videos"
+    guests: "200+"
+    storage: "12 months"
+    window: "12 months from sign-up"

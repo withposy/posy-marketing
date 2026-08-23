@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section class="ed-section ed-bg-cream">
+  <div class="ed-container">
+    <span class="ed-eyebrow reveal">Comparison</span>
+    <h1 class="ed-section-title reveal">{{ .Title }}</h1>
+    <p class="cmp-verdict reveal">{{ .Description }}</p>
+    <ul class="cmp-index">
+      {{ range .Pages.ByTitle }}
+      <li class="reveal"><a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong><span>{{ .Description }}</span></a></li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}

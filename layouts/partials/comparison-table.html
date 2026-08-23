@@ -1,0 +1,64 @@
+{{/* One table, two banded groups stacked. Competitor figures come from
+     data/competitors/<slug>.yaml, which records where and when they were read. */}}
+{{ $c := . }}
+{{ $posy := site.Data.posy }}
+
+<div class="pt-wrap">
+  <div class="pt-scroll">
+    <table class="pt">
+      <thead>
+        <tr>
+          <th scope="col">Plan</th>
+          <th scope="col">Price</th>
+          <th scope="col">Guests</th>
+          <th scope="col">Uploads</th>
+          <th scope="col">Access</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr class="pt-band pt-band--us">
+          <th colspan="5" scope="colgroup">
+            <span class="pt-band-name">Posy</span>
+            <span class="pt-band-model">{{ $posy.model }}</span>
+          </th>
+        </tr>
+        {{ range $posy.plans }}
+        <tr class="pt-row pt-row--us">
+          <th scope="row" data-label="Plan">{{ .name }}</th>
+          <td data-label="Price">{{ partial "price.html" .price }}</td>
+          <td data-label="Guests">{{ .guests }}</td>
+          <td data-label="Uploads">{{ .uploads }}</td>
+          <td data-label="Access">{{ .storage }}</td>
+        </tr>
+        {{ end }}
+
+        <tr class="pt-band">
+          <th colspan="5" scope="colgroup">
+            <span class="pt-band-name">{{ $c.name }}</span>
+            <span class="pt-band-model">{{ $c.model }}</span>
+          </th>
+        </tr>
+        {{ range $c.plans }}
+        <tr class="pt-row">
+          <th scope="row" data-label="Plan">{{ .name }}</th>
+          <td data-label="Price">
+            {{ partial "price.html" .price }}
+            {{ with .note }}<span class="pt-note">{{ . }}</span>{{ end }}
+          </td>
+          <td data-label="Guests">{{ .guests }}</td>
+          <td data-label="Uploads">{{ .uploads }}</td>
+          <td data-label="Access">{{ .storage }}</td>
+        </tr>
+        {{ end }}
+
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<p class="pt-source">
+  {{ $c.name }} figures taken from their own published pricing, checked on
+  {{ dateFormat "2 January 2006" $c.checked }}. Prices and limits change, so check
+  before you buy. Posy figures are on our <a href="{{ "pricing/" | relLangURL }}">pricing page</a>.
+</p>

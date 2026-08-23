@@ -1,0 +1,143 @@
+{{ define "main" }}
+{{ $c := index site.Data.competitors .Params.competitor }}
+
+<article class="vs">
+
+  <!-- ══ ANSWER FIRST ══ -->
+  <section class="vs-top">
+    <div class="ed-container">
+      <span class="ed-eyebrow reveal">Comparison</span>
+      <h1 class="vs-h1 reveal">{{ .Title }}</h1>
+
+      <div class="vs-answer reveal">
+        <p class="vs-answer-label">The short answer</p>
+        <p class="vs-answer-text">{{ .Params.verdict }}</p>
+      </div>
+
+      <div class="vs-pick reveal">
+        <div class="vs-pick-card vs-pick-card--us">
+          <h2>Choose Posy if</h2>
+          <ul>{{ range .Params.choose_posy }}<li>{{ . }}</li>{{ end }}</ul>
+          <a href="{{ "pricing/" | relLangURL }}" class="btn btn-accent vs-pick-cta">See Posy pricing</a>
+        </div>
+        <div class="vs-pick-card">
+          <h2>Choose {{ $c.name }} if</h2>
+          <ul>{{ range $c.strengths }}<li>{{ . }}</li>{{ end }}</ul>
+          <p class="vs-pick-note">We would rather you picked the right tool than the wrong one.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SCANNABLE TABLE ══ -->
+  <section class="ed-section ed-bg-blush ed-section--tight" id="compare">
+    <div class="ed-container">
+      <h2 class="vs-h2 reveal">Posy vs {{ $c.name }} at a glance</h2>
+      <div class="vs-scroll reveal">
+        <table class="vs-table">
+          <thead>
+            <tr><th scope="col">&nbsp;</th><th scope="col">Posy</th><th scope="col">{{ $c.name }}</th></tr>
+          </thead>
+          <tbody>
+            {{ range $c.glance }}
+            <tr>
+              <th scope="row">{{ .feature }}</th>
+              <td class="{{ if eq .win "posy" }}is-win{{ end }}" data-label="Posy">{{ .posy }}</td>
+              <td class="{{ if eq .win "them" }}is-win{{ end }}" data-label="{{ $c.name }}">{{ .them }}</td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+      <p class="vs-source">
+        {{ $c.name }} figures taken from their own published pricing on
+        {{ dateFormat "2 January 2006" $c.checked }}. Prices change, so check before you buy.
+        Ours are on our <a href="{{ "pricing/" | relLangURL }}">pricing page</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ══ THE DECIDER ══ -->
+  {{ with .Params.decider }}
+  <section class="ed-section ed-section--tight">
+    <div class="ed-container vs-decider">
+      <h2 class="vs-h2 reveal">{{ .title }}</h2>
+      <div class="vs-decider-body reveal">
+        {{ range .paragraphs }}<p>{{ . | safeHTML }}</p>{{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- ══ PRICING ══ -->
+  <section class="ed-section ed-bg-cream ed-section--tight">
+    <div class="ed-container">
+      <h2 class="vs-h2 reveal">Pricing compared</h2>
+      {{ partial "comparison-table.html" $c }}
+    </div>
+  </section>
+
+  <!-- ══ WHY POSY ══ -->
+  {{ with .Params.why_posy }}
+  <section class="ed-section ed-section--tight">
+    <div class="ed-container">
+      <h2 class="vs-h2 reveal">Choose Posy if</h2>
+      <ul class="vs-reasons reveal">
+        {{ range . }}
+        <li>
+          <span class="vs-reason-tick" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </span>
+          <span><strong>{{ .title }}</strong> {{ .detail }}</span>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- ══ FAQ ══ -->
+  {{ with .Params.faq }}
+  <section class="ed-section ed-bg-blush ed-section--tight">
+    <div class="ed-container">
+      <h2 class="vs-h2 reveal">Common questions</h2>
+      <div class="faq-list vs-faq">
+        {{ range . }}
+        <div class="faq-item">
+          <button class="faq-question" type="button">{{ .question }}<span class="faq-icon"></span></button>
+          <div class="faq-answer"><p>{{ .answer }}</p></div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  <section class="section cta-section">
+    <div class="container text-center">
+      <span class="cta-eyebrow reveal">Ready when you are</span>
+      <h2 class="section-title reveal">
+        <span class="cta-title-line">One QR code.</span>
+        <span class="cta-title-accent">Every photo from your day.</span>
+      </h2>
+      <a href="{{ "pricing/" | relLangURL }}" class="btn btn-filled reveal">See pricing</a>
+    </div>
+  </section>
+
+</article>
+
+{{ with .Params.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $i, $q := . }}{{ if $i }},{{ end }}
+    { "@type": "Question", "name": {{ $q.question }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ $q.answer }} } }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+{{ end }}
