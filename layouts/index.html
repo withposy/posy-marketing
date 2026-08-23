@@ -67,7 +67,14 @@
         <p class="ed-step-desc">{{ i18n "step1_desc" }}</p>
       </div>
       <div class="ed-step-image">
-        <img src="{{ "images/step-dashboard.webp" | relURL }}" alt="Posy dashboard with photo uploads and top contributors" loading="lazy" width="750" height="964">
+        <img class="ed-step-shot" src="{{ "images/step-setup.webp" | relURL }}" alt="A Posy wedding gallery with guest photos" loading="lazy" width="750" height="849">
+        <div class="ed-step-float ed-step-float--palette">
+          <img src="{{ "images/step-palette.webp" | relURL }}" alt="Colour palettes available for a Posy gallery" loading="lazy" width="620" height="163">
+        </div>
+        <figure class="ed-step-float ed-step-float--photo">
+          <img src="{{ "images/hero-card-aisle.jpg" | relURL }}" alt="" loading="lazy" width="900" height="1200">
+          <figcaption><span class="ed-float-dot"></span>+3 new photos</figcaption>
+        </figure>
       </div>
     </article>
 
@@ -80,7 +87,13 @@
         <p class="ed-step-desc">{{ i18n "step2_desc" }}</p>
       </div>
       <div class="ed-step-image">
-        <img src="{{ "images/step-countdown.webp" | relURL }}" alt="Wedding announcement page with countdown timer" loading="lazy" width="750" height="882">
+        <img class="ed-step-shot" src="{{ "images/step-share.webp" | relURL }}" alt="Posy share panel showing the gallery QR code for guests to scan" loading="lazy" width="750" height="883">
+        <figure class="ed-step-float ed-step-float--link">
+          <span class="ed-step-float-icon" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" x2="12" y1="2" y2="15"/></svg>
+          </span>
+          <figcaption>Or send the link</figcaption>
+        </figure>
       </div>
     </article>
 
@@ -93,7 +106,7 @@
         <p class="ed-step-desc">{{ i18n "step3_desc" }}</p>
       </div>
       <div class="ed-step-image">
-        <img src="{{ "images/step-gallery.webp" | relURL }}" alt="Posy wedding photo gallery" loading="lazy" width="750" height="917">
+        <img class="ed-step-shot" src="{{ "images/step-gallery.webp" | relURL }}" alt="Posy wedding gallery filling with guest photos" loading="lazy" width="750" height="1136">
       </div>
     </article>
 

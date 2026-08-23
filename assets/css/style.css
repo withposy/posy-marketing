@@ -5151,14 +5151,104 @@ ul { list-style: none; }
 }
 
 .ed-step-image {
+  position: relative;
   border-radius: var(--radius-lg);
-  overflow: hidden;
 }
 
 .ed-step-image img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+/* The screenshot itself carries the edge, so floating cards can overhang it.
+   Cream UI on a cream section needs the border to read as a panel. */
+.ed-step-shot {
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(26, 26, 46, 0.10);
+  box-shadow: 0 6px 20px rgba(26, 26, 46, 0.06);
+}
+
+.ed-step-float {
+  position: absolute;
+  z-index: 2;
+  background: var(--color-pure-white);
+  border-radius: 14px;
+  box-shadow: 0 14px 34px rgba(26, 26, 46, 0.16);
+}
+
+.ed-step-float--palette {
+  width: 68%;
+  right: -9%;
+  top: -11%;
+  padding: 9px 11px;
+}
+
+.ed-step-float--palette img {
+  border-radius: 4px;
+}
+
+.ed-step-float--photo {
+  width: 40%;
+  left: -9%;
+  bottom: -8%;
+  margin: 0;
+  padding: 8px 8px 0;
+  transform: rotate(-5deg);
+}
+
+.ed-step-float--photo img {
+  border-radius: 8px;
+}
+
+.ed-step-float--photo figcaption {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 3px 9px;
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--color-dark);
+  white-space: nowrap;
+}
+
+.ed-step-float--link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  right: -7%;
+  bottom: -6%;
+  margin: 0;
+  padding: 9px 14px 9px 11px;
+  border-radius: 999px;
+}
+
+.ed-step-float--link .ed-step-float-icon {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--color-blush);
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.ed-step-float--link figcaption {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--color-dark);
+  white-space: nowrap;
+}
+
+/* Stacked layout: keep the floating cards inside the image so they are not
+   clipped by the viewport edge. */
+@media (max-width: 900px) {
+  .ed-step-float--palette { width: 62%; right: 2%; top: -5%; }
+  .ed-step-float--photo { width: 33%; left: 2%; bottom: -4%; }
+  .ed-step-float--photo figcaption { font-size: 0.6rem; }
+  .ed-step-float--link { right: 2%; bottom: -4%; padding: 7px 12px 7px 9px; }
+  .ed-step-float--link figcaption { font-size: 0.66rem; }
 }
 
 /* ── TILE GRID — FEATURES ──────────────────────── */
