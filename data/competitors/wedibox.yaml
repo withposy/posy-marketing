@@ -49,10 +49,6 @@ glance:
     posy: "$29"
     them: "$29"
     win: tie
-  - feature: "Free tier"
-    posy: "None"
-    them: "Yes, 50 uploads"
-    win: them
   - feature: "Unlimited uploads from"
     posy: "$29, every plan"
     them: "$29 Embed and up"
