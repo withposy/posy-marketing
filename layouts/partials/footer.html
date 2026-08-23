@@ -1,10 +1,8 @@
 <footer class="site-footer">
 
   {{ $cmp := where site.RegularPages "Section" "compare" }}
-  {{ $alt := where site.RegularPages "Section" "alternatives" }}
-  {{ if or $cmp $alt }}
+  {{ with $cmp }}
   <div class="footer-cols">
-    {{ with $cmp }}
     <nav class="footer-col" aria-label="Comparisons">
       <span class="footer-col-title">Compare</span>
       <ul>
@@ -12,22 +10,8 @@
           {{ $c := index site.Data.competitors .Params.competitor }}
           <li><a href="{{ .RelPermalink }}">Vs. {{ $c.name }}</a></li>
         {{ end }}
-        <li><a href="{{ "compare/" | relLangURL }}">All comparisons</a></li>
       </ul>
     </nav>
-    {{ end }}
-    {{ with $alt }}
-    <nav class="footer-col" aria-label="Alternatives">
-      <span class="footer-col-title">Alternatives</span>
-      <ul>
-        {{ range .ByTitle }}
-          {{ $c := index site.Data.competitors .Params.competitor }}
-          <li><a href="{{ .RelPermalink }}">{{ $c.name }} alternatives</a></li>
-        {{ end }}
-        <li><a href="{{ "alternatives/" | relLangURL }}">All alternatives</a></li>
-      </ul>
-    </nav>
-    {{ end }}
   </div>
   {{ end }}
 
