@@ -9726,9 +9726,9 @@ body.seat-fs-on .seat-fs-bar {
   flex-wrap: wrap;
   gap: 64px;
   max-width: var(--max-width);
-  margin: 0 auto 2.5rem;
-  padding: 0 var(--gutter) 2.5rem;
-  border-bottom: 1px solid var(--color-border);
+  margin: 2.5rem auto 0;
+  padding: 2.5rem var(--gutter) 0;
+  border-top: 1px solid var(--color-border);
 }
 
 .footer-col-title {
@@ -9737,7 +9737,7 @@ body.seat-fs-on .seat-fs-bar {
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--color-accent);
+  color: var(--color-gray);
   margin-bottom: 16px;
 }
 

@@ -1,20 +1,5 @@
 <footer class="site-footer">
 
-  {{ $cmp := where site.RegularPages "Section" "compare" }}
-  {{ with $cmp }}
-  <div class="footer-cols">
-    <nav class="footer-col" aria-label="Comparisons">
-      <span class="footer-col-title">Compare</span>
-      <ul>
-        {{ range .ByTitle }}
-          {{ $c := index site.Data.competitors .Params.competitor }}
-          <li><a href="{{ .RelPermalink }}">Vs. {{ $c.name }}</a></li>
-        {{ end }}
-      </ul>
-    </nav>
-  </div>
-  {{ end }}
-
   <div class="footer-inner">
     <a href="{{ "" | relLangURL }}" class="footer-logo" aria-label="Posy home">
       <img src="{{ "posy-mark.svg" | relURL }}" alt="" class="logomark-icon" width="40" height="40" loading="lazy">
@@ -49,4 +34,19 @@
       </div>
     </div>
   </div>
+
+  {{ $cmp := where site.RegularPages "Section" "compare" }}
+  {{ with $cmp }}
+  <div class="footer-cols">
+    <nav class="footer-col" aria-label="Comparisons">
+      <span class="footer-col-title">Compare</span>
+      <ul>
+        {{ range .ByTitle }}
+          {{ $c := index site.Data.competitors .Params.competitor }}
+          <li><a href="{{ .RelPermalink }}">Vs. {{ $c.name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+  {{ end }}
 </footer>
