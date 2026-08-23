@@ -1,0 +1,74 @@
+name: Wedibox
+slug: wedibox
+site: https://www.wedibox.com
+source: https://www.wedibox.com/pricing
+checked: "2026-08-23"
+summary: >-
+  A one-time-payment gallery with a free tier, an embeddable widget for a
+  wedding website you already have, and paid plans that add RSVP, seating and
+  a live slideshow.
+model: Priced by feature set
+plans:
+  - name: Free
+    price: "$0"
+    uploads: "50 guest photo uploads"
+    guests: "Unlimited"
+    storage: "Not published"
+    window: "No card needed"
+  - name: Embed
+    price: "$29"
+    note: "widget for your existing site"
+    uploads: "Unlimited photo uploads"
+    guests: "Unlimited"
+    storage: "3 months"
+    window: "Uploads open 3 months"
+  - name: Wedding
+    price: "$49"
+    uploads: "Unlimited guest uploads"
+    guests: "Unlimited"
+    storage: "6 months"
+    window: "Uploads open 6 months"
+  - name: All-In-One
+    price: "$79"
+    uploads: "Unlimited guest uploads"
+    guests: "Unlimited"
+    storage: "12 months"
+    window: "Uploads open 12 months"
+strengths:
+  - The Embed plan drops a gallery into a wedding website you have already
+    built, rather than sending guests somewhere else.
+  - RSVP, meal choices and seating come bundled into the top plan, so it can
+    replace a separate planning tool.
+tradeoffs:
+  - The upload window is the thing to watch. It runs 3 months on Embed,
+    6 on Wedding and 12 on All-In-One.
+  - The free tier stops at 50 guest photo uploads.
+  - Unlimited uploads and a full year of collecting only meet on the $79 plan.
+glance:
+  - feature: "Cheapest paid plan"
+    posy: "$29"
+    them: "$29"
+    win: tie
+  - feature: "Unlimited uploads from"
+    posy: "$29, every plan"
+    them: "$29 Embed and up"
+    win: tie
+  - feature: "Guests can upload for"
+    posy: "12 months, every plan"
+    them: "3, 6 or 12 months by plan"
+    win: posy
+  - feature: "12 months of uploading costs"
+    posy: "$29"
+    them: "$79"
+    win: posy
+  - feature: "Priced by"
+    posy: "Guest count"
+    them: "Feature set"
+  - feature: "Embeds in your own site"
+    posy: "No"
+    them: "Yes, from $29"
+    win: them
+  - feature: "RSVP and seating"
+    posy: "Not included"
+    them: "On All-In-One"
+    win: them

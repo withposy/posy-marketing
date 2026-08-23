@@ -1,0 +1,65 @@
+name: Kululu
+slug: kululu
+site: https://www.kululu.com
+source: https://www.kululu.com/pricing
+checked: "2026-08-23"
+summary: >-
+  A QR-code photo sharing app with a free tier and a live photo wall for
+  displaying uploads during the event. Plans are priced by how many photos
+  get uploaded, not by how many guests you invite.
+model: Priced by upload count
+plans:
+  - name: Free
+    price: "$0"
+    uploads: "Up to 100 photos and videos"
+    guests: "Unlimited"
+    storage: "7 days"
+    window: "Uploads open 24 hours"
+  - name: Plus
+    price: "$39"
+    uploads: "Up to 500 photos and videos"
+    guests: "Unlimited"
+    storage: "3 months"
+    window: "Uploads open 1 month"
+  - name: Pro
+    price: "$99"
+    uploads: "Unlimited"
+    guests: "Unlimited"
+    storage: "12 months"
+    window: "Uploads open 3 months"
+strengths:
+  - A live photo wall displays uploads on a screen during the event.
+  - Guest numbers never affect the price, so a very large wedding on a small
+    budget can use the free or Plus plan.
+tradeoffs:
+  - The two cheaper plans cap how many photos your guests can upload, at 100
+    and 500. Unlimited uploads start at $99.
+  - The free plan keeps uploads for 7 days and stays open for 24 hours.
+  - Upload windows close 1 month after the event on Plus and 3 months on Pro.
+glance:
+  - feature: "Cheapest paid plan"
+    posy: "$29"
+    them: "$39"
+    win: posy
+  - feature: "Unlimited uploads from"
+    posy: "$29, every plan"
+    them: "$99, Pro only"
+    win: posy
+  - feature: "Guests can upload for"
+    posy: "12 months, every plan"
+    them: "24 hours to 3 months"
+    win: posy
+  - feature: "You keep the gallery for"
+    posy: "12 months, every plan"
+    them: "7 days to 1 year"
+    win: posy
+  - feature: "Priced by"
+    posy: "Guest count"
+    them: "Upload count"
+  - feature: "Billing"
+    posy: "One-time"
+    them: "One-time"
+    win: tie
+  - feature: "Full-resolution downloads"
+    posy: "Yes, all 12 months"
+    them: "Bulk download on paid plans"

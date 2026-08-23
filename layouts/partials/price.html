@@ -1,0 +1,7 @@
+{{- /* Renders "$59" with the currency sign raised, as a small superscript. */ -}}
+{{- $p := . | string -}}
+{{- if hasPrefix $p "$" -}}
+<span class="price"><span class="price-cur">$</span>{{ substr $p 1 }}</span>
+{{- else -}}
+<span class="price">{{ $p }}</span>
+{{- end -}}

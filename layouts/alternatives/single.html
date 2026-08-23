@@ -1,0 +1,115 @@
+{{ define "main" }}
+{{ $c := index site.Data.competitors .Params.competitor }}
+{{ $checked := .Params.checked | default $c.checked }}
+
+<article class="cmp-page">
+
+  <section class="ed-section ed-bg-cream cmp-hero">
+    <div class="ed-container">
+      <span class="ed-eyebrow reveal">Alternatives</span>
+      <h1 class="ed-section-title reveal">{{ .Title }}</h1>
+      {{ with .Params.verdict }}<p class="cmp-verdict reveal">{{ . }}</p>{{ end }}
+      <div class="cmp-hero-actions reveal">
+        <a href="{{ "pricing/" | relLangURL }}" class="btn btn-accent">See Posy pricing</a>
+        <a href="{{ printf "compare/posy-vs-%s/" .Params.competitor | relLangURL }}" class="btn cmp-btn-ghost">Posy vs {{ $c.name }}, side by side</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ed-section ed-section--tight">
+    <div class="ed-container cmp-body">
+      {{ .Content }}
+    </div>
+  </section>
+
+  {{ with .Params.options }}
+  <section class="ed-section ed-bg-blush ed-section--tight">
+    <div class="ed-container">
+      <header class="ed-section-head reveal">
+        <span class="ed-eyebrow">The options</span>
+        <h2 class="ed-section-title ed-section-title--sm">What else is worth a look.</h2>
+      </header>
+      <ol class="cmp-options">
+        {{ range $i, $o := . }}
+        <li class="cmp-option reveal{{ if $o.featured }} cmp-option--featured{{ end }}">
+          <span class="cmp-option-rank" aria-hidden="true">{{ add $i 1 }}</span>
+          <div class="cmp-option-body">
+            <h3 class="cmp-option-name">
+              {{ $o.name }}{{ if $o.featured }} <span class="cmp-badge">That is us</span>{{ end }}
+            </h3>
+            <p class="cmp-option-desc">{{ $o.description }}</p>
+            {{ with $o.best_for }}<p class="cmp-option-best"><strong>Best for:</strong> {{ . }}</p>{{ end }}
+            {{ with $o.caveat }}<p class="cmp-option-caveat">{{ . }}</p>{{ end }}
+          </div>
+        </li>
+        {{ end }}
+      </ol>
+      <p class="cmp-source">
+        We have only listed figures we could read on a company's own pricing page.
+        Where a price is not published openly, we say so rather than guess.
+        Checked {{ dateFormat "2 January 2006" $checked }}.
+      </p>
+    </div>
+  </section>
+  {{ end }}
+
+  <section id="compare" class="ed-section ed-section--tight">
+    <div class="ed-container">
+      <header class="ed-section-head reveal">
+        <span class="ed-eyebrow">Side by side</span>
+        <h2 class="ed-section-title ed-section-title--sm">Posy and {{ $c.name }}, as published.</h2>
+      </header>
+      {{ partial "comparison-table.html" $c }}
+    </div>
+  </section>
+
+  {{ with .Params.faq }}
+  <section class="ed-section ed-bg-cream ed-section--tight">
+    <div class="ed-container">
+      <header class="ed-section-head reveal">
+        <span class="ed-eyebrow">Questions</span>
+        <h2 class="ed-section-title ed-section-title--sm">Before you switch.</h2>
+      </header>
+      <div class="faq-list cmp-faq">
+        {{ range . }}
+        <div class="faq-item">
+          <button class="faq-question" type="button">{{ .question }}<span class="faq-icon"></span></button>
+          <div class="faq-answer"><p>{{ .answer }}</p></div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  <section class="section cta-section">
+    <div class="container text-center">
+      <span class="cta-eyebrow reveal">Ready when you are</span>
+      <h2 class="section-title reveal">
+        <span class="cta-title-line">One QR code.</span>
+        <span class="cta-title-accent">Every photo from your day.</span>
+      </h2>
+      <a href="{{ "pricing/" | relLangURL }}" class="btn btn-filled reveal">See pricing</a>
+    </div>
+  </section>
+
+</article>
+
+{{ with .Params.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $i, $q := . }}{{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $q.question }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ $q.answer }} }
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+{{ end }}
