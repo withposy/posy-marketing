@@ -9,6 +9,10 @@
       {{ range .Site.Menus.footer }}
         <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
       {{ end }}
+      {{ range (where site.RegularPages "Section" "compare").ByTitle }}
+        {{ $c := index site.Data.competitors .Params.competitor }}
+        <a href="{{ .RelPermalink }}">Vs. {{ $c.name }}</a>
+      {{ end }}
     </div>
     <div class="footer-social">
       <a href="{{ .Site.Params.instagramURL }}" target="_blank" rel="noopener" aria-label="Instagram">
@@ -35,18 +39,4 @@
     </div>
   </div>
 
-  {{ $cmp := where site.RegularPages "Section" "compare" }}
-  {{ with $cmp }}
-  <div class="footer-cols">
-    <nav class="footer-col" aria-label="Comparisons">
-      <span class="footer-col-title">Compare</span>
-      <ul>
-        {{ range .ByTitle }}
-          {{ $c := index site.Data.competitors .Params.competitor }}
-          <li><a href="{{ .RelPermalink }}">Vs. {{ $c.name }}</a></li>
-        {{ end }}
-      </ul>
-    </nav>
-  </div>
-  {{ end }}
 </footer>
