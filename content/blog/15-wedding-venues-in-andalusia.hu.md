@@ -258,6 +258,6 @@ Hegyekkel és buja zöldterületekkel körülvett romantikus birtok, butik-luxus
 
 ---
 
-Andalúzia nem véletlenül Európa egyik legjobb esküvői célpontja: napsütés, kultúra, ételek, tájak és helyszínek, amelyek olyan érzetet keltenek, mintha egyenesen egy filmből lépnél ki. Akár kastélyról, tengerparti villáról vagy rusztikus vidéki fincáról álmodsz, ez a régió minden pár és minden vízió számára kínál valamit.
+Andalúzia nem véletlenül Európa egyik legjobb esküvői célpontja: napsütés, kultúra, ételek, tájak és helyszínek, amelyek olyan érzetet keltenek, mintha egyenesen egy filmből lépnél ki. Akár kastélyról, tengerparti villáról vagy rusztikus vidéki fincáról álmodsz, ez a régió minden pár és minden vízió számára kínál valamit. Ha pedig Olaszország is szerepel a listádon, nézd meg válogatásunkat [Toszkána legszebb esküvői helyszíneiről](/hu/blog/15-wedding-venues-in-tuscany/).
 
 Egy célállomás-esküvő megtervezése sok mozgó alkatrészt tartalmaz, ezért a szervezettség megőrzéséhez letöltheted ingyenes [Esküvőtervezési Ellenőrzőlistánkat](/blog/wedding-checklist/) — egy teljes útmutatót, amely idővonalakat, szolgáltatói listákat, költségvetés-tervezést és mindent tartalmaz, amire szükséged van a stresszmentes esküvőd megtervezéséhez.

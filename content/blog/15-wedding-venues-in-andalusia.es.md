@@ -258,6 +258,6 @@ Una finca romántica rodeada de montañas y exuberante vegetación, que ofrece l
 
 ---
 
-Andalucía es uno de los principales destinos de boda de Europa por una razón: sol, cultura, gastronomía, paisajes y lugares que parecen sacados de una película. Ya sea que sueñes con un castillo, una villa frente al mar, o una finca rústica en el campo, esta región ofrece algo para cada pareja y cada visión.
+Andalucía es uno de los principales destinos de boda de Europa por una razón: sol, cultura, gastronomía, paisajes y lugares que parecen sacados de una película. Ya sea que sueñes con un castillo, una villa frente al mar, o una finca rústica en el campo, esta región ofrece algo para cada pareja y cada visión. Y si Italia también está entre tus opciones, echa un vistazo a nuestra selección de los [lugares para bodas más bonitos de la Toscana](/es/blog/15-wedding-venues-in-tuscany/).
 
 Planificar una boda destino implica muchas piezas en movimiento, así que para ayudarte a mantenerte organizada, puedes descargar nuestra [Lista de Verificación para Planificación de Bodas](/blog/wedding-checklist/) gratuita — una guía completa que cubre cronogramas, listas de proveedores, presupuesto y todo lo que necesitas para planificar tu día sin estrés.
