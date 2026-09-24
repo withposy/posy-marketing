@@ -258,6 +258,6 @@ O proprietate romantică înconjurată de munți și verdeață luxuriantă, ofe
 
 ---
 
-Andaluzia este una dintre cele mai căutate destinații europene pentru nunți, și nu degeaba: soare, cultură, gastronomie, peisaje și locații care par desprinse dintr-un film. Fie că visezi la un castel, o vilă pe malul mării sau o finca rustică la țară, această regiune oferă ceva pentru fiecare cuplu și fiecare viziune.
+Andaluzia este una dintre cele mai căutate destinații europene pentru nunți, și nu degeaba: soare, cultură, gastronomie, peisaje și locații care par desprinse dintr-un film. Fie că visezi la un castel, o vilă pe malul mării sau o finca rustică la țară, această regiune oferă ceva pentru fiecare cuplu și fiecare viziune. Iar dacă și Italia e pe lista ta scurtă, aruncă o privire la selecția noastră cu [cele mai frumoase locații de nuntă din Toscana](/ro/blog/15-wedding-venues-in-tuscany/).
 
 Planificarea unei nunți la destinație implică multe detalii de organizat, așa că pentru a te ajuta să rămâi organizată, poți descărca gratuit [Lista noastră de Verificare pentru Planificarea Nunții](/blog/wedding-checklist/) — un ghid complet care acoperă calendare, liste de furnizori, bugetare și tot ce ai nevoie pentru a planifica ziua ta fără stres.

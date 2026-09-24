@@ -258,6 +258,6 @@ A romantic estate surrounded by mountains and lush greenery, offering boutique l
 
 ---
 
-Andalusia is one of Europe's top wedding destinations for a reason: sunshine, culture, food, scenery, and venues that feel like they're straight out of a movie. Whether you're dreaming of a castle, a beachside villa, or a rustic country finca, this region offers something for every couple and every vision.
+Andalusia is one of Europe's top wedding destinations for a reason: sunshine, culture, food, scenery, and venues that feel like they're straight out of a movie. Whether you're dreaming of a castle, a beachside villa, or a rustic country finca, this region offers something for every couple and every vision. And if Italy is also on your shortlist, take a look at our pick of the [most beautiful wedding venues in Tuscany](/blog/15-wedding-venues-in-tuscany/).
 
 Planning a destination wedding comes with many moving pieces, so to help you stay organized, you can download our free [Wedding Planning Checklist](/blog/wedding-checklist/)—a complete guide covering timelines, vendor lists, budgeting, and everything you need to plan your day stress-free.

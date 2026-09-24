@@ -258,6 +258,6 @@ Una tenuta romantica circondata da montagne e vegetazione lussureggiante, che of
 
 ---
 
-L'Andalusia è una delle migliori destinazioni matrimoniali d'Europa per un motivo: sole, cultura, gastronomia, paesaggi e location che sembrano uscite da un film. Che tu stia sognando un castello, una villa sul mare o una rustica finca di campagna, questa regione offre qualcosa per ogni coppia e ogni visione.
+L'Andalusia è una delle migliori destinazioni matrimoniali d'Europa per un motivo: sole, cultura, gastronomia, paesaggi e location che sembrano uscite da un film. Che tu stia sognando un castello, una villa sul mare o una rustica finca di campagna, questa regione offre qualcosa per ogni coppia e ogni visione. E se anche l'Italia è nella tua lista, dai un'occhiata alla nostra selezione delle [location per matrimoni più belle in Toscana](/it/blog/15-wedding-venues-in-tuscany/).
 
 Organizzare un destination wedding comporta molti aspetti da gestire, quindi per aiutarti a restare organizzata, puoi scaricare la nostra [Checklist Gratuita per la Pianificazione del Matrimonio](/blog/wedding-checklist/) — una guida completa che copre timeline, liste dei fornitori, budget e tutto ciò di cui hai bisogno per organizzare il tuo giorno senza stress.

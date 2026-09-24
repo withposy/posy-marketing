@@ -258,6 +258,6 @@ Ein romantisches Anwesen, umgeben von Bergen und üppigem Grün, das Boutique-Lu
 
 ---
 
-Andalusien ist aus gutem Grund eines der beliebtesten Hochzeitsziele Europas: Sonnenschein, Kultur, Essen, Landschaft und Locations, die wie aus einem Film wirken. Ob du von einer Burg, einer Strandvilla oder einer rustikalen Landfinca träumst — diese Region bietet für jedes Paar und jede Vision etwas Passendes.
+Andalusien ist aus gutem Grund eines der beliebtesten Hochzeitsziele Europas: Sonnenschein, Kultur, Essen, Landschaft und Locations, die wie aus einem Film wirken. Ob du von einer Burg, einer Strandvilla oder einer rustikalen Landfinca träumst — diese Region bietet für jedes Paar und jede Vision etwas Passendes. Und falls Italien auch auf deiner Shortlist steht, wirf einen Blick auf unsere Auswahl der [schönsten Hochzeitslocations in der Toskana](/de/blog/15-wedding-venues-in-tuscany/).
 
 Die Planung einer Destination Wedding bringt viele bewegliche Teile mit sich. Um organisiert zu bleiben, kannst du unsere kostenlose [Hochzeitsplanungs-Checkliste](/blog/wedding-checklist/) herunterladen — ein vollständiger Leitfaden mit Zeitplänen, Anbieterlisten, Budgetplanung und allem, was du brauchst, um deinen Tag stressfrei zu planen.
