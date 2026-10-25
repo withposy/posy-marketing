@@ -1,6 +1,22 @@
 ---
 title: "Wedding Planners"
-description: "Find the best wedding planners and coordinators near you. Read reviews, compare services, and hire a professional to bring your dream wedding to life on Posy."
+description: "Wedding planners and coordinators who keep the day running so you don't have to. Browse by country or search by city to start your shortlist."
 vendor_type: "wedding-planners"
 layout: "vendor-listing"
+aliases:
+  - "/vendors/wedding-planners/amalfi-coast-planner/"
+  - "/vendors/wedding-planners/barcelona-brides/"
+  - "/vendors/wedding-planners/barcelona-wedding/"
+  - "/vendors/wedding-planners/chicago-lakeview-planner/"
+  - "/vendors/wedding-planners/crystal-events-barcelona/"
+  - "/vendors/wedding-planners/enchanting-engagements/"
+  - "/vendors/wedding-planners/hochzeitsplanerin-sarah/"
+  - "/vendors/wedding-planners/jamaica-beach-weddings/"
+  - "/vendors/wedding-planners/lucia-wedding-planner/"
+  - "/vendors/wedding-planners/luxury-weddings-barcelona/"
+  - "/vendors/wedding-planners/mireia-baro/"
+  - "/vendors/wedding-planners/perfect-wedding-nyc/"
+  - "/vendors/wedding-planners/sibiu-wedding-planner/"
+  - "/vendors/wedding-planners/the-wedding-planner-of-nyc/"
+  - "/vendors/wedding-planners/zanzibar-beach-weddings/"
 ---

@@ -1,6 +1,9 @@
 ---
 title: "Wedding Caterers"
-description: "Find the best wedding caterers and catering services near you. Browse menus, read reviews, and compare pricing to find the perfect food and drink for your reception on Posy."
+description: "Wedding caterers to feed your guests well. Browse by country or search by city to find the people behind your reception menu."
 vendor_type: "caterers"
 layout: "vendor-listing"
+aliases:
+  - "/vendors/caterers/gundel-catering/"
+  - "/vendors/caterers/sapori-divini-catering/"
 ---

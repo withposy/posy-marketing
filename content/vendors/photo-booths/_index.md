@@ -1,6 +1,8 @@
 ---
 title: "Photo Booths"
-description: "Find the best wedding photo booths near you. Browse props, backdrops, and booth styles. Read reviews and compare packages for unforgettable guest entertainment on Posy."
+description: "Wedding photo booths to keep your guests busy between courses. Browse by country or search by city to find one near your venue."
 vendor_type: "photo-booths"
 layout: "vendor-listing"
+aliases:
+  - "/vendors/photo-booths/snapbooth-italia/"
 ---

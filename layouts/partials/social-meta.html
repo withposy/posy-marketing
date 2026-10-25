@@ -19,7 +19,7 @@
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ $desc | plainify }}">
 <meta name="twitter:image" content="{{ $img }}">
-{{- if .IsTranslated }}
+{{- if and .IsTranslated (ne .Kind "404") }}
 {{- range .AllTranslations }}
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
 {{- end }}

@@ -6956,13 +6956,6 @@ ul { list-style: none; }
   text-decoration: none;
   color: var(--color-dark);
   border: 1px solid var(--color-petal-soft);
-  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
-}
-
-.ed-vendor-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 18px 40px rgba(232, 68, 109, 0.1);
-  border-color: var(--color-accent);
 }
 
 .ed-vendor-card-img {
@@ -6977,11 +6970,6 @@ ul { list-style: none; }
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.6s var(--transition-slow);
-}
-
-.ed-vendor-card:hover .ed-vendor-card-img img {
-  transform: scale(1.04);
 }
 
 .ed-vendor-card-body {

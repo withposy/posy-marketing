@@ -1,5 +1,5 @@
 ---
 title: "Wedding Vendors"
-description: "Browse and compare the best wedding vendors near you — photographers, venues, florists, DJs, caterers, videographers, and more. Read reviews, view portfolios, and book with confidence on Posy."
+description: "Wedding photographers, venues, florists, DJs, caterers, videographers and more, gathered in one place. Browse by country, search by city, and start your shortlist."
 layout: "vendors"
 ---
