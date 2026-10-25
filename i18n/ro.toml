@@ -301,6 +301,18 @@ other = "Surprinde toate momentele de la nunta ta"
 other = "Colecteaza, distribuie si retraieste cu usurinta fiecare moment alaturi de invitatii tai — fara aplicatie, fara bataie de cap, doar amintiri de neuitat!"
 [blog_cta_button]
 other = "Incepe-ti povestea astazi"
+[blog_inline_cta_title]
+other = "Invitatii tai vor face sute de fotografii. Posy le aduna intr-un singur loc."
+[blog_inline_cta_text]
+other = "Un cod QR pe mese si fiecare invitat incarca direct de pe telefon. Fara aplicatii, fara conturi, fara sa alergi dupa nimeni saptamana urmatoare."
+[blog_inline_cta_button]
+other = "Vezi cum functioneaza Posy"
+[blog_end_cta_title]
+other = "Un lucru mai putin de planificat"
+[blog_end_cta_text]
+other = "Creeaza albumul Posy in cateva minute, pune codul QR pe mese in ziua nuntii si trezeste-te cu toate fotografiile invitatilor. La rezolutie completa, intr-un singur loc privat."
+[blog_end_cta_button]
+other = "Incepe acum"
 
 # ─── Signin ──────────────────────────────────────────────
 [signin_title]

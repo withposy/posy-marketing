@@ -4,6 +4,7 @@ date: 2026-04-05
 draft: false
 author: "Florina Vanani"
 image: "/images/blog-mr-mrs-howtoplay.jpg"
+cta_title: "The quiz gets the laughs. Posy gets the photos of everyone's faces."
 excerpt: "The ultimate list of mr and mrs quiz questions to test how well the happy couple really know each other — from sweet and sentimental to hilariously awkward. 101 mr and mrs game questions for hen dos, weddings, and engagement parties."
 ---
 

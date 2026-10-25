@@ -3,6 +3,7 @@ title: "15 Best Wedding Venues in Andalusia, Spain for a Dream Destination Weddi
 date: 2025-11-28
 author: "Florina Vanani"
 image: "/images/blog-andalusia-venues.webp"
+cta_title: "Marrying in Andalusia? Your guests will photograph every sunset. Posy keeps them all in one place."
 excerpt: "If you've been dreaming of a destination wedding filled with sunshine, culture, passion, and unforgettable scenery, Spain, especially Andalusia, should be at the top of your list."
 ---
 

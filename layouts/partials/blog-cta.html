@@ -1,0 +1,17 @@
+{{- /* Context: dict "page" .Page "variant" "inline"|"end". Copy can be overridden per post with cta_title / cta_text front matter. */ -}}
+{{- $p := .page -}}
+{{- $end := eq .variant "end" -}}
+<aside class="blog-inline-cta{{ if $end }} blog-inline-cta--end{{ end }}" data-cta="blog_{{ .variant }}">
+  <img src="{{ "images/step-gallery.webp" | relURL }}" alt="" class="blog-inline-cta-image" loading="lazy" decoding="async" width="750" height="917">
+  <div class="blog-inline-cta-body">
+    <span class="blog-inline-cta-eyebrow">Posy</span>
+    {{- if $end }}
+    <p class="blog-inline-cta-title">{{ i18n "blog_end_cta_title" }}</p>
+    <p class="blog-inline-cta-text">{{ i18n "blog_end_cta_text" }}</p>
+    {{- else }}
+    <p class="blog-inline-cta-title">{{ $p.Params.cta_title | default (i18n "blog_inline_cta_title") }}</p>
+    <p class="blog-inline-cta-text">{{ $p.Params.cta_text | default (i18n "blog_inline_cta_text") }}</p>
+    {{- end }}
+    <a href="{{ "pricing/" | relLangURL }}" class="btn {{ if $end }}btn-accent{{ else }}btn-outline{{ end }}">{{ i18n (cond $end "blog_end_cta_button" "blog_inline_cta_button") }}</a>
+  </div>
+</aside>

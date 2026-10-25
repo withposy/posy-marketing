@@ -2,16 +2,34 @@
 <article class="page-single blog-post">
 <section class="section bg-white">
   <div class="container">
-    <div class="blog-post-header reveal">
+    <div class="blog-post-header">
       <h1 class="section-title">{{ .Title }}</h1>
     </div>
     {{ with .Params.image }}
-    <div class="blog-post-hero reveal">
-      <img src="{{ . }}" alt="{{ $.Title }}">
+    <div class="blog-post-hero">
+      <img src="{{ . }}" alt="{{ $.Title }}" fetchpriority="high">
     </div>
     {{ end }}
     <div class="blog-post-content prose">
-      {{ .Content }}
+      {{- /* Drop a soft Posy CTA before the middle section heading (h2, or h3 for posts with few h2s) */ -}}
+      {{- $c := .Content -}}
+      {{- $tag := "<h2" -}}
+      {{- if lt (len (findRE `<h2[ >]` $c)) 4 }}{{ $tag = "<h3" }}{{ end -}}
+      {{- $parts := split $c $tag -}}
+      {{- $n := len $parts -}}
+      {{- if ge $n 4 -}}
+        {{- $mid := div $n 2 -}}
+        {{- range $i, $part := $parts -}}
+          {{- if gt $i 0 -}}
+            {{- if eq $i $mid }}{{ partial "blog-cta.html" (dict "page" $ "variant" "inline") }}{{ end -}}
+            {{- $tag | safeHTML -}}
+          {{- end -}}
+          {{- $part | safeHTML -}}
+        {{- end -}}
+      {{- else -}}
+        {{- $c -}}
+      {{- end -}}
+      {{ partial "blog-cta.html" (dict "page" . "variant" "end") }}
     </div>
     <div class="blog-post-back">
       <a href="{{ "blog/" | relLangURL }}" class="btn btn-outline">{{ i18n "see_more_articles" }}</a>

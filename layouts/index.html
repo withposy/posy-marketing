@@ -3,26 +3,26 @@
 <!-- ══════════════ COVER ══════════════ -->
 <section class="ed-cover">
   <div class="ed-cover-grid">
-    <div class="ed-cover-inner reveal">
+    <div class="ed-cover-inner" data-cta="home_hero">
       <span class="ed-eyebrow">Posy &middot; Wedding Photo Sharing</span>
       <h1 class="ed-cover-headline">{{ i18n "hero_title" }}</h1>
       <p class="ed-cover-sub">{{ i18n "hero_subtitle" }}</p>
       <a href="{{ "pricing/" | relLangURL }}" class="btn btn-outline ed-cover-cta">{{ i18n "hero_cta" }}</a>
     </div>
-    <div class="ed-cover-visual reveal">
+    <div class="ed-cover-visual">
       <div class="ed-cover-stage">
         <!-- Phone -->
-        <img src="{{ "images/hero-dashboard.webp" | relURL }}" alt="Posy dashboard showing photo uploads and gallery" class="ed-cover-image" width="496" height="640">
+        <img src="{{ "images/hero-dashboard.webp" | relURL }}" alt="Posy dashboard showing photo uploads and gallery" class="ed-cover-image" width="496" height="640" fetchpriority="high">
 
         <!-- Floating photo card — top right -->
         <figure class="ed-float-card ed-float-card--top">
-          <img src="{{ "images/gallery-2.webp" | relURL }}" alt="" loading="lazy" width="500" height="625">
+          <img src="{{ "images/gallery-2.webp" | relURL }}" alt="" width="500" height="625">
           <figcaption><span class="ed-float-dot"></span>+1 from Sarah</figcaption>
         </figure>
 
         <!-- Floating photo card — bottom left -->
         <figure class="ed-float-card ed-float-card--bottom">
-          <img src="{{ "images/hero-card-aisle.jpg" | relURL }}" alt="" loading="lazy" width="900" height="1200">
+          <img src="{{ "images/hero-card-aisle.jpg" | relURL }}" alt="" width="900" height="1200">
           <figcaption><span class="ed-float-dot"></span>+3 new photos</figcaption>
         </figure>
       </div>

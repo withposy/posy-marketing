@@ -5,6 +5,7 @@ date: 2026-09-24
 draft: false
 author: "Florina Vanani"
 image: "/images/blog-tuscany-venues.webp"
+cta_title: "A Tuscan wedding deserves more than whatever lands in the group chat."
 description: "From Renaissance villas above Florence to Chianti vineyards and hilltop castles, here are 15 of the most beautiful wedding venues in Tuscany, Italy."
 excerpt: "Honey-coloured villas, vineyards rolling to the horizon, and castles on every other hilltop. Here are 15 of the most stunning wedding venues across Florence, Chianti, Siena, the Val d'Orcia, and beyond."
 ---

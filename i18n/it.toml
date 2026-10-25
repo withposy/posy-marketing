@@ -301,6 +301,18 @@ other = "Cattura tutti i momenti del tuo matrimonio"
 other = "Raccogli, condividi e rivivi facilmente ogni momento con i tuoi ospiti — nessuna app, nessuna complicazione, solo ricordi indimenticabili!"
 [blog_cta_button]
 other = "Inizia la tua storia oggi"
+[blog_inline_cta_title]
+other = "I tuoi ospiti scatteranno centinaia di foto. Posy le raccoglie in un unico posto."
+[blog_inline_cta_text]
+other = "Un codice QR sui tavoli e ogni ospite carica le foto dal telefono. Nessuna app, nessun account, nessuno da rincorrere la settimana dopo."
+[blog_inline_cta_button]
+other = "Scopri come funziona Posy"
+[blog_end_cta_title]
+other = "Una cosa in meno da organizzare"
+[blog_end_cta_text]
+other = "Crea il tuo album Posy in pochi minuti, metti il codice QR sui tavoli il giorno del matrimonio e svegliati con tutte le foto dei tuoi ospiti. In piena risoluzione, in un unico posto privato."
+[blog_end_cta_button]
+other = "Inizia ora"
 
 # ─── Signin ──────────────────────────────────────────────
 [signin_title]
