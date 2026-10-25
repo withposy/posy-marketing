@@ -60,7 +60,7 @@
     <div class="ed-vendor-empty" id="vendorEmpty" style="display:none;">
       <p class="ed-vendor-empty-title">{{ i18n "vendor_no_results" | default "No vendors match yet." }}</p>
       <p class="ed-vendor-empty-sub">Try widening the country or clearing the search.</p>
-      <p class="ed-vendor-empty-help">Are you a vendor — or know someone who should be here? <a href="{{ "contact/" | relLangURL }}">Get in touch</a> and we'll add the profile.</p>
+      <p class="ed-vendor-empty-help">Are you a vendor, or know someone who should be here? <a href="{{ "contact/" | relLangURL }}">Get in touch</a> and we'll add the profile.</p>
     </div>
   </div>
 </section>
@@ -948,8 +948,7 @@
     emptyEl.style.display = filtered.length === 0 ? 'block' : 'none';
 
     filtered.forEach(function(v) {
-      var card = document.createElement('a');
-      card.href = '/vendors/' + v.type + '/' + v.slug + '/';
+      var card = document.createElement('div');
       card.className = 'ed-vendor-card';
       card.innerHTML =
         '<div class="ed-vendor-card-img">' +

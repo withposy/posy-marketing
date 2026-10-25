@@ -5,7 +5,7 @@
 <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}?v=3">
 <title>{{ if .IsHome }}{{ .Site.Title }} | {{ .Site.Params.description }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<link rel="canonical" href="{{ .Permalink }}">
+{{ if eq .Kind "404" }}<meta name="robots" content="noindex">{{ else }}<link rel="canonical" href="{{ .Permalink }}">{{ end }}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 {{ if .IsHome }}<link rel="preload" as="image" href="{{ "images/hero-dashboard.webp" | relURL }}" fetchpriority="high">{{ end }}

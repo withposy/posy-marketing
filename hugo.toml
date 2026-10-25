@@ -2,6 +2,10 @@ baseURL = 'https://withposy.com/'
 title = 'Posy'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+
+# No tags or categories are used, so skip the empty taxonomy pages
+disableKinds = ['taxonomy', 'term']
 
 [markup]
   [markup.goldmark]
