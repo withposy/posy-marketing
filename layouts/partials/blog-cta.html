@@ -2,7 +2,13 @@
 {{- $p := .page -}}
 {{- $end := eq .variant "end" -}}
 <aside class="blog-inline-cta{{ if $end }} blog-inline-cta--end{{ end }}" data-cta="blog_{{ .variant }}">
-  <img src="{{ "images/step-gallery.webp" | relURL }}" alt="" class="blog-inline-cta-image" loading="lazy" decoding="async" width="750" height="917">
+  <div class="blog-inline-cta-visual" aria-hidden="true">
+    <img src="{{ "images/hero-dashboard.webp" | relURL }}" alt="" class="blog-inline-cta-phone" loading="lazy" decoding="async" width="496" height="640">
+    <figure class="blog-inline-cta-float">
+      <img src="{{ "images/gallery-2.webp" | relURL }}" alt="" loading="lazy" decoding="async" width="500" height="625">
+      <figcaption><span class="ed-float-dot"></span>+1 from Sarah</figcaption>
+    </figure>
+  </div>
   <div class="blog-inline-cta-body">
     <span class="blog-inline-cta-eyebrow">Posy</span>
     {{- if $end }}
