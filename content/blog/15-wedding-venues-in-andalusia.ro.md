@@ -16,7 +16,7 @@ Mai jos sunt 15 dintre cele mai impresionante locații de nuntă din Málaga, C�
 
 ## Cele mai bune locații de nuntă din Andaluzia
 
-### 1. Villa Luisa, Sevilla
+### 1. [Villa Luisa, Sevilla](https://www.google.com/maps/search/?api=1&query=Villa+Luisa%2C+Sevilla+Andalusia+Spain)
 
 ![Villa Luisa](/images/venue-01-villa-luisa.webp)
 
@@ -32,7 +32,7 @@ Un palat istoric în inima Sevillei, Villa Luisa îmbină eleganța regală cu g
 
 **Perfectă pentru:** Nunți elegante în oraș, locații istorice, celebrări atemporale.
 
-### 2. Villa Las Sirenas, Sotogrande
+### 2. [Villa Las Sirenas, Sotogrande](https://www.google.com/maps/search/?api=1&query=Villa+Las+Sirenas%2C+Sotogrande+Andalusia+Spain)
 
 ![Villa Las Sirenas](/images/venue-02-las-sirenas.webp)
 
@@ -48,7 +48,7 @@ Cu vedere spre litoralul sudului Spaniei, această vilă de lux oferă intimitat
 
 **Perfectă pentru:** Nunți în vilă de lux, grupuri intime, sofisticare modernă.
 
-### 3. La Chumbera, Granada
+### 3. [La Chumbera, Granada](https://www.google.com/maps/search/?api=1&query=La+Chumbera%2C+Granada+Andalusia+Spain)
 
 ![La Chumbera](/images/venue-03-la-chumbera.webp)
 
@@ -64,7 +64,7 @@ Situată pe dealul cu vedere spre Alhambra, La Chumbera oferă priveliști imbat
 
 **Perfectă pentru:** Nunți romantice, culturale, iubitorii Granadei, fundaluri unice.
 
-### 4. Finca Molino del Duque, Marbella
+### 4. [Finca Molino del Duque, Marbella](https://www.google.com/maps/search/?api=1&query=Finca+Molino+del+Duque%2C+Marbella+Andalusia+Spain)
 
 ![Finca Molino del Duque](/images/venue-04-molino-del-duque.webp)
 
@@ -80,7 +80,7 @@ Această moară andaluză restaurată oferă farmec rustic îmbinat cu lux, înc
 
 **Perfectă pentru:** Nunți rustice de lux, boho chic, ceremonii în aer liber.
 
-### 5. Huerta del Conde, Málaga
+### 5. [Huerta del Conde, Málaga](https://www.google.com/maps/search/?api=1&query=Huerta+del+Conde%2C+M%C3%A1laga+Andalusia+Spain)
 
 ![Huerta del Conde](/images/venue-05-huerta-del-conde.webp)
 
@@ -96,7 +96,7 @@ O proprietate tradițională înconjurată de măslini și dealuri ondulate, ide
 
 **Perfectă pentru:** Iubitorii naturii, atmosferă spaniolă tradițională, nunți la țară.
 
-### 6. Finca Concepción, Marbella
+### 6. [Finca Concepción, Marbella](https://www.google.com/maps/search/?api=1&query=Finca+Concepci%C3%B3n%2C+Marbella+Andalusia+Spain)
 
 ![Finca Concepción](/images/venue-06-finca-concepcion.webp)
 
@@ -112,7 +112,7 @@ O locație luxuriantă, cu stil tropical, cu palmieri impunători, grădini înf
 
 **Perfectă pentru:** Nunți în grădină, evenimente glamuroase, celebrări în Marbella.
 
-### 7. Finca el Cañuelo, Tarifa / Cádiz
+### 7. [Finca el Cañuelo, Tarifa / Cádiz](https://www.google.com/maps/search/?api=1&query=Finca+el+Ca%C3%B1uelo%2C+Tarifa+%2F+C%C3%A1diz+Andalusia+Spain)
 
 ![Finca el Cañuelo](/images/venue-07-finca-canuelo.webp)
 
@@ -128,7 +128,7 @@ O proprietate andaluză albă cu vedere spre cele mai frumoase plaje din sudul S
 
 **Perfectă pentru:** Nunți boho, iubitorii plajei, ceremonii la apus.
 
-### 8. Castillo de la Monclova, Provincia Sevilla
+### 8. [Castillo de la Monclova, Provincia Sevilla](https://www.google.com/maps/search/?api=1&query=Castillo+de+la+Monclova%2C+Provincia+Sevilla+Andalusia+Spain)
 
 ![Castillo de la Monclova](/images/venue-08-castillo-monclova.webp)
 
@@ -144,7 +144,7 @@ Un castel din secolul al XIV-lea înconjurat de livezi de măslini, oferind cur�
 
 **Perfectă pentru:** Nunți de basm, celebrări mari, iubitorii castelelor.
 
-### 9. Hacienda Faín Viejo, Arcos de la Frontera, Cádiz
+### 9. [Hacienda Faín Viejo, Arcos de la Frontera, Cádiz](https://www.google.com/maps/search/?api=1&query=Hacienda+Fa%C3%ADn+Viejo%2C+Arcos+de+la+Frontera%2C+C%C3%A1diz+Andalusia+Spain)
 
 ![Hacienda Faín Viejo](/images/venue-09-hacienda-fain.webp)
 
@@ -160,7 +160,7 @@ O proprietate istorică spectaculoasă înconjurată de livezi de măslini, lacu
 
 **Perfectă pentru:** Nunți romantice pe moșie, iubitorii patrimoniului, evenimente exclusive de weekend.
 
-### 10. Cortijo San Francisco, Estepona
+### 10. [Cortijo San Francisco, Estepona](https://www.google.com/maps/search/?api=1&query=Cortijo+San+Francisco%2C+Estepona+Andalusia+Spain)
 
 ![Cortijo San Francisco](/images/venue-10-cortijo-san-francisco.webp)
 
@@ -176,7 +176,7 @@ Situată în liniștea câmpiei andaluze, la câteva minute de Estepona, Cortijo
 
 **Perfectă pentru:** Nunți rustice, grupuri intime, estetică tradițională.
 
-### 11. Cortijo Pedro Jiménez, Zona Ronda
+### 11. [Cortijo Pedro Jiménez, Zona Ronda](https://www.google.com/maps/search/?api=1&query=Cortijo+Pedro+Jim%C3%A9nez%2C+Zona+Ronda+Andalusia+Spain)
 
 ![Cortijo Pedro Jiménez](/images/venue-11-cortijo-pedro-jimenez.webp)
 
@@ -192,7 +192,7 @@ Situat pe terenuri vaste lângă Ronda, acest cortijo îmbină minimalismul eleg
 
 **Perfectă pentru:** Nunți minimaliste, evadări la țară, nunți în ritm lent.
 
-### 12. Retiro Sambana, Provincia Cádiz
+### 12. [Retiro Sambana, Provincia Cádiz](https://www.google.com/maps/search/?api=1&query=Retiro+Sambana%2C+Provincia+C%C3%A1diz+Andalusia+Spain)
 
 ![Retiro Sambana](/images/venue-12-retiro-sambana.webp)
 
@@ -208,7 +208,7 @@ O hacienda pașnică scufundată în natură, oferind o atmosferă relaxată, bo
 
 **Perfectă pentru:** Nunți relaxate, celebrări de weekend, iubitorii naturii.
 
-### 13. Finca Monasterio, Sotogrande
+### 13. [Finca Monasterio, Sotogrande](https://www.google.com/maps/search/?api=1&query=Finca+Monasterio%2C+Sotogrande+Andalusia+Spain)
 
 ![Finca Monasterio](/images/venue-13-finca-monasterio.webp)
 
@@ -224,7 +224,7 @@ Acest hotel boutique și fostă mănăstire combină farmecul istoric cu facilit
 
 **Perfectă pentru:** Nunți la destinație, sejururi de weekend complet, celebrări elegante.
 
-### 14. Finca Cortesin, Casares (Málaga)
+### 14. [Finca Cortesin, Casares (Málaga)](https://www.google.com/maps/search/?api=1&query=Finca+Cortesin%2C+Casares+%28M%C3%A1laga%29+Andalusia+Spain)
 
 ![Finca Cortesin](/images/venue-14-finca-cortesin.webp)
 
@@ -240,7 +240,7 @@ Unul dintre cele mai luxoase resorturi din Spania, oferind grădini impecabile, 
 
 **Perfectă pentru:** Nunți de lux, cupluri glamuroase, experiențe de 5 stele.
 
-### 15. La Esperanza, Granada
+### 15. [La Esperanza, Granada](https://www.google.com/maps/search/?api=1&query=La+Esperanza%2C+Granada+Andalusia+Spain)
 
 ![La Esperanza](/images/venue-15-la-esperanza.webp)
 

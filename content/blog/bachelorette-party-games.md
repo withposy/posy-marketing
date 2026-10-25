@@ -4,6 +4,7 @@ date: 2026-03-26
 draft: false
 author: "Florina Vanani"
 image: "/images/blog-bachelorette-party-games.jpg"
+cta_title: "Save the photos from the big day before they vanish into a hundred camera rolls."
 excerpt: "No one wants a boring bachelorette party. From scavenger hunts to raunchy confessions, these 14 hilarious bachelorette party games will have your squad spilling secrets, laughing uncontrollably, and making memories that live forever."
 ---
 

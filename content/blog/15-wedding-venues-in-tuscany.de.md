@@ -19,7 +19,7 @@ Wir haben 15 der atemberaubendsten Locations in Florenz, im Chianti, rund um Sie
 
 ## Unsere liebsten Hochzeitslocations in der Toskana
 
-### 1. Villa Cora, Florenz
+### 1. [Villa Cora, Florenz](https://www.google.com/maps/search/?api=1&query=Villa+Cora%2C+Florenz+Tuscany+Italy)
 
 ![Hochzeitslocation Villa Cora in Florenz, Toskana](/images/tuscany-venue-01-villa-cora.webp)
 
@@ -35,7 +35,7 @@ Versteckt in einem privaten Park oberhalb des Oltrarno wirkt diese Villa aus dem
 
 **Perfekt für:** Glamouröse Stadthochzeiten, Black-Tie-Feiern, Kulturliebhaber.
 
-### 2. Villa San Michele, Fiesole
+### 2. [Villa San Michele, Fiesole](https://www.google.com/maps/search/?api=1&query=Villa+San+Michele%2C+Fiesole+Tuscany+Italy)
 
 ![Hochzeitslocation Villa San Michele in Fiesole, oberhalb von Florenz](/images/tuscany-venue-02-villa-san-michele.webp)
 
@@ -51,7 +51,7 @@ Einst ein Franziskanerkloster, heute eines der romantischsten Hotels Italiens. V
 
 **Perfekt für:** Kleine Luxushochzeiten, Elopements, Paare, die den Wow-Effekt wollen.
 
-### 3. Castello di Vincigliata, Fiesole
+### 3. [Castello di Vincigliata, Fiesole](https://www.google.com/maps/search/?api=1&query=Castello+di+Vincigliata%2C+Fiesole+Tuscany+Italy)
 
 ![Hochzeitsdinner bei Kerzenschein im Innenhof des Castello di Vincigliata, Fiesole](/images/tuscany-venue-03-castello-di-vincigliata.webp)
 
@@ -67,7 +67,7 @@ Eine mittelalterliche Burg auf den bewaldeten Hügeln über Florenz, im 19. Jahr
 
 **Perfekt für:** Märchenromantiker, Geschichtsliebhaber, das Beste aus Stadt und Land.
 
-### 4. Villa Medicea di Lilliano, Hügel von Florenz
+### 4. [Villa Medicea di Lilliano, Hügel von Florenz](https://www.google.com/maps/search/?api=1&query=Villa+Medicea+di+Lilliano%2C+H%C3%BCgel+von+Florenz+Tuscany+Italy)
 
 ![Luftaufnahme eines Hochzeitsdinners in der Villa Medicea di Lilliano in den Hügeln von Florenz](/images/tuscany-venue-04-villa-medicea-di-lilliano.webp)
 
@@ -83,7 +83,7 @@ Ein echtes Juwel der Renaissance mit Medici-Geschichte, umgeben von Reben und ge
 
 **Perfekt für:** Weinliebhaber, Geschichtsfans, große und trotzdem persönliche Feiern.
 
-### 5. Le Filigare, Chianti
+### 5. [Le Filigare, Chianti](https://www.google.com/maps/search/?api=1&query=Le+Filigare%2C+Chianti+Tuscany+Italy)
 
 ![Hochzeitsempfang auf Le Filigare mit Blick auf die Weinberge des Chianti](/images/tuscany-venue-05-le-filigare.webp)
 
@@ -99,7 +99,7 @@ Das ist das Chianti, das du von Bildern kennst: Reben, so weit das Auge reicht, 
 
 **Perfekt für:** Entspannte Landhochzeiten, Weinproben mit den Gästen, lange Wochenenden.
 
-### 6. Villa Catignano, Chianti
+### 6. [Villa Catignano, Chianti](https://www.google.com/maps/search/?api=1&query=Villa+Catignano%2C+Chianti+Tuscany+Italy)
 
 ![Hochzeitstafeln im Innenhof der Villa Catignano, Chianti](/images/tuscany-venue-06-villa-catignano.webp)
 
@@ -115,7 +115,7 @@ Auf diesem Anwesen in den Hügeln des Chianti trifft rustikaler Charme auf die E
 
 **Perfekt für:** Romantik auf dem Land, Hochzeiten im Familienstil, entspannte Eleganz.
 
-### 7. Il Borgo di Vignamaggio, Greve in Chianti
+### 7. [Il Borgo di Vignamaggio, Greve in Chianti](https://www.google.com/maps/search/?api=1&query=Il+Borgo+di+Vignamaggio%2C+Greve+in+Chianti+Tuscany+Italy)
 
 ![Villa Vignamaggio bei Sonnenuntergang, Hochzeitslocation in Greve in Chianti](/images/tuscany-venue-07-borgo-di-vignamaggio.webp)
 
@@ -131,7 +131,7 @@ Ein liebevoll restauriertes Dörfchen auf einem der ältesten Weingüter des Chi
 
 **Perfekt für:** Feiern mit Exklusivnutzung, Liebhaber historischer Orte, Weinland-Träumer.
 
-### 8. Villa Cetinale, Sovicille (Siena)
+### 8. [Villa Cetinale, Sovicille (Siena)](https://www.google.com/maps/search/?api=1&query=Villa+Cetinale%2C+Sovicille+%28Siena%29+Tuscany+Italy)
 
 ![Villa Cetinale und ihre barocken Gärten bei Siena](/images/tuscany-venue-08-villa-cetinale.webp)
 
@@ -147,7 +147,7 @@ Sie wird oft als eine der schönsten Villen Italiens bezeichnet, und ehrlich ges
 
 **Perfekt für:** Hochzeiten im Editorial-Stil, Architekturliebhaber, Paare, die ein Statement setzen wollen.
 
-### 9. Castello di San Fabiano, Umgebung von Siena
+### 9. [Castello di San Fabiano, Umgebung von Siena](https://www.google.com/maps/search/?api=1&query=Castello+di+San+Fabiano%2C+Umgebung+von+Siena+Tuscany+Italy)
 
 ![Castello di San Fabiano, Burg und Hochzeitslocation bei Siena](/images/tuscany-venue-09-castello-di-san-fabiano.webp)
 
@@ -163,7 +163,7 @@ Ja, du kannst in einer echten mittelalterlichen Burg heiraten. Ihr Turm aus rote
 
 **Perfekt für:** Märchenfans, große Partys, mehrtägige Feiern.
 
-### 10. Villa di Ulignano, Volterra / San Gimignano
+### 10. [Villa di Ulignano, Volterra / San Gimignano](https://www.google.com/maps/search/?api=1&query=Villa+di+Ulignano%2C+Volterra+%2F+San+Gimignano+Tuscany+Italy)
 
 ![Luftaufnahme der Villa di Ulignano, Hochzeitslocation zwischen Volterra und San Gimignano](/images/tuscany-venue-10-villa-di-ulignano.webp)
 
@@ -179,7 +179,7 @@ Eine Villa auf einem Hügel zwischen zwei der beliebtesten Städtchen der Toskan
 
 **Perfekt für:** Hochzeiten über ein ganzes Wochenende, kleine vertraute Gästelisten, elegante Hauspartys.
 
-### 11. Villa Lena, Hügel von Pisa
+### 11. [Villa Lena, Hügel von Pisa](https://www.google.com/maps/search/?api=1&query=Villa+Lena%2C+H%C3%BCgel+von+Pisa+Tuscany+Italy)
 
 ![Luftaufnahme eines Hochzeitsdinners in der Villa Lena in den Hügeln von Pisa](/images/tuscany-venue-11-villa-lena.webp)
 
@@ -195,7 +195,7 @@ Halb Agriturismo, halb Künstlerresidenz und rundum einzigartig. Villa Lena vers
 
 **Perfekt für:** Boho-Paare, Kreative, Foodies und entspannte Wochenend-Vibes.
 
-### 12. La Foce, Val d'Orcia
+### 12. [La Foce, Val d'Orcia](https://www.google.com/maps/search/?api=1&query=La+Foce%2C+Val+d%27Orcia+Tuscany+Italy)
 
 ![Braut auf dem Weg zur Gartenzeremonie in La Foce, Val d'Orcia](/images/tuscany-venue-12-la-foce.webp)
 
@@ -211,7 +211,7 @@ Das ist die Toskana, wie sie im Bilderbuch steht. Die geschwungene Zypressenstra
 
 **Perfekt für:** Gartenhochzeiten, exklusive Feiern auf dem Landgut, Momente wie auf einer Postkarte.
 
-### 13. Castello di Velona, Montalcino
+### 13. [Castello di Velona, Montalcino](https://www.google.com/maps/search/?api=1&query=Castello+di+Velona%2C+Montalcino+Tuscany+Italy)
 
 ![Hochzeitsdinner bei Kerzenschein im Castello di Velona, Montalcino](/images/tuscany-venue-13-castello-di-velona.webp)
 
@@ -227,7 +227,7 @@ Eine Burg auf dem Hügel, heute ein Luxusresort, mitten im Land des Brunello. Mi
 
 **Perfekt für:** 5-Sterne-Hochzeiten, Weinkenner, luxuriöse Wochenenden.
 
-### 14. Villa Montanare, Cortona
+### 14. [Villa Montanare, Cortona](https://www.google.com/maps/search/?api=1&query=Villa+Montanare%2C+Cortona+Tuscany+Italy)
 
 ![Hochzeitslocation Villa Montanare bei Cortona in der Abenddämmerung](/images/tuscany-venue-14-villa-montanare.webp)
 
@@ -243,7 +243,7 @@ Kurz vor den Toren des mittelalterlichen Städtchens Cortona liegt diese Villa, 
 
 **Perfekt für:** Intime Hochzeiten, Fans von *Unter der Sonne der Toskana*, herzliche und entspannte Feiern.
 
-### 15. Castello di Vicarello, Maremma
+### 15. [Castello di Vicarello, Maremma](https://www.google.com/maps/search/?api=1&query=Castello+di+Vicarello%2C+Maremma+Tuscany+Italy)
 
 ![Hochzeitslocation Castello di Vicarello in der Maremma, Toskana](/images/tuscany-venue-15-castello-di-vicarello.webp)
 

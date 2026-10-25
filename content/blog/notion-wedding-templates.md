@@ -3,6 +3,7 @@ title: "15 Best Notion Templates to Plan Your Own Dream Wedding"
 date: 2026-01-02
 author: "Florina Vanani"
 image: "/images/blog-notion-templates.webp"
+cta_title: "One more thing for your Notion board: a single home for every guest photo."
 excerpt: "Planning a wedding is exciting and overwhelming. Between guest lists, budgets, and those tiny details only you notice, things can get stressful."
 ---
 

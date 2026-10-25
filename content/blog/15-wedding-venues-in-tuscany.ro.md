@@ -19,7 +19,7 @@ Am adunat 15 dintre cele mai spectaculoase locații din Florența, Chianti, Sien
 
 ## Locațiile noastre preferate de nuntă din Toscana
 
-### 1. Villa Cora, Florența
+### 1. [Villa Cora, Florența](https://www.google.com/maps/search/?api=1&query=Villa+Cora%2C+Floren%C8%9Ba+Tuscany+Italy)
 
 ![Locația de nuntă Villa Cora din Florența, Toscana](/images/tuscany-venue-01-villa-cora.webp)
 
@@ -35,7 +35,7 @@ Ascunsă într-un parc privat chiar deasupra cartierului Oltrarno, această vil�
 
 **Perfectă pentru:** Nunți glamuroase în oraș, petreceri black-tie, iubitorii de cultură.
 
-### 2. Villa San Michele, Fiesole
+### 2. [Villa San Michele, Fiesole](https://www.google.com/maps/search/?api=1&query=Villa+San+Michele%2C+Fiesole+Tuscany+Italy)
 
 ![Locația de nuntă Villa San Michele din Fiesole, deasupra Florenței](/images/tuscany-venue-02-villa-san-michele.webp)
 
@@ -51,7 +51,7 @@ Cândva mănăstire franciscană, astăzi unul dintre cele mai romantice hotelur
 
 **Perfectă pentru:** Nunți mici de lux, elopement-uri, cupluri care vor efectul „wow”.
 
-### 3. Castello di Vincigliata, Fiesole
+### 3. [Castello di Vincigliata, Fiesole](https://www.google.com/maps/search/?api=1&query=Castello+di+Vincigliata%2C+Fiesole+Tuscany+Italy)
 
 ![Cină de nuntă la lumina lumânărilor în curtea Castello di Vincigliata, Fiesole](/images/tuscany-venue-03-castello-di-vincigliata.webp)
 
@@ -67,7 +67,7 @@ Un castel medieval cocoțat pe dealurile împădurite de deasupra Florenței, re
 
 **Perfectă pentru:** Romanticii care visează la povești, iubitorii de istorie, cei care vor ce e mai bun de la oraș și de la țară.
 
-### 4. Villa Medicea di Lilliano, dealurile Florenței
+### 4. [Villa Medicea di Lilliano, dealurile Florenței](https://www.google.com/maps/search/?api=1&query=Villa+Medicea+di+Lilliano%2C+dealurile+Floren%C8%9Bei+Tuscany+Italy)
 
 ![Vedere aeriană a unei cine de nuntă la Villa Medicea di Lilliano, pe dealurile Florenței](/images/tuscany-venue-04-villa-medicea-di-lilliano.webp)
 
@@ -83,7 +83,7 @@ O adevărată comoară renascentistă, cu istorie legată de familia Medici, în
 
 **Perfectă pentru:** Iubitorii de vin, pasionații de istorie, petreceri grandioase dar personale.
 
-### 5. Le Filigare, Chianti
+### 5. [Le Filigare, Chianti](https://www.google.com/maps/search/?api=1&query=Le+Filigare%2C+Chianti+Tuscany+Italy)
 
 ![Petrecere de nuntă la Le Filigare, cu podgoriile din Chianti](/images/tuscany-venue-05-le-filigare.webp)
 
@@ -99,7 +99,7 @@ Acesta e Chianti-ul pe care l-ai văzut în poze: vii în toate direcțiile, mă
 
 **Perfectă pentru:** Nunți relaxate la țară, degustări de vin cu invitații, weekenduri prelungite.
 
-### 6. Villa Catignano, Chianti
+### 6. [Villa Catignano, Chianti](https://www.google.com/maps/search/?api=1&query=Villa+Catignano%2C+Chianti+Tuscany+Italy)
 
 ![Mese de nuntă în curtea Villa Catignano, Chianti](/images/tuscany-venue-06-villa-catignano.webp)
 
@@ -115,7 +115,7 @@ Farmecul rustic se întâlnește cu eleganța de altădată pe această propriet
 
 **Perfectă pentru:** Romantism la țară, nunți în stil familial, eleganță relaxată.
 
-### 7. Il Borgo di Vignamaggio, Greve in Chianti
+### 7. [Il Borgo di Vignamaggio, Greve in Chianti](https://www.google.com/maps/search/?api=1&query=Il+Borgo+di+Vignamaggio%2C+Greve+in+Chianti+Tuscany+Italy)
 
 ![Villa Vignamaggio la apus, locație de nuntă în Greve in Chianti](/images/tuscany-venue-07-borgo-di-vignamaggio.webp)
 
@@ -131,7 +131,7 @@ Un cătun restaurat cu grijă pe una dintre cele mai vechi proprietăți viticol
 
 **Perfectă pentru:** Petreceri cu locația doar pentru voi, iubitorii de patrimoniu, visătorii care se văd printre podgorii.
 
-### 8. Villa Cetinale, Sovicille (Siena)
+### 8. [Villa Cetinale, Sovicille (Siena)](https://www.google.com/maps/search/?api=1&query=Villa+Cetinale%2C+Sovicille+%28Siena%29+Tuscany+Italy)
 
 ![Villa Cetinale și grădinile sale baroce de lângă Siena](/images/tuscany-venue-08-villa-cetinale.webp)
 
@@ -147,7 +147,7 @@ Adesea numită una dintre cele mai frumoase vile din Italia și, sincer, e greu 
 
 **Perfectă pentru:** Nunți în stil editorial, iubitorii de arhitectură, cuplurile care vor să impresioneze.
 
-### 9. Castello di San Fabiano, zona Siena
+### 9. [Castello di San Fabiano, zona Siena](https://www.google.com/maps/search/?api=1&query=Castello+di+San+Fabiano%2C+zona+Siena+Tuscany+Italy)
 
 ![Castello di San Fabiano, castel pentru nunți lângă Siena](/images/tuscany-venue-09-castello-di-san-fabiano.webp)
 
@@ -163,7 +163,7 @@ Da, te poți căsători într-un castel medieval adevărat. Turnul său din căr
 
 **Perfectă pentru:** Fanii poveștilor, petreceri mari, celebrări pe mai multe zile.
 
-### 10. Villa di Ulignano, Volterra / San Gimignano
+### 10. [Villa di Ulignano, Volterra / San Gimignano](https://www.google.com/maps/search/?api=1&query=Villa+di+Ulignano%2C+Volterra+%2F+San+Gimignano+Tuscany+Italy)
 
 ![Vedere aeriană a Villa di Ulignano, locație de nuntă între Volterra și San Gimignano](/images/tuscany-venue-10-villa-di-ulignano.webp)
 
@@ -179,7 +179,7 @@ O vilă pe vârf de deal, între două dintre cele mai îndrăgite orașe din To
 
 **Perfectă pentru:** Nunți de un weekend întreg, liste restrânse de invitați apropiați, petreceri elegante în vilă.
 
-### 11. Villa Lena, dealurile din Pisa
+### 11. [Villa Lena, dealurile din Pisa](https://www.google.com/maps/search/?api=1&query=Villa+Lena%2C+dealurile+din+Pisa+Tuscany+Italy)
 
 ![Vedere aeriană a unei cine de nuntă la Villa Lena, pe dealurile din Pisa](/images/tuscany-venue-11-villa-lena.webp)
 
@@ -195,7 +195,7 @@ Pe jumătate agroturism, pe jumătate rezidență artistică și cu totul unică
 
 **Perfectă pentru:** Cupluri boho, creativi, gurmanzi și vibe-uri relaxate de weekend.
 
-### 12. La Foce, Val d'Orcia
+### 12. [La Foce, Val d'Orcia](https://www.google.com/maps/search/?api=1&query=La+Foce%2C+Val+d%27Orcia+Tuscany+Italy)
 
 ![Mireasa în drum spre ceremonia de nuntă în grădina La Foce, Val d'Orcia](/images/tuscany-venue-12-la-foce.webp)
 
@@ -211,7 +211,7 @@ Aceasta e Toscana în varianta ei cea mai iconică. Drumul șerpuit mărginit de
 
 **Perfectă pentru:** Nunți în grădină, petreceri exclusive pe o moșie, momente ca de carte poștală.
 
-### 13. Castello di Velona, Montalcino
+### 13. [Castello di Velona, Montalcino](https://www.google.com/maps/search/?api=1&query=Castello+di+Velona%2C+Montalcino+Tuscany+Italy)
 
 ![Cină de nuntă la lumina lumânărilor la Castello di Velona, Montalcino](/images/tuscany-venue-13-castello-di-velona.webp)
 
@@ -227,7 +227,7 @@ Un castel pe vârf de deal transformat în resort de lux, în inima ținutului B
 
 **Perfectă pentru:** Nunți de 5 stele, cunoscători de vin, weekenduri luxoase.
 
-### 14. Villa Montanare, Cortona
+### 14. [Villa Montanare, Cortona](https://www.google.com/maps/search/?api=1&query=Villa+Montanare%2C+Cortona+Tuscany+Italy)
 
 ![Locația de nuntă Villa Montanare, lângă Cortona, la amurg](/images/tuscany-venue-14-villa-montanare.webp)
 
@@ -243,7 +243,7 @@ Chiar la marginea orașului medieval Cortona, pergola acoperită de viță a ace
 
 **Perfectă pentru:** Nunți intime, visătorii care au iubit *Under the Tuscan Sun*, petreceri calde și relaxate.
 
-### 15. Castello di Vicarello, Maremma
+### 15. [Castello di Vicarello, Maremma](https://www.google.com/maps/search/?api=1&query=Castello+di+Vicarello%2C+Maremma+Tuscany+Italy)
 
 ![Locația de nuntă Castello di Vicarello din Maremma, Toscana](/images/tuscany-venue-15-castello-di-vicarello.webp)
 

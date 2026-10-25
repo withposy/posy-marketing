@@ -301,6 +301,18 @@ other = "Örökítsd meg az esküvőd minden pillanatát"
 other = "Könnyedén gyűjtsd, oszd meg és éld újra minden pillanatot a vendégeiddel — alkalmazás nélkül, gond nélkül, csak felejthetetlen emlékek!"
 [blog_cta_button]
 other = "Kezdd el a történeted ma"
+[blog_inline_cta_title]
+other = "A vendégeid több száz fotót készítenek. A Posy egy helyre gyűjti őket."
+[blog_inline_cta_text]
+other = "Egy QR-kód az asztalokon, és minden vendég közvetlenül a telefonjáról tölt fel. Nincs app, nincs regisztráció, és senkit sem kell utána hajkurászni."
+[blog_inline_cta_button]
+other = "Így működik a Posy"
+[blog_end_cta_title]
+other = "Eggyel kevesebb tervezni való"
+[blog_end_cta_text]
+other = "Állítsd be a Posy albumodat pár perc alatt, tedd ki a QR-kódot a nagy napon, és másnap reggelre ott vár minden fotó, amit a vendégeid készítettek. Teljes felbontásban, egy privát helyen."
+[blog_end_cta_button]
+other = "Kezdd el"
 
 # ─── Signin ──────────────────────────────────────────────
 [signin_title]

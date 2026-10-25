@@ -129,6 +129,7 @@
   if (pricingSection && typeof IntersectionObserver !== 'undefined') {
     new IntersectionObserver(function(entries, obs) {
       if (entries[0].isIntersecting && typeof gtag === 'function') {
+        if (typeof clarity === 'function') clarity('event', 'pricing_plans_viewed');
         gtag('event', 'view_item_list', {
           item_list_id: 'pricing_plans',
           item_list_name: 'Pricing Plans',
@@ -145,6 +146,10 @@
       var url = new URL(a.href);
       var planId = url.searchParams.get('plan');
       var plan = plans[planId];
+      if (plan && typeof clarity === 'function') {
+        clarity('set', 'plan', planId);
+        clarity('event', 'begin_checkout');
+      }
       if (!plan || typeof gtag !== 'function') return;
 
       gtag('event', 'begin_checkout', {

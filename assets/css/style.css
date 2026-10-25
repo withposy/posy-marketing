@@ -1462,6 +1462,116 @@ ul { list-style: none; }
   border-radius: var(--radius-lg);
 }
 
+/* ── Blog in-article CTA ──────────────────────────── */
+
+.blog-inline-cta {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 3rem 0;
+  padding: 1.25rem;
+  background: var(--color-light-gray);
+  border-radius: var(--radius-lg);
+}
+
+.blog-inline-cta-visual {
+  position: relative;
+  padding: 0.5rem 1.5rem 0.5rem 0;
+}
+
+.prose .blog-inline-cta-phone {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  margin: 0;
+  border-radius: 0;
+  filter: drop-shadow(0 16px 30px rgba(26, 26, 46, 0.14));
+}
+
+.prose .blog-inline-cta-float {
+  position: absolute;
+  top: 12%;
+  right: 0;
+  width: 46%;
+  margin: 0;
+  padding: 4px 4px 6px;
+  background: var(--color-cream);
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(26, 26, 46, 0.14);
+  transform: rotate(4deg);
+}
+
+.prose .blog-inline-cta-float img {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.blog-inline-cta-float figcaption {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+  font-size: 0.6rem;
+  line-height: 1.2;
+  color: var(--color-dark);
+  white-space: nowrap;
+}
+
+.prose .blog-inline-cta .btn,
+.prose .blog-inline-cta .btn:hover {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.blog-inline-cta-eyebrow {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.4rem;
+}
+
+.prose .blog-inline-cta-title {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+}
+
+.prose .blog-inline-cta-text {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--color-gray);
+  margin-bottom: 1rem;
+}
+
+.blog-inline-cta--end {
+  grid-template-columns: 220px 1fr;
+  margin-top: 4rem;
+}
+
+.prose .blog-inline-cta--end .blog-inline-cta-title {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 600px) {
+  .blog-inline-cta,
+  .blog-inline-cta--end {
+    grid-template-columns: 1fr;
+  }
+  .blog-inline-cta-visual {
+    width: 150px;
+    margin: 0 auto;
+  }
+}
+
 /* ── Blog Post Single ─────────────────────────────── */
 
 .blog-post .section {

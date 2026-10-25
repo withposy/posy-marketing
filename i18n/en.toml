@@ -326,9 +326,21 @@ other = "Stay tuned — new articles coming soon."
 [blog_cta_title]
 other = "Capture All Your Wedding Moments"
 [blog_cta_desc]
-other = "Easily collect, share, and relive every moment with your guests—no app, no hassle, just unforgettable memories!"
+other = "Easily collect, share, and relive every moment with your guests. No app, no hassle, just every moment in one place."
 [blog_cta_button]
 other = "Start Your Story Today"
+[blog_inline_cta_title]
+other = "Your guests will take hundreds of photos. Posy gathers them in one place."
+[blog_inline_cta_text]
+other = "One QR code on the tables and every guest uploads straight from their phone. No app to install, no accounts to make, no chasing anyone the week after."
+[blog_inline_cta_button]
+other = "See how Posy works"
+[blog_end_cta_title]
+other = "One less thing to plan"
+[blog_end_cta_text]
+other = "Set up your Posy gallery in a few minutes, put the QR code out on the day, and wake up to every photo your guests took. Full resolution, all in one private place."
+[blog_end_cta_button]
+other = "Get started"
 
 # ─── Signin ──────────────────────────────────────────────
 [signin_title]
