@@ -19,7 +19,7 @@ Van, aki egy firenzei palazzo pompájára vágyik. Más mezítlábas, boho hétv
 
 ## Kedvenc toszkánai esküvői helyszíneink
 
-### 1. Villa Cora, Firenze
+### 1. [Villa Cora, Firenze](https://www.google.com/maps/search/?api=1&query=Villa+Cora%2C+Firenze+Tuscany+Italy)
 
 ![A Villa Cora esküvői helyszín Firenzében, Toszkánában](/images/tuscany-venue-01-villa-cora.webp)
 
@@ -35,7 +35,7 @@ Az Oltrarno fölött, egy magánparkba rejtve ez a XIX. századi villa olyan, mi
 
 **Tökéletes:** Glamúros városi esküvőkhöz, black-tie ünnepségekhez, kultúrakedvelőknek.
 
-### 2. Villa San Michele, Fiesole
+### 2. [Villa San Michele, Fiesole](https://www.google.com/maps/search/?api=1&query=Villa+San+Michele%2C+Fiesole+Tuscany+Italy)
 
 ![A Villa San Michele esküvői helyszín Fiesoléban, Firenze fölött](/images/tuscany-venue-02-villa-san-michele.webp)
 
@@ -51,7 +51,7 @@ Egykor ferences kolostor, ma Olaszország egyik legromantikusabb szállodája. D
 
 **Tökéletes:** Kis létszámú luxusesküvőkhöz, kettesben tartott esküvőkhöz, pároknak, akik a wow-hatásra vágynak.
 
-### 3. Castello di Vincigliata, Fiesole
+### 3. [Castello di Vincigliata, Fiesole](https://www.google.com/maps/search/?api=1&query=Castello+di+Vincigliata%2C+Fiesole+Tuscany+Italy)
 
 ![Gyertyafényes esküvői vacsora a Castello di Vincigliata udvarán, Fiesoléban](/images/tuscany-venue-03-castello-di-vincigliata.webp)
 
@@ -67,7 +67,7 @@ Középkori kastély a Firenze feletti erdős dombokon, amelyet a XIX. századba
 
 **Tökéletes:** Mesebeli romantikusoknak, a történelem szerelmeseinek, a város és a vidék legjobbjához egyszerre.
 
-### 4. Villa Medicea di Lilliano, Firenze környéki dombok
+### 4. [Villa Medicea di Lilliano, Firenze környéki dombok](https://www.google.com/maps/search/?api=1&query=Villa+Medicea+di+Lilliano%2C+Firenze+k%C3%B6rny%C3%A9ki+dombok+Tuscany+Italy)
 
 ![Esküvői vacsora légi felvételen a Villa Medicea di Lilliano birtokon, a Firenze környéki dombokon](/images/tuscany-venue-04-villa-medicea-di-lilliano.webp)
 
@@ -83,7 +83,7 @@ Igazi reneszánsz kincs Medici-múlttal, szőlőkkel és gondozott kertekkel kö
 
 **Tökéletes:** Borkedvelőknek, történelemrajongóknak, nagyszabású, mégis személyes ünnepségekhez.
 
-### 5. Le Filigare, Chianti
+### 5. [Le Filigare, Chianti](https://www.google.com/maps/search/?api=1&query=Le+Filigare%2C+Chianti+Tuscany+Italy)
 
 ![Esküvői fogadás a Le Filigare birtokon, chianti szőlőültetvényekkel](/images/tuscany-venue-05-le-filigare.webp)
 
@@ -99,7 +99,7 @@ Ez az a Chianti, amit a képeken láttál: szőlő, amerre a szem ellát, ezüst
 
 **Tökéletes:** Laza vidéki esküvőkhöz, közös borkóstolókhoz a vendégekkel, hosszú hétvégékhez.
 
-### 6. Villa Catignano, Chianti
+### 6. [Villa Catignano, Chianti](https://www.google.com/maps/search/?api=1&query=Villa+Catignano%2C+Chianti+Tuscany+Italy)
 
 ![Esküvői asztalok a Villa Catignano udvarán, Chiantiban](/images/tuscany-venue-06-villa-catignano.webp)
 
@@ -115,7 +115,7 @@ Rusztikus báj és régi világbeli elegancia találkozik ezen a birtokon a chia
 
 **Tökéletes:** Vidéki romantikához, családias esküvőkhöz, laza eleganciához.
 
-### 7. Il Borgo di Vignamaggio, Greve in Chianti
+### 7. [Il Borgo di Vignamaggio, Greve in Chianti](https://www.google.com/maps/search/?api=1&query=Il+Borgo+di+Vignamaggio%2C+Greve+in+Chianti+Tuscany+Italy)
 
 ![A Villa Vignamaggio naplementében, esküvői helyszín Greve in Chiantiban](/images/tuscany-venue-07-borgo-di-vignamaggio.webp)
 
@@ -131,7 +131,7 @@ Gondosan felújított kis falu Chianti egyik legrégebbi borbirtokán, egy olyan
 
 **Tökéletes:** Kizárólagos bérlésű ünnepségekhez, a történelmi örökség szerelmeseinek, a borvidékről álmodozóknak.
 
-### 8. Villa Cetinale, Sovicille (Siena)
+### 8. [Villa Cetinale, Sovicille (Siena)](https://www.google.com/maps/search/?api=1&query=Villa+Cetinale%2C+Sovicille+%28Siena%29+Tuscany+Italy)
 
 ![A Villa Cetinale és barokk kertjei Siena közelében](/images/tuscany-venue-08-villa-cetinale.webp)
 
@@ -147,7 +147,7 @@ Gyakran nevezik Olaszország egyik legszebb villájának, és őszintén szólva
 
 **Tökéletes:** Magazinba illő esküvőkhöz, az építészet szerelmeseinek, pároknak, akik nagyot akarnak dobni.
 
-### 9. Castello di San Fabiano, Siena környéke
+### 9. [Castello di San Fabiano, Siena környéke](https://www.google.com/maps/search/?api=1&query=Castello+di+San+Fabiano%2C+Siena+k%C3%B6rny%C3%A9ke+Tuscany+Italy)
 
 ![A Castello di San Fabiano kastély esküvői helyszín Siena közelében](/images/tuscany-venue-09-castello-di-san-fabiano.webp)
 
@@ -163,7 +163,7 @@ Igen, igazi középkori kastélyban is összeházasodhatsz. Vörös téglás tor
 
 **Tökéletes:** A mesék rajongóinak, nagy bulikhoz, többnapos ünnepségekhez.
 
-### 10. Villa di Ulignano, Volterra / San Gimignano
+### 10. [Villa di Ulignano, Volterra / San Gimignano](https://www.google.com/maps/search/?api=1&query=Villa+di+Ulignano%2C+Volterra+%2F+San+Gimignano+Tuscany+Italy)
 
 ![Légi felvétel a Villa di Ulignanóról, esküvői helyszín Volterra és San Gimignano között](/images/tuscany-venue-10-villa-di-ulignano.webp)
 
@@ -179,7 +179,7 @@ Dombtetői villa Toszkána két legkedveltebb városa között, kertekkel és é
 
 **Tökéletes:** Egész hétvégés esküvőkhöz, szűk körű vendéglistákhoz, elegáns házibulikhoz.
 
-### 11. Villa Lena, Pisa környéki dombok
+### 11. [Villa Lena, Pisa környéki dombok](https://www.google.com/maps/search/?api=1&query=Villa+Lena%2C+Pisa+k%C3%B6rny%C3%A9ki+dombok+Tuscany+Italy)
 
 ![Esküvői vacsora légi felvételen a Villa Lena birtokon, a Pisa környéki dombokon](/images/tuscany-venue-11-villa-lena.webp)
 
@@ -195,7 +195,7 @@ Részben agriturismo, részben művészrezidencia, és teljesen egyedi. A Villa 
 
 **Tökéletes:** Boho pároknak, kreatív lelkeknek, ínyenceknek és laza hétvégi hangulathoz.
 
-### 12. La Foce, Val d'Orcia
+### 12. [La Foce, Val d'Orcia](https://www.google.com/maps/search/?api=1&query=La+Foce%2C+Val+d%27Orcia+Tuscany+Italy)
 
 ![Menyasszony a kerti esküvői szertartásra sétál a La Foce birtokon, Val d'Orcia](/images/tuscany-venue-12-la-foce.webp)
 
@@ -211,7 +211,7 @@ Ez Toszkána a legikonikusabb formájában. A kanyargós ciprusos út, a Val d'O
 
 **Tökéletes:** Kerti esküvőkhöz, exkluzív birtokos ünnepségekhez, képeslapra illő pillanatokhoz.
 
-### 13. Castello di Velona, Montalcino
+### 13. [Castello di Velona, Montalcino](https://www.google.com/maps/search/?api=1&query=Castello+di+Velona%2C+Montalcino+Tuscany+Italy)
 
 ![Gyertyafényes esküvői vacsora a Castello di Velonában, Montalcinóban](/images/tuscany-venue-13-castello-di-velona.webp)
 
@@ -227,7 +227,7 @@ Luxusrezorttá alakított dombtetői kastély a Brunello borvidék szívében. 3
 
 **Tökéletes:** 5 csillagos esküvőkhöz, borértőknek, luxus hétvégékhez.
 
-### 14. Villa Montanare, Cortona
+### 14. [Villa Montanare, Cortona](https://www.google.com/maps/search/?api=1&query=Villa+Montanare%2C+Cortona+Tuscany+Italy)
 
 ![A Villa Montanare esküvői helyszín Cortona közelében, alkonyatkor](/images/tuscany-venue-14-villa-montanare.webp)
 
@@ -243,7 +243,7 @@ Közvetlenül a középkori Cortona mellett fekszik ez a villa, amelynek szőlő
 
 **Tökéletes:** Meghitt esküvőkhöz, a *Napsütötte Toszkána* rajongóinak, meleg, laza ünnepségekhez.
 
-### 15. Castello di Vicarello, Maremma
+### 15. [Castello di Vicarello, Maremma](https://www.google.com/maps/search/?api=1&query=Castello+di+Vicarello%2C+Maremma+Tuscany+Italy)
 
 ![A Castello di Vicarello esküvői helyszín a Maremmában, Toszkánában](/images/tuscany-venue-15-castello-di-vicarello.webp)
 

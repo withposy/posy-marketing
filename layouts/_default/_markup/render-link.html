@@ -1,0 +1,5 @@
+{{- /* Off-site links open in a new tab so readers keep their place in the post */ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $external := and $u.Host (not (strings.HasSuffix $u.Host "withposy.com")) -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- /**/ -}}
