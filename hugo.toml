@@ -113,10 +113,15 @@ disableKinds = ['taxonomy', 'term']
       parent = 'resources'
       weight = 5
     [[languages.en.menus.main]]
+      name = 'Wedding Photo QR Code'
+      url = '/wedding-photo-qr-code/'
+      parent = 'resources'
+      weight = 6
+    [[languages.en.menus.main]]
       name = 'Wedding Seating Planner'
       url = '/resources/wedding-seating-planner/'
       parent = 'resources'
-      weight = 6
+      weight = 7
     [[languages.en.menus.main]]
       name = 'Affiliate program'
       url = '/affiliate-program/'

@@ -1,0 +1,630 @@
+{{ define "main" }}
+{{- $landing := "" | relLangURL -}}
+{{- $pricing := "pricing/" | relLangURL -}}
+{{- $roundup := "blog/best-wedding-photo-sharing-apps/" | relLangURL -}}
+
+<style>
+.qrt-form .ed-htg-field { margin-bottom: 1.25rem; }
+.qrt-form .ed-htg-row .ed-htg-field { margin-bottom: 0; }
+.qrt-hint { font-size: 0.85rem; color: var(--color-gray); opacity: 0.8; margin-top: 0.4rem; }
+.qrt-designs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; align-items: start; margin-top: 1rem; }
+.qrt-design { background: var(--color-pure-white); border: 1px solid var(--color-light-gray); border-radius: var(--radius-lg); padding: 1.25rem; display: flex; flex-direction: column; gap: 1rem; }
+.qrt-design canvas { width: 100%; height: auto; display: block; border-radius: 6px; box-shadow: 0 6px 24px rgba(26, 26, 46, 0.10); }
+.qrt-design-name { font-family: var(--font-heading); font-size: 1.25rem; color: var(--color-dark); margin: 0; }
+.qrt-design-size { font-size: 0.85rem; color: var(--color-gray); margin: 0.15rem 0 0; }
+.qrt-design-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.qrt-btn { flex: 1; min-width: 7rem; padding: 0.7rem 1rem; border-radius: 999px; font: 600 0.9rem var(--font-body); cursor: pointer; border: 1.5px solid var(--color-accent); transition: var(--transition); }
+.qrt-btn--fill { background: var(--color-accent); color: var(--color-pure-white); }
+.qrt-btn--fill:hover { background: var(--color-accent-hover); border-color: var(--color-accent-hover); }
+.qrt-btn--line { background: transparent; color: var(--color-accent); }
+.qrt-btn--line:hover { background: var(--color-blush); }
+.qrt-sizes { list-style: none; padding: 0; margin: 1.25rem 0 0; display: grid; gap: 0.75rem; }
+.qrt-sizes li { display: flex; justify-content: space-between; gap: 1rem; border-bottom: 1px solid var(--color-petal-soft); padding-bottom: 0.6rem; }
+.qrt-sizes strong { font-weight: 600; color: var(--color-dark); }
+#qrtPrint { display: none; }
+.qrt-colours { border-top: 1px solid var(--color-light-gray); padding-top: 1rem; display: grid; gap: 0.85rem; }
+.qrt-colours-label { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-gray); margin: 0; }
+.qrt-swatches { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.qrt-swatch { width: 2rem; height: 2rem; border-radius: 50%; cursor: pointer; padding: 0; border: 2px solid var(--color-pure-white); box-shadow: 0 0 0 1px var(--color-light-gray); position: relative; overflow: hidden; transition: var(--transition); }
+.qrt-swatch span { position: absolute; inset: 0; }
+.qrt-swatch span + span { clip-path: polygon(100% 0, 100% 100%, 0 100%); }
+.qrt-swatch:hover, .qrt-swatch[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--color-accent); }
+.qrt-pickers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; }
+.qrt-picker { display: flex; flex-direction: column; align-items: center; gap: 0.3rem; font-size: 0.8rem; color: var(--color-gray); cursor: pointer; }
+.qrt-picker input[type="color"] { width: 100%; height: 2.2rem; border: 1px solid var(--color-light-gray); border-radius: 8px; padding: 2px; background: var(--color-pure-white); cursor: pointer; }
+@media (max-width: 1024px) { .qrt-designs { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 640px) { .qrt-designs { grid-template-columns: 1fr; } }
+@media print {
+  @page { margin: 10mm; }
+  body.qrt-printing > *:not(#qrtPrint) { display: none !important; }
+  body.qrt-printing #qrtPrint { display: block !important; }
+  body.qrt-printing { background: #fff !important; }
+}
+</style>
+
+<!-- ══════════════ COVER + H1 ══════════════ -->
+<section class="ed-htg-cover">
+  <div class="ed-htg-cover-inner reveal">
+    <span class="ed-eyebrow">Posy &middot; Free tool</span>
+    <h1 class="ed-htg-cover-headline">Free QR Code for Wedding Photos</h1>
+    <p class="ed-htg-cover-sub">A printable sign that sends guests straight to your album.</p>
+    <p class="ed-htg-cover-intro">Paste the link to your wedding photo album, add your names, and we will turn it into a QR code with three ready-to-print signs, in whichever colours suit your wedding. Works with any album link. No account, no email, and the code never expires.</p>
+  </div>
+</section>
+
+<!-- ══════════════ THE TOOL ══════════════ -->
+<section class="ed-section ed-bg-cream ed-section--top-tight ed-section--bottom-tight">
+  <div class="ed-container">
+    <form class="ed-htg-form qrt-form reveal" onsubmit="return false;">
+      <div class="ed-htg-field">
+        <label class="ed-htg-label" for="qrtUrl">Your photo album link</label>
+        <input type="url" id="qrtUrl" class="ed-htg-input" placeholder="https://..." autocomplete="off" inputmode="url" />
+        <p class="qrt-hint">The page guests should land on: your Posy gallery, a shared Google Photos album, a Dropbox request link, anything with a web address.</p>
+      </div>
+
+      <div class="ed-htg-row">
+        <div class="ed-htg-field">
+          <label class="ed-htg-label" for="qrtNames">Your names <span class="ed-htg-optional">(optional)</span></label>
+          <input type="text" id="qrtNames" class="ed-htg-input" placeholder="Sarah &amp; James" autocomplete="off" maxlength="40" />
+        </div>
+        <div class="ed-htg-field">
+          <label class="ed-htg-label" for="qrtDate">Wedding date <span class="ed-htg-optional">(optional)</span></label>
+          <input type="text" id="qrtDate" class="ed-htg-input" placeholder="12 June 2027" autocomplete="off" maxlength="30" />
+        </div>
+      </div>
+
+      <div class="ed-htg-field" style="margin-top:1.25rem">
+        <label class="ed-htg-label" for="qrtHeadline">Headline</label>
+        <input type="text" id="qrtHeadline" class="ed-htg-input" value="Share your photos with us" autocomplete="off" maxlength="40" />
+      </div>
+
+      <div class="ed-htg-field">
+        <label class="ed-htg-label" for="qrtMessage">A short message <span class="ed-htg-optional">(optional)</span></label>
+        <input type="text" id="qrtMessage" class="ed-htg-input" value="Point your phone camera at the code to add your photos and videos to our album." autocomplete="off" maxlength="110" />
+      </div>
+
+      <p class="ed-htg-error" id="qrtError" role="alert" hidden>That link does not look quite right. Paste the full web address of your album, starting with https://</p>
+      <button id="qrtGenerate" type="button" class="btn btn-accent ed-htg-cta">Make my QR code</button>
+    </form>
+  </div>
+</section>
+
+<!-- ══════════════ RESULTS + PROMO TOUCHPOINT 1 ══════════════ -->
+<section class="ed-section ed-bg-cream ed-section--top-tight" id="qrtResults" style="display:none">
+  <div class="ed-container">
+    <header class="ed-section-head reveal">
+      <span class="ed-eyebrow">Ready to print</span>
+      <h2 class="ed-section-title ed-section-title--sm">Your wedding photo QR code signs</h2>
+    </header>
+
+    <div class="qrt-designs">
+      <div class="qrt-design">
+        <canvas id="qrtCanvasCard" width="1748" height="1240" aria-label="Table card design with your QR code"></canvas>
+        <div>
+          <p class="qrt-design-name">Table card</p>
+          <p class="qrt-design-size">A6 landscape, 148 &times; 105 mm. Fold-over or in a stand.</p>
+        </div>
+        <div class="qrt-colours" data-design="card"></div>
+        <div class="qrt-design-actions">
+          <button type="button" class="qrt-btn qrt-btn--fill" data-download="card">Download PNG</button>
+          <button type="button" class="qrt-btn qrt-btn--line" data-print="card">Print</button>
+        </div>
+      </div>
+      <div class="qrt-design">
+        <canvas id="qrtCanvasSign" width="2480" height="3508" aria-label="Welcome sign design with your QR code"></canvas>
+        <div>
+          <p class="qrt-design-name">Welcome sign</p>
+          <p class="qrt-design-size">A4 portrait, 210 &times; 297 mm. Scales up nicely for an easel.</p>
+        </div>
+        <div class="qrt-colours" data-design="sign"></div>
+        <div class="qrt-design-actions">
+          <button type="button" class="qrt-btn qrt-btn--fill" data-download="sign">Download PNG</button>
+          <button type="button" class="qrt-btn qrt-btn--line" data-print="sign">Print</button>
+        </div>
+      </div>
+      <div class="qrt-design">
+        <canvas id="qrtCanvasSquare" width="1500" height="1500" aria-label="Square sticker design with your QR code"></canvas>
+        <div>
+          <p class="qrt-design-name">Square sticker</p>
+          <p class="qrt-design-size">100 &times; 100 mm. For the order of service, menus or favours.</p>
+        </div>
+        <div class="qrt-colours" data-design="square"></div>
+        <div class="qrt-design-actions">
+          <button type="button" class="qrt-btn qrt-btn--fill" data-download="square">Download PNG</button>
+          <button type="button" class="qrt-btn qrt-btn--line" data-print="square">Print</button>
+        </div>
+      </div>
+    </div>
+
+    <p class="ed-htg-nudge reveal">Before you print, scan it with two different phones to make sure it opens the right page. And if you have not settled on an album yet, Posy gives you a private wedding gallery and its QR code in about five minutes. <a href="{{ $landing }}">See how it works.</a></p>
+  </div>
+</section>
+
+<!-- ══════════════ HOW IT WORKS ══════════════ -->
+<section class="ed-section ed-bg-blush">
+  <div class="ed-container">
+    <header class="ed-section-head reveal">
+      <span class="ed-eyebrow">Three steps</span>
+      <h2 class="ed-section-title ed-section-title--sm">How to make a QR code for wedding photos</h2>
+    </header>
+    <ol class="ed-htg-steps">
+      <li class="reveal">
+        <span class="ed-htg-step-num">1</span>
+        <div class="ed-htg-step-body">
+          <h3>Copy your album link.</h3>
+          <p>Open the album guests will upload to and copy its share link. Check it opens in a private browser window, so you know it works for someone who is not you.</p>
+        </div>
+      </li>
+      <li class="reveal">
+        <span class="ed-htg-step-num">2</span>
+        <div class="ed-htg-step-body">
+          <h3>Paste it in and add your names.</h3>
+          <p>The QR code is made right here in your browser. Nothing is sent to us, and nothing is stored.</p>
+        </div>
+      </li>
+      <li class="reveal">
+        <span class="ed-htg-step-num">3</span>
+        <div class="ed-htg-step-body">
+          <h3>Download, test, print.</h3>
+          <p>Pick a design, download the high-resolution PNG, and give it a test scan before you send it to the printer.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ══════════════ PLACEMENT + SIZE ══════════════ -->
+<section class="ed-section ed-bg-cream">
+  <div class="ed-container">
+    <div class="ed-htg-good">
+      <div class="ed-htg-good-copy reveal">
+        <header class="ed-section-head">
+          <span class="ed-eyebrow">On the day</span>
+          <h2 class="ed-section-title ed-section-title--sm">Where to put your wedding photo QR code sign</h2>
+        </header>
+        <div class="ed-htg-prose">
+          <p>Put it wherever guests pause with a phone already in their hand. The welcome sign catches everyone on the way in. A card on each table catches them during the speeches, which is when most phones come out anyway. The bar is a quiet winner: people queue, people wait, people scan.</p>
+          <p>Add a small one to the order of service or the menu, and ask whoever is on the microphone to mention it once during dinner. One mention tends to do more than ten more signs.</p>
+          <p>Size matters more than people expect. A good rule of thumb is that a code scans comfortably from about ten times its own width:</p>
+          <ul class="qrt-sizes">
+            <li><span>Table card or menu</span><strong>3 to 4 cm</strong></li>
+            <li><span>Welcome sign on an easel</span><strong>10 cm or more</strong></li>
+            <li><span>Order of service or sticker</span><strong>2.5 cm minimum</strong></li>
+          </ul>
+        </div>
+      </div>
+      <div class="ed-htg-good-media reveal">
+        <img src="{{ "images/blog-collect-photos-table-card.jpg" | relURL }}" width="921" height="1152" loading="lazy" class="ed-htg-good-img" alt="A table card reading Share your memories with us, with a QR code, beside pastel florals on a wedding reception table">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ STATIC VS DYNAMIC ══════════════ -->
+<section class="ed-section ed-bg-midnight">
+  <div class="ed-container">
+    <div class="ed-htg-good ed-htg-good--reverse">
+      <div class="ed-htg-good-media reveal">
+        <img src="{{ "images/friends-sharing.jpg" | relURL }}" width="1400" height="1400" loading="lazy" class="ed-htg-good-img" alt="Two friends laughing on a bed with a dog while looking at photos on their phones">
+      </div>
+      <div class="ed-htg-good-copy reveal">
+        <header class="ed-section-head">
+          <span class="ed-eyebrow">Worth knowing</span>
+          <h2 class="ed-section-title ed-section-title--sm">Static or dynamic: what your printed code really points at</h2>
+        </header>
+        <div class="ed-htg-prose">
+          <p>This tool makes a static QR code. Your album link is written into the pattern itself, so the code works for as long as the link does. There is no middleman, no subscription, and nothing that can be switched off later.</p>
+          <p>A dynamic code works differently. It points at a short link run by the QR company, which then forwards guests to your album. That lets you change the destination after printing, which is genuinely handy. The catch is that the forwarding only works while that company keeps it running, and plenty of free generators quietly stop after a trial, taking every printed sign with them.</p>
+          <p>Our advice: use a static code, and point it at a link you control and know will not change for at least a year. Then the only thing that can break your signs is you.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ PROMO TOUCHPOINT 3 (FULL ARGUMENT) ══════════════ -->
+<section class="ed-section ed-bg-blush">
+  <div class="ed-container">
+    <div class="ed-htg-good">
+      <div class="ed-htg-good-copy reveal">
+        <header class="ed-section-head">
+          <span class="ed-eyebrow">The honest part</span>
+          <h2 class="ed-section-title ed-section-title--sm">A QR code is only as good as the album behind it</h2>
+        </header>
+        <div class="ed-htg-prose">
+          <p>The code is the easy bit. What decides how many photos you end up with is what happens after the scan. If guests land on a page that asks them to download an app, sign in, or make an account, a good share of them will quietly put their phone away. Shared cloud folders can be confusing on a phone, and some albums stop accepting uploads once a limit is reached.</p>
+          <p>Posy was built for exactly this moment. Guests scan, a page opens in their browser, and their photos and videos go straight into one private gallery. No app, no account, no upload cap, and twelve months to keep collecting, from $29 as a one-off payment. Your Posy gallery comes with its own QR code, and you can still print it on any of the signs above.</p>
+          <p>Weighing up your options? We compared nine of them, honestly, in our guide to the <a href="{{ $roundup }}">best wedding photo sharing apps</a>.</p>
+        </div>
+        <a href="{{ $pricing }}" class="btn btn-accent">See Posy pricing</a>
+      </div>
+      <div class="ed-htg-good-media ed-htg-phone reveal">
+        <div class="ed-htg-phone-frame">
+          <img src="{{ "images/posy-gallery-mockup.webp" | relURL }}" width="720" height="1433" loading="lazy" class="ed-htg-phone-img" alt="The Posy gallery on a phone, showing the best wedding photos collected from guests">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FAQ ══════════════ -->
+{{- $faqs := slice
+  (dict "q" "Is this wedding QR code generator really free?" "a" "Yes. No account, no email, no watermark and no trial. The code is made in your browser and belongs to you. Posy makes its money from the photo gallery product, so the QR tool stays free for everyone.")
+  (dict "q" "Will my QR code expire?" "a" "No. It is a static code, so your link is written into the pattern itself and there is nothing to expire. It will keep working for as long as the link it points at keeps working.")
+  (dict "q" "Can I change the link after I print the signs?" "a" "Not with a static code. If the link changes, you will need a new code and new prints. That is why it is worth choosing your album first and making sure the link is one you control and will not change.")
+  (dict "q" "What link should I put in my wedding photo QR code?" "a" "The page where guests can add their photos, not just view them. That might be your Posy gallery, a shared Google Photos album with adding turned on, or a file request link from a cloud drive. Test it on a phone that is not signed in to your accounts, because that is what guests will see.")
+  (dict "q" "Will guests need an app to scan it?" "a" "No. The camera app on almost every modern iPhone and Android phone reads QR codes. Whether guests need an app after scanning depends on where the link goes. Posy opens in the browser with no app or account. Some other albums ask guests to sign in first.")
+  (dict "q" "What size should I print my wedding QR code?" "a" "Roughly a tenth of the distance it will be scanned from. Three to four centimetres works on a table card, and ten centimetres or more on a welcome sign that guests read from a step or two away. Print dark on a light background, and avoid very glossy finishes that catch the light.")
+-}}
+<section class="ed-section ed-bg-cream" id="faq">
+  <div class="ed-container">
+    <div class="faq-layout">
+      <div class="faq-header reveal">
+        <span class="ed-eyebrow">Questions</span>
+        <h2 class="ed-section-title">Frequently Asked Questions</h2>
+        <div class="faq-decoration"></div>
+      </div>
+      <div class="faq-content reveal">
+        <div class="faq-list">
+          {{- range $faqs }}
+          <div class="faq-item">
+            <button class="faq-question">
+              <h3 class="faq-question-heading">{{ .q }}</h3>
+              <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="10" x2="15" y2="10"/><line class="faq-icon-v" x1="10" y1="5" x2="10" y2="15"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>{{ .a }}</p>
+            </div>
+          </div>
+          {{- end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{- $items := slice -}}
+{{- range $faqs -}}
+  {{- $items = $items | append (dict
+    "@type" "Question"
+    "name" .q
+    "acceptedAnswer" (dict "@type" "Answer" "text" .a)
+  ) -}}
+{{- end }}
+<script type="application/ld+json">
+{{- dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $items | jsonify (dict "indent" "  ") | safeJS -}}
+</script>
+
+<!-- ══════════════ CLOSING CTA ══════════════ -->
+<section class="section cta-section">
+  <div class="container text-center">
+    <span class="cta-eyebrow reveal">Behind the code</span>
+    <h2 class="section-title reveal">
+      <span class="cta-title-line">You have the sign.</span>
+      <span class="cta-title-accent">Now give it somewhere lovely to go.</span>
+    </h2>
+    <p class="cta-statement cta-statement--light reveal">One private gallery, one QR code, every photo and video your guests took. No app for them, nothing to chase for you.</p>
+    <div class="cta-text reveal">
+      <p>Set it up in five minutes.</p>
+    </div>
+    <div class="cta-actions reveal">
+      <a href="{{ $landing }}" class="btn btn-filled">See how Posy works</a>
+      <a href="{{ $pricing }}" class="cta-link">Or view pricing</a>
+    </div>
+  </div>
+</section>
+
+<script src="{{ "js/qrcode-generator.js" | relURL }}"></script>
+<script>
+(function() {
+  var C = {
+    cream: '#FFFCF7', blush: '#FFF0F3', dark: '#1A1A2E', petal: '#E8446D',
+    petalSoft: '#F2A0B5', gray: '#3D3D5C', white: '#FFFFFF'
+  };
+  var PRESETS = [
+    { name: 'Posy blush', bg: '#FFF0F3', text: '#1A1A2E', accent: '#E8446D' },
+    { name: 'Cream', bg: '#FFFCF7', text: '#1A1A2E', accent: '#E8446D' },
+    { name: 'Sage', bg: '#EEF2EA', text: '#2F3E2E', accent: '#6F8A5E' },
+    { name: 'Dusty blue', bg: '#EDF2F7', text: '#1F2A44', accent: '#5B7DA8' },
+    { name: 'Terracotta', bg: '#FBF1EA', text: '#4A2A1F', accent: '#C0603E' },
+    { name: 'Midnight', bg: '#1A1A2E', text: '#FFFCF7', accent: '#F2A0B5' },
+    { name: 'Black and white', bg: '#FFFFFF', text: '#111111', accent: '#111111' }
+  ];
+  var P = {
+    card: { bg: '#FFFCF7', text: '#1A1A2E', accent: '#E8446D' },
+    sign: { bg: '#FFF0F3', text: '#1A1A2E', accent: '#E8446D' },
+    square: { bg: '#1A1A2E', text: '#FFFCF7', accent: '#F2A0B5' }
+  };
+  var HEAD = '"Playfair Display", Georgia, serif';
+  var BODY = '"DM Sans", -apple-system, BlinkMacSystemFont, sans-serif';
+  var PRINT_MM = { card: 148, sign: 210, square: 100 };
+  var FILES = { card: 'wedding-photo-qr-table-card', sign: 'wedding-photo-qr-welcome-sign', square: 'wedding-photo-qr-square' };
+
+  var urlEl, namesEl, dateEl, headEl, msgEl, errEl, results, canvases, generated = false, timer;
+
+  function init() {
+    urlEl = document.getElementById('qrtUrl');
+    namesEl = document.getElementById('qrtNames');
+    dateEl = document.getElementById('qrtDate');
+    headEl = document.getElementById('qrtHeadline');
+    msgEl = document.getElementById('qrtMessage');
+    errEl = document.getElementById('qrtError');
+    results = document.getElementById('qrtResults');
+    canvases = {
+      card: document.getElementById('qrtCanvasCard'),
+      sign: document.getElementById('qrtCanvasSign'),
+      square: document.getElementById('qrtCanvasSquare')
+    };
+
+    document.getElementById('qrtGenerate').addEventListener('click', function() { generate(true); });
+    urlEl.addEventListener('keydown', function(e) { if (e.key === 'Enter') generate(true); });
+    urlEl.addEventListener('input', function() { errEl.hidden = true; });
+    [urlEl, namesEl, dateEl, headEl, msgEl].forEach(function(el) {
+      el.addEventListener('input', function() {
+        if (!generated) return;
+        clearTimeout(timer);
+        timer = setTimeout(function() { generate(false); }, 250);
+      });
+    });
+
+    buildColours();
+
+    document.querySelectorAll('[data-download]').forEach(function(b) {
+      b.addEventListener('click', function() { download(b.getAttribute('data-download')); });
+    });
+    document.querySelectorAll('[data-print]').forEach(function(b) {
+      b.addEventListener('click', function() { printDesign(b.getAttribute('data-print')); });
+    });
+  }
+
+  function alpha(hex, a) {
+    var n = parseInt(hex.slice(1), 16);
+    return 'rgba(' + (n >> 16 & 255) + ',' + (n >> 8 & 255) + ',' + (n & 255) + ',' + a + ')';
+  }
+
+  function same(a, b) {
+    return a.bg.toLowerCase() === b.bg.toLowerCase() && a.text.toLowerCase() === b.text.toLowerCase() && a.accent.toLowerCase() === b.accent.toLowerCase();
+  }
+
+  // Colour controls for each design: preset palettes plus three pickers.
+  // The QR code always sits on its own white panel, so any colours stay scannable.
+  function buildColours() {
+    document.querySelectorAll('.qrt-colours').forEach(function(box) {
+      var key = box.getAttribute('data-design');
+      var html = '<p class="qrt-colours-label">Colours</p><div class="qrt-swatches">';
+      PRESETS.forEach(function(pr, i) {
+        html += '<button type="button" class="qrt-swatch" data-preset="' + i + '" title="' + pr.name + '" aria-label="' + pr.name + ' colours" aria-pressed="false">' +
+          '<span style="background:' + pr.bg + '"></span><span style="background:' + pr.accent + '"></span></button>';
+      });
+      html += '</div><div class="qrt-pickers">' +
+        '<label class="qrt-picker"><input type="color" data-role="bg">Background</label>' +
+        '<label class="qrt-picker"><input type="color" data-role="text">Text</label>' +
+        '<label class="qrt-picker"><input type="color" data-role="accent">Accent</label></div>';
+      box.innerHTML = html;
+      box.querySelectorAll('.qrt-swatch').forEach(function(b) {
+        b.addEventListener('click', function() {
+          var pr = PRESETS[+b.getAttribute('data-preset')];
+          P[key] = { bg: pr.bg, text: pr.text, accent: pr.accent };
+          syncColours(key);
+          generate(false);
+        });
+      });
+      box.querySelectorAll('input[type="color"]').forEach(function(inp) {
+        inp.addEventListener('input', function() {
+          P[key][inp.getAttribute('data-role')] = inp.value;
+          syncColours(key);
+          generate(false);
+        });
+      });
+      syncColours(key);
+    });
+  }
+
+  function syncColours(key) {
+    var box = document.querySelector('.qrt-colours[data-design="' + key + '"]');
+    box.querySelectorAll('input[type="color"]').forEach(function(inp) { inp.value = P[key][inp.getAttribute('data-role')]; });
+    box.querySelectorAll('.qrt-swatch').forEach(function(b) {
+      b.setAttribute('aria-pressed', same(PRESETS[+b.getAttribute('data-preset')], P[key]) ? 'true' : 'false');
+    });
+  }
+
+  function normaliseUrl(raw) {
+    var s = raw.trim();
+    if (!s) return null;
+    if (!/^[a-z][a-z0-9+.-]*:\/\//i.test(s)) s = 'https://' + s;
+    try {
+      var u = new URL(s);
+      if ((u.protocol !== 'https:' && u.protocol !== 'http:') || u.hostname.indexOf('.') === -1) return null;
+      return u.href;
+    } catch (e) { return null; }
+  }
+
+  function loadFonts() {
+    if (!document.fonts || !document.fonts.load) return Promise.resolve();
+    return Promise.all([
+      document.fonts.load('italic 400 60px "Playfair Display"'),
+      document.fonts.load('500 60px "Playfair Display"'),
+      document.fonts.load('400 40px "DM Sans"'),
+      document.fonts.load('600 40px "DM Sans"')
+    ]).catch(function() {});
+  }
+
+  function makeQR(text) {
+    var qr = qrcode(0, 'M');
+    qr.addData(text);
+    qr.make();
+    return qr;
+  }
+
+  // Draws the code with a four-module quiet zone inside a light rounded panel.
+  function drawQR(ctx, qr, x, y, size, panel) {
+    var n = qr.getModuleCount();
+    var total = n + 8;
+    var cell = Math.floor(size / total);
+    var drawn = cell * total;
+    var ox = x + Math.round((size - drawn) / 2);
+    var oy = y + Math.round((size - drawn) / 2);
+    roundRect(ctx, x, y, size, size, size * 0.05, panel || C.white);
+    ctx.fillStyle = C.dark;
+    for (var r = 0; r < n; r++) {
+      for (var c = 0; c < n; c++) {
+        if (qr.isDark(r, c)) ctx.fillRect(ox + (c + 4) * cell, oy + (r + 4) * cell, cell, cell);
+      }
+    }
+  }
+
+  function roundRect(ctx, x, y, w, h, r, fill, stroke, lw) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+    if (fill) { ctx.fillStyle = fill; ctx.fill(); }
+    if (stroke) { ctx.strokeStyle = stroke; ctx.lineWidth = lw || 4; ctx.stroke(); }
+  }
+
+  function wrap(ctx, text, maxW) {
+    var words = text.split(/\s+/), lines = [], line = '';
+    words.forEach(function(w) {
+      var test = line ? line + ' ' + w : w;
+      if (ctx.measureText(test).width > maxW && line) { lines.push(line); line = w; }
+      else line = test;
+    });
+    if (line) lines.push(line);
+    return lines;
+  }
+
+  function text(ctx, str, x, y, font, color, align, maxW, lh) {
+    ctx.font = font;
+    ctx.fillStyle = color;
+    ctx.textAlign = align || 'left';
+    ctx.textBaseline = 'alphabetic';
+    var lines = maxW ? wrap(ctx, str, maxW) : [str];
+    lines.forEach(function(l, i) { ctx.fillText(l, x, y + i * (lh || 0)); });
+    return y + (lines.length - 1) * (lh || 0);
+  }
+
+  function spaced(ctx, str, x, y, font, color, spacing, align) {
+    ctx.font = font;
+    ctx.fillStyle = color;
+    ctx.textBaseline = 'alphabetic';
+    if ('letterSpacing' in ctx) {
+      ctx.letterSpacing = spacing + 'px';
+      ctx.textAlign = align || 'left';
+      ctx.fillText(str, align === 'center' ? x + spacing / 2 : x, y);
+      ctx.letterSpacing = '0px';
+    } else {
+      ctx.textAlign = align || 'left';
+      ctx.fillText(str, x, y);
+    }
+  }
+
+  function drawCard(cv, qr, d) {
+    var ctx = cv.getContext('2d'), W = cv.width, H = cv.height, p = P.card;
+    ctx.fillStyle = p.bg; ctx.fillRect(0, 0, W, H);
+    roundRect(ctx, 50, 50, W - 100, H - 100, 24, null, alpha(p.accent, 0.45), 5);
+    var lx = 150, colW = 860;
+    var y = 300;
+    if (d.names) { spaced(ctx, d.names.toUpperCase(), lx, y, '600 40px ' + BODY, p.accent, 8); y += 130; }
+    else y += 60;
+    y = text(ctx, d.headline, lx, y, 'italic 400 104px ' + HEAD, p.text, 'left', colW, 120);
+    if (d.message) { y += 110; y = text(ctx, d.message, lx, y, '400 50px ' + BODY, alpha(p.text, 0.8), 'left', colW - 40, 72); }
+    if (d.date) text(ctx, d.date, lx, H - 170, '500 42px ' + HEAD, p.accent, 'left');
+    drawQR(ctx, qr, W - 150 - 560, (H - 560) / 2, 560, C.white);
+  }
+
+  function drawSign(cv, qr, d) {
+    var ctx = cv.getContext('2d'), W = cv.width, H = cv.height, cx = W / 2, p = P.sign;
+    ctx.fillStyle = p.bg; ctx.fillRect(0, 0, W, H);
+    roundRect(ctx, 100, 100, W - 200, H - 200, 40, null, alpha(p.accent, 0.45), 8);
+    var y = 470;
+    if (d.names) {
+      spaced(ctx, 'THE WEDDING OF', cx, y, '600 58px ' + BODY, p.accent, 14, 'center');
+      y = text(ctx, d.names, cx, y + 240, '500 200px ' + HEAD, p.text, 'center', W - 420, 220);
+      y += 200;
+    } else y += 100;
+    y = text(ctx, d.headline, cx, y + 60, 'italic 400 150px ' + HEAD, p.text, 'center', W - 480, 175);
+    var qs = 1460;
+    var qy = Math.min(y + 150, H - 520 - qs);
+    drawQR(ctx, qr, cx - qs / 2, qy, qs, C.white);
+    if (d.message) text(ctx, d.message, cx, qy + qs + 170, '400 84px ' + BODY, alpha(p.text, 0.8), 'center', W - 560, 118);
+    if (d.date) text(ctx, d.date, cx, H - 230, '500 70px ' + HEAD, p.accent, 'center');
+  }
+
+  function drawSquare(cv, qr, d) {
+    var ctx = cv.getContext('2d'), W = cv.width, H = cv.height, cx = W / 2, p = P.square;
+    ctx.fillStyle = p.bg; ctx.fillRect(0, 0, W, H);
+    var qs = 1000;
+    drawQR(ctx, qr, cx - qs / 2, 130, qs, C.white);
+    text(ctx, d.headline, cx, 1295, 'italic 400 86px ' + HEAD, p.text, 'center', W - 200, 96);
+    var foot = [d.names, d.date].filter(Boolean).join('  ·  ');
+    if (foot) spaced(ctx, foot.toUpperCase(), cx, 1410, '600 38px ' + BODY, p.accent, 6, 'center');
+  }
+
+  function generate(scroll) {
+    var href = normaliseUrl(urlEl.value);
+    if (!href) {
+      if (scroll) { errEl.hidden = false; urlEl.focus(); }
+      return;
+    }
+    errEl.hidden = true;
+    var d = {
+      names: namesEl.value.trim(),
+      date: dateEl.value.trim(),
+      headline: headEl.value.trim() || 'Share your photos with us',
+      message: msgEl.value.trim()
+    };
+    var qr;
+    try { qr = makeQR(href); }
+    catch (e) { errEl.hidden = false; return; }
+
+    loadFonts().then(function() {
+      drawCard(canvases.card, qr, d);
+      drawSign(canvases.sign, qr, d);
+      drawSquare(canvases.square, qr, d);
+      results.style.display = '';
+      if (scroll && !generated) results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      generated = true;
+    });
+  }
+
+  function download(key) {
+    var cv = canvases[key];
+    cv.toBlob(function(blob) {
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = FILES[key] + '.png';
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(function() { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+    }, 'image/png');
+  }
+
+  function printDesign(key) {
+    var holder = document.getElementById('qrtPrint');
+    if (!holder) {
+      holder = document.createElement('div');
+      holder.id = 'qrtPrint';
+      document.body.appendChild(holder);
+    }
+    var img = new Image();
+    img.style.width = PRINT_MM[key] + 'mm';
+    img.style.display = 'block';
+    img.alt = '';
+    img.onload = function() {
+      document.body.classList.add('qrt-printing');
+      window.print();
+    };
+    holder.innerHTML = '';
+    holder.appendChild(img);
+    img.src = canvases[key].toDataURL('image/png');
+  }
+
+  window.addEventListener('afterprint', function() { document.body.classList.remove('qrt-printing'); });
+
+  init();
+})();
+</script>
+
+{{ end }}
